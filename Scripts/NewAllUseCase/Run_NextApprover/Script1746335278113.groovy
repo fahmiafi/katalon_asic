@@ -214,7 +214,7 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 				WebUI.executeJavaScript("arguments[0].click();", Arrays.asList(viewButtons[a]))
 				WebUI.waitForPageLoad(10)
 				WebUI.delay(1) // opsional: beri waktu agar halaman benar-benar siap
-				CustomKeywords.'custom.CustomKeywords.captureFullPageInSections'(newDirectoryPath+'/', numberCapture++ +'. Form Activity pada halaman approval')
+				CustomKeywords.'custom.CustomKeywords.captureFullPageInSections'(newDirectoryPath+'/', numberCapture++ +'. Approve pada Form Activity pada halaman approval')
 			
 				List<String> dropdownIds = [
 					"Action",

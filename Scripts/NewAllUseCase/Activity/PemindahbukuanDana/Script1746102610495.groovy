@@ -82,8 +82,8 @@ WebUI.setText(findTestObject('Object Repository/Activity/ActivtyPemindahbukuan/t
 CustomKeywords.'custom.CustomKeywords.captureFullPageInSections'(newDirectoryPath+'/', numberCapture++ +'. Input Form')
 
 WebUI.scrollToElement(findTestObject('Object Repository/COP/button_Save'), 30)
-WebUI.click(findTestObject('Object Repository/COP/button_Save'))
 WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Simpan.png')
+WebUI.click(findTestObject('Object Repository/COP/button_Save'))
 WebUI.waitForElementVisible(findTestObject('Object Repository/COP/button_OK (1)'), 30)
 WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Berhasil disimpan.png')
 WebUI.click(findTestObject('Object Repository/COP/button_OK (1)'))
