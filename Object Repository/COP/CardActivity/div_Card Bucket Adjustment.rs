@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Card Bucket Adjustment</name>
+   <tag></tag>
+   <elementGuidId>c8785b12-530e-4637-87dd-7df554919fa4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab_1']/div/div[3]/a/div/div/h5</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>7f19e74a-ae81-4bd6-9f71-a1b517da2b0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bucket Adjustment</value>
+      <webElementGuid>32b01311-53c5-4773-b28e-9479bc038435</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab_1&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-4&quot;]/a[1]/div[@class=&quot;small-box bg-info&quot;]/div[@class=&quot;inner&quot;]/h5[1]</value>
+      <webElementGuid>19d8f5a6-5cb3-438b-9f15-a65b1324f433</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab_1']/div/div[3]/a/div/div/h5</value>
+      <webElementGuid>b0253788-8b0d-4a25-a420-b0d26d2cc54b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/a/div/div/h5</value>
+      <webElementGuid>bc032ee9-0a68-45c1-8641-a88012a68aff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = 'Bucket Adjustment' or . = 'Bucket Adjustment')]</value>
+      <webElementGuid>d1e1ba92-f36c-4c87-9372-a4a8891ef1d6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

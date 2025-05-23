@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Sub Kategori_0701EfektifIDR</name>
+   <tag></tag>
+   <elementGuidId>1e6e0f2f-e512-430f-936c-b84ec81b9274</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='select2-DetailRekening_SubKategori-result-78q4-0701:Efektif IDR']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>7bf55665-6714-4149-aa36-4526750612f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select2-results__option select2-results__option--highlighted</value>
+      <webElementGuid>0e300208-a6e3-495a-a504-6f12d1909de7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>select2-DetailRekening_SubKategori-result-78q4-0701:Efektif IDR</value>
+      <webElementGuid>b4790fe9-3f93-43a5-a7d0-dad57b5b1c72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>95fca192-43b1-4ac1-a731-c00ab5b8bc8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>af327dca-140c-4d5c-8ab1-4e55c987f875</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-select2-id</name>
+      <type>Main</type>
+      <value>select2-DetailRekening_SubKategori-result-78q4-0701:Efektif IDR</value>
+      <webElementGuid>dfbdeef6-c25b-48d9-ae0f-9dd342f82b89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>0701:Efektif IDR</value>
+      <webElementGuid>748de0f7-7f1e-46d1-9294-97489d1b0a85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select2-DetailRekening_SubKategori-result-78q4-0701:Efektif IDR&quot;)</value>
+      <webElementGuid>cea0aaea-9421-4d5f-9e6e-b812e60b7efe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//li[@id='select2-DetailRekening_SubKategori-result-78q4-0701:Efektif IDR']</value>
+      <webElementGuid>4bd0c0c9-cca7-4bcb-a9b2-af601f35a471</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='select2-DetailRekening_SubKategori-results']/li[2]</value>
+      <webElementGuid>84fa23ba-6136-45ff-b5b3-daf808eedc5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/ul/li[2]</value>
+      <webElementGuid>722eb858-300c-40a5-839d-32113ebbebf4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[@id = 'select2-DetailRekening_SubKategori-result-78q4-0701:Efektif IDR' and (text() = '0701:Efektif IDR' or . = '0701:Efektif IDR')]</value>
+      <webElementGuid>31d4de2e-1f6e-4a2e-ba59-641a75fc0c2b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

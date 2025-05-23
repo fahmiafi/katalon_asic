@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add Activity</name>
+   <tag></tag>
+   <elementGuidId>0aa2ee23-acb1-491c-9f3b-11db452bd3f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-default.text-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>98f2d409-e9f0-4e4c-8626-c266c81f9b90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7b12fdb0-45ef-4d38-a91b-5efc5606a382</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>addActivity()</value>
+      <webElementGuid>1f008417-3462-49a5-b954-057483a91da4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default text-primary</value>
+      <webElementGuid>e70dab15-7c06-4eb8-b4a9-74604fb51b5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Add Activity</value>
+      <webElementGuid>a1bbf2d3-6df9-4482-b52d-42194ffebb5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                     Add Activity
+                                </value>
+      <webElementGuid>e9ec0f44-32bf-4166-8f0f-250576427de0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;card-adc&quot;)/div[@class=&quot;card-body&quot;]/div[@class=&quot;mb-4&quot;]/div[@class=&quot;btn-group&quot;]/button[@class=&quot;btn btn-default text-primary&quot;]</value>
+      <webElementGuid>f901dc37-eb3b-4e6f-bf27-9a5a584cb6da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>d3a4db5b-ab02-4092-adbd-3143d7f6a355</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='card-adc']/div[2]/div[9]/div/button</value>
+      <webElementGuid>c8cc3cd1-ce7d-416d-87d3-2b78eb45eceb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/button</value>
+      <webElementGuid>fd869acb-77c0-4268-836f-b1325bc68597</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @title = 'Add Activity' and (text() = '
+                                     Add Activity
+                                ' or . = '
+                                     Add Activity
+                                ')]</value>
+      <webElementGuid>1a317727-f401-4929-96a2-e0b2711d76f0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

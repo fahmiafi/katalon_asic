@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_View</name>
+   <tag></tag>
+   <elementGuidId>5694a439-d402-4eb4-8d73-6730d2841e89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='adminKreditBatchTable']/div[2]/table/tbody/tr/td[8]/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-outline-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8c35335a-db25-4da4-b81c-fdf892e27e82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-outline-primary</value>
+      <webElementGuid>4043180f-b797-4214-be53-73603e8e3bec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View</value>
+      <webElementGuid>4a88e141-a0f1-4006-bf03-509b1e64a098</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;adminKreditBatchTable&quot;)/div[@class=&quot;jsgrid-grid-body&quot;]/table[@class=&quot;jsgrid-table table table-bordered&quot;]/tbody[1]/tr[@class=&quot;jsgrid-row jsgrid-selected-row&quot;]/td[@class=&quot;jsgrid-cell jsgrid-control-field jsgrid-align-center&quot;]/div[@class=&quot;control-grid&quot;]/button[@class=&quot;btn btn-outline-primary&quot;]</value>
+      <webElementGuid>88a3954c-eaae-4b5f-9a46-c4482f3dae1b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='adminKreditBatchTable']/div[2]/table/tbody/tr/td[8]/div/button</value>
+      <webElementGuid>8f2a3a6d-d186-474b-9ce4-30854272a889</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>7c3b40c6-708f-456c-9ca5-a36ec6a58575</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'View' or . = 'View')]</value>
+      <webElementGuid>e0f6c8be-b7d8-415f-9783-4d6d6555df56</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

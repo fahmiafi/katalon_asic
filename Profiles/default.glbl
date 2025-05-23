@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'D:\\\\katalon\\\\ss\\\\ASIC\\\\'</initValue>
+      <name>PathCapture</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'D:\\\\katalon\\\\ss\\\\ASIC\\\\01'</initValue>
+      <name>newDirectoryPath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'01'</initValue>
+      <name>NoTC</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'20250117'</initValue>
+      <name>NoMemo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Korporasi &amp; Enterprise'</initValue>
+      <name>Segmen</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pencairan Pertama'</initValue>
+      <name>Pencairan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pemindahbukuan'</initValue>
+      <name>UseCase</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pemindahbukuan nominal =&lt; 2T'</initValue>
+      <name>Skenario</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'11353'</initValue>
+      <name>RMNpp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'M.NURUDIN SANTOSO'</initValue>
+      <name>RMName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'16001'</initValue>
+      <name>MakerNpp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'FERRY K.W. TARUMINGI'</initValue>
+      <name>MakerName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'SENIOR OFFICER CORPORATE 1 CREDIT OPERATIONS'</initValue>
+      <name>MakerPositionName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'COPCORMK1'</initValue>
+      <name>MakerRole</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1000810133'</initValue>
+      <name>RekDebit</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'225824897'</initValue>
+      <name>RekKredit</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1000000000000'</initValue>
+      <name>Nominal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'9195145051'</initValue>
+      <name>Cif</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Data Files/LisSkenarioBaru.xlsx'</initValue>
+      <name>PathDataExcel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1'</initValue>
+      <name>Seq</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

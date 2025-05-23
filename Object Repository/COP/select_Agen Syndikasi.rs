@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Agen Syndikasi</name>
+   <tag></tag>
+   <elementGuidId>e6bf3fdc-cc60-4178-a519-107d497567f3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div/div[2]/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select.swal2-select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>6a6a71ad-3045-4545-a1b1-86f13168223b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>swal2-select</value>
+      <webElementGuid>0dd90018-d9de-4d0a-8e11-4ee7b5048d33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Agen Fasilitas &amp; Non Agen / COCAgen Escrow</value>
+      <webElementGuid>18833e74-4e7e-4803-82da-7d867c66f43c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;swal2-shown swal2-height-auto&quot;]/body[@class=&quot;layout-navbar-fixed layout-fixed sidebar-mini swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-question swal2-show&quot;]/div[@class=&quot;swal2-content&quot;]/select[@class=&quot;swal2-select&quot;]</value>
+      <webElementGuid>ca1bba62-58aa-4a1e-9ae7-ff0295a6ac50</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/select</value>
+      <webElementGuid>d43b87f9-09f8-446e-8d24-df17be070bd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'Agen Fasilitas &amp; Non Agen / COCAgen Escrow' or . = 'Agen Fasilitas &amp; Non Agen / COCAgen Escrow')]</value>
+      <webElementGuid>dd8999aa-8cfb-42bb-bda1-d1905c47ebe9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

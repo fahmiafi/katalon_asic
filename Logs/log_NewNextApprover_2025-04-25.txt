@@ -1,0 +1,55 @@
+[2025-04-25 08:58:06] Skenario: TEST042493 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-04-25 08:58:35] Skenario: TEST042493 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-04-25 08:59:12] Skenario: TEST042493 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-04-25 08:59:12] Skenario: TEST042493 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-04-25 17:58:51] Skenario: TEST042502 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-04-25 17:59:24] Skenario: TEST042502 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/5 Sukses || 76331 Imran Riyadi
+[2025-04-25 17:59:54] Skenario: TEST042502 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/5 Sukses || 19784 EVI MAYALIANA
+[2025-04-25 18:00:24] Skenario: TEST042502 Korporasi & Enterprise Pemindahbukuan | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-04-25 18:00:53] Skenario: TEST042502 Korporasi & Enterprise Pemindahbukuan | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-04-25 18:01:21] Skenario: TEST042502 Korporasi & Enterprise Pemindahbukuan | Result: Approver 5/5 Sukses || 14584 ABD. SALAM KADIR
+[2025-04-25 18:01:21] Skenario: TEST042502 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-04-25 18:03:07] Skenario: TEST042503 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-04-25 18:03:46] Skenario: TEST042503 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-04-25 18:04:13] Skenario: TEST042503 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-04-25 18:04:13] Skenario: TEST042503 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-04-25 18:06:18] Skenario: TEST042504 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-04-25 18:06:51] Skenario: TEST042504 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/5 Sukses || 76331 Imran Riyadi
+[2025-04-25 18:07:21] Skenario: TEST042504 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/5 Sukses || 19784 EVI MAYALIANA
+[2025-04-25 18:07:49] Skenario: TEST042504 Korporasi & Enterprise Pemindahbukuan | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-04-25 18:08:15] Skenario: TEST042504 Korporasi & Enterprise Pemindahbukuan | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-04-25 18:08:15] Skenario: TEST042504 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-04-25 18:11:12] Skenario: TEST042505 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-04-25 18:11:48] Skenario: TEST042505 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-04-25 18:12:16] Skenario: TEST042505 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-04-25 18:12:16] Skenario: TEST042505 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-04-25 18:12:28] Skenario: TEST042505 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-04-25 18:12:37] Skenario: TEST042506 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-04-25 18:13:08] Skenario: TEST042506 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/5 Sukses || 76331 Imran Riyadi
+[2025-04-25 18:13:37] Skenario: TEST042506 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/5 Sukses || 19784 EVI MAYALIANA
+[2025-04-25 18:14:04] Skenario: TEST042506 Korporasi & Enterprise Pemindahbukuan | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-04-25 18:14:32] Skenario: TEST042506 Korporasi & Enterprise Pemindahbukuan | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-04-25 18:14:32] Skenario: TEST042506 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-04-25 18:16:35] Skenario: TEST042501 Korporasi & Enterprise Pembukaan Rek | Result: START
+[2025-04-25 18:17:19] Skenario: TEST042501 Korporasi & Enterprise Pembukaan Rek | Result: Approver 1/5 Sukses || 76331 Imran Riyadi
+[2025-04-25 18:17:53] Skenario: TEST042501 Korporasi & Enterprise Pembukaan Rek | Result: Approver 2/5 Sukses || 19784 EVI MAYALIANA
+[2025-04-25 18:18:26] Skenario: TEST042501 Korporasi & Enterprise Pembukaan Rek | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-04-25 18:18:57] Skenario: TEST042501 Korporasi & Enterprise Pembukaan Rek | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-04-25 18:19:23] Skenario: TEST042501 Korporasi & Enterprise Pembukaan Rek | Result: Approver 5/5 Sukses || 14584 ABD. SALAM KADIR
+[2025-04-25 18:19:23] Skenario: TEST042501 Korporasi & Enterprise Pembukaan Rek | Result: Cek status pada user maker
+[2025-04-25 18:19:38] Skenario: TEST042501 Korporasi & Enterprise Pembukaan Rek | Result: END
+[2025-04-25 23:40:58] Skenario: burek1 Korporasi & Enterprise Pembukaan Rek | Result: START
+[2025-04-25 23:41:46] Skenario: burek1 Korporasi & Enterprise Pembukaan Rek | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-04-25 23:42:19] Skenario: burek1 Korporasi & Enterprise Pembukaan Rek | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-04-25 23:42:19] Skenario: burek1 Korporasi & Enterprise Pembukaan Rek | Result: Cek status pada user maker
+[2025-04-25 23:42:41] Skenario: burek1 Korporasi & Enterprise Pembukaan Rek | Result: END
+[2025-04-25 23:42:49] Skenario: burek2 Korporasi & Enterprise Pembukaan Rek | Result: START
+[2025-04-25 23:43:37] Skenario: burek2 Korporasi & Enterprise Pembukaan Rek | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-04-25 23:44:10] Skenario: burek2 Korporasi & Enterprise Pembukaan Rek | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-04-25 23:44:10] Skenario: burek2 Korporasi & Enterprise Pembukaan Rek | Result: Cek status pada user maker
+[2025-04-25 23:44:24] Skenario: burek2 Korporasi & Enterprise Pembukaan Rek | Result: END
+[2025-04-25 23:44:45] Skenario: burek3 Korporasi & Enterprise Pembukaan Rek | Result: START
+[2025-04-25 23:45:15] Skenario: burek3 Korporasi & Enterprise Pembukaan Rek | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-04-25 23:45:44] Skenario: burek3 Korporasi & Enterprise Pembukaan Rek | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-04-25 23:45:44] Skenario: burek3 Korporasi & Enterprise Pembukaan Rek | Result: Cek status pada user maker
+[2025-04-25 23:46:02] Skenario: burek3 Korporasi & Enterprise Pembukaan Rek | Result: END

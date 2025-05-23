@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_BebasBiayaTutupRek</name>
+   <tag></tag>
+   <elementGuidId>54624eda-c24b-4527-b495-80bcc5d8b33b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='Kredit_BebasBiayaTutupRekening']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Kredit_BebasBiayaTutupRekening</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>52d9e151-4d75-406e-abba-36b437d8d978</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control col-md-7</value>
+      <webElementGuid>3b12e7e1-863a-4f29-8e4d-8f4a456c25a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>14870ce9-4f76-43f7-ae48-39ce5778f1d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val-required</name>
+      <type>Main</type>
+      <value>The BebasBiayaTutupRekening field is required.</value>
+      <webElementGuid>cfc04073-dd31-482f-8493-9bc6c8aee8a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Kredit_BebasBiayaTutupRekening</value>
+      <webElementGuid>a2318e51-61e8-446e-80a0-274302c2717b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Kredit.BebasBiayaTutupRekening</value>
+      <webElementGuid>a1b628f1-6327-41f7-b384-25061c5ba9dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TIDAK
+YA
+</value>
+      <webElementGuid>7f6e63f7-62f7-43f1-b064-0ab1b584967f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Kredit_BebasBiayaTutupRekening&quot;)</value>
+      <webElementGuid>a04540be-4618-46ca-9b48-624843c22904</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='Kredit_BebasBiayaTutupRekening']</value>
+      <webElementGuid>152d6a01-5d3c-4e34-b26a-8ebffe8fbdca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='PenutupanRekeningForm']/div[3]/div/div[7]/select</value>
+      <webElementGuid>93c2aacd-87d0-4b60-ac9c-a12d9dc52116</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/select</value>
+      <webElementGuid>0c7549a8-838d-475b-947e-6701e68003cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'Kredit_BebasBiayaTutupRekening' and @name = 'Kredit.BebasBiayaTutupRekening' and (text() = 'TIDAK
+YA
+' or . = 'TIDAK
+YA
+')]</value>
+      <webElementGuid>88590058-cf40-471a-8953-394b2d85bb8a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

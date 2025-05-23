@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_List Aktivitas</name>
+   <tag></tag>
+   <elementGuidId>4c961aec-0cd1-4275-b315-9faf83cf01b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[(text() = 'List Aktivitas' or . = 'List Aktivitas')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.col-auto</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>81f6dab4-0fb9-423f-80a1-f36402ad6e64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-auto</value>
+      <webElementGuid>6e799075-de7c-45fb-90ae-f339ad3945c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>List Aktivitas</value>
+      <webElementGuid>8ea4c819-e21b-4845-a99e-53248a627e78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;card-adc&quot;)/div[@class=&quot;card-body&quot;]/div[@class=&quot;mb-4&quot;]/label[@class=&quot;col-auto&quot;]</value>
+      <webElementGuid>3b2897f0-87be-4687-a9f3-c99c55aed7cd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='card-adc']/div[2]/div[9]/label</value>
+      <webElementGuid>fdd8bd66-fc5f-41f6-9100-cd5be1b8ed49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/label</value>
+      <webElementGuid>25ce0604-008d-48d4-a347-0a576b49f1ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'List Aktivitas' or . = 'List Aktivitas')]</value>
+      <webElementGuid>310a8d56-7f0b-463f-91fe-59d018038216</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,351 @@
+[2025-02-18 01:40:04] Skenario: TC45 Commercial Pemindahbukuan | Result: START
+[2025-02-18 01:40:45] Skenario: TC45 Commercial Pemindahbukuan | Result: Approver 1/4 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 01:41:54] Skenario: TC45 Commercial Pemindahbukuan | Result: Approver 2/4 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 01:42:59] Skenario: TC45 Commercial Pemindahbukuan | Result: Approver 3/4 Sukses || 16902 TONNY RUMPAIDUS
+[2025-02-18 01:42:59] Skenario: TC45 Commercial Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 01:43:35] Skenario: TC45 Commercial Pemindahbukuan | Result: END
+[2025-02-18 01:44:18] Skenario: TC46 Commercial Pemindahbukuan | Result: START
+[2025-02-18 01:44:53] Skenario: TC46 Commercial Pemindahbukuan | Result: Approver 1/5 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 01:45:44] Skenario: TC46 Commercial Pemindahbukuan | Result: Approver 2/5 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 01:46:53] Skenario: TC46 Commercial Pemindahbukuan | Result: Approver 3/5 Sukses || 16902 TONNY RUMPAIDUS
+[2025-02-18 01:48:00] Skenario: TC46 Commercial Pemindahbukuan | Result: Approver 4/5 Sukses || 28122 ABDI FERMANDA
+[2025-02-18 01:48:00] Skenario: TC46 Commercial Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 01:48:34] Skenario: TC46 Commercial Pemindahbukuan | Result: END
+[2025-02-18 01:49:08] Skenario: TC47 Commercial Pemindahbukuan | Result: START
+[2025-02-18 01:49:45] Skenario: TC47 Commercial Pemindahbukuan | Result: Approver 1/3 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 01:50:39] Skenario: TC47 Commercial Pemindahbukuan | Result: Approver 2/3 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 01:50:39] Skenario: TC47 Commercial Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 01:51:23] Skenario: TC47 Commercial Pemindahbukuan | Result: END
+[2025-02-18 01:51:46] Skenario: TC48 Commercial Pemindahbukuan | Result: START
+[2025-02-18 01:52:25] Skenario: TC48 Commercial Pemindahbukuan | Result: Approver 1/4 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 01:53:13] Skenario: TC48 Commercial Pemindahbukuan | Result: Approver 2/4 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 01:54:15] Skenario: TC48 Commercial Pemindahbukuan | Result: Approver 3/4 Sukses || 16902 TONNY RUMPAIDUS
+[2025-02-18 01:54:15] Skenario: TC48 Commercial Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 01:54:28] Skenario: TC48 Commercial Pemindahbukuan | Result: END
+[2025-02-18 01:54:36] Skenario: TC49 Commercial Pemindahbukuan | Result: START
+[2025-02-18 01:55:30] Skenario: TC49 Commercial Pemindahbukuan | Result: Approver 1/5 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 01:56:35] Skenario: TC49 Commercial Pemindahbukuan | Result: Approver 2/5 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 01:57:12] Skenario: TC49 Commercial Pemindahbukuan | Result: Approver 3/5 Sukses || 16902 TONNY RUMPAIDUS
+[2025-02-18 01:58:00] Skenario: TC49 Commercial Pemindahbukuan | Result: Approver 4/5 Sukses || 28122 ABDI FERMANDA
+[2025-02-18 01:58:00] Skenario: TC49 Commercial Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 01:58:32] Skenario: TC49 Commercial Pemindahbukuan | Result: END
+[2025-02-18 01:59:35] Skenario: TC50 Commercial Pembukaan Rek | Result: START
+[2025-02-18 02:00:14] Skenario: TC50 Commercial Pembukaan Rek | Result: Approver 1/4 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 02:01:12] Skenario: TC50 Commercial Pembukaan Rek | Result: Approver 2/4 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 02:02:18] Skenario: TC50 Commercial Pembukaan Rek | Result: Approver 3/4 Sukses || 16902 TONNY RUMPAIDUS
+[2025-02-18 02:02:18] Skenario: TC50 Commercial Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 02:02:55] Skenario: TC50 Commercial Pembukaan Rek | Result: END
+[2025-02-18 02:03:06] Skenario: TC51 Commercial Pembukaan Rek | Result: START
+[2025-02-18 02:03:57] Skenario: TC51 Commercial Pembukaan Rek | Result: Approver 1/5 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 02:04:59] Skenario: TC51 Commercial Pembukaan Rek | Result: Approver 2/5 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 02:06:01] Skenario: TC51 Commercial Pembukaan Rek | Result: Approver 3/5 Sukses || 16902 TONNY RUMPAIDUS
+[2025-02-18 02:07:05] Skenario: TC51 Commercial Pembukaan Rek | Result: Approver 4/5 Sukses || 28122 ABDI FERMANDA
+[2025-02-18 02:07:05] Skenario: TC51 Commercial Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 02:07:37] Skenario: TC51 Commercial Pembukaan Rek | Result: END
+[2025-02-18 02:07:53] Skenario: TC52 Commercial Pembukaan Rek | Result: START
+[2025-02-18 02:08:33] Skenario: TC52 Commercial Pembukaan Rek | Result: Approver 1/3 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 02:09:42] Skenario: TC52 Commercial Pembukaan Rek | Result: Approver 2/3 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 02:09:42] Skenario: TC52 Commercial Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 02:10:12] Skenario: TC52 Commercial Pembukaan Rek | Result: END
+[2025-02-18 02:10:28] Skenario: TC53 Commercial Pembukaan Rek | Result: START
+[2025-02-18 02:11:08] Skenario: TC53 Commercial Pembukaan Rek | Result: Approver 1/4 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 02:12:21] Skenario: TC53 Commercial Pembukaan Rek | Result: Approver 2/4 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 02:13:25] Skenario: TC53 Commercial Pembukaan Rek | Result: Approver 3/4 Sukses || 16902 TONNY RUMPAIDUS
+[2025-02-18 02:13:25] Skenario: TC53 Commercial Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 02:14:02] Skenario: TC53 Commercial Pembukaan Rek | Result: END
+[2025-02-18 02:14:09] Skenario: TC54 Commercial Pembukaan Rek | Result: START
+[2025-02-18 02:16:53] Skenario: TC54 Commercial Pembukaan Rek | Result: START
+[2025-02-18 02:17:43] Skenario: TC54 Commercial Pembukaan Rek | Result: Approver 1/5 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 02:18:54] Skenario: TC54 Commercial Pembukaan Rek | Result: Approver 2/5 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 02:20:03] Skenario: TC54 Commercial Pembukaan Rek | Result: Approver 3/5 Sukses || 16902 TONNY RUMPAIDUS
+[2025-02-18 02:21:03] Skenario: TC54 Commercial Pembukaan Rek | Result: Approver 4/5 Sukses || 28122 ABDI FERMANDA
+[2025-02-18 02:21:03] Skenario: TC54 Commercial Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 02:21:22] Skenario: TC54 Commercial Pembukaan Rek | Result: END
+[2025-02-18 02:21:30] Skenario: TC55 Commercial Pemindahbukuan | Result: START
+[2025-02-18 02:22:24] Skenario: TC55 Commercial Pemindahbukuan | Result: Approver 1/3 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 02:23:24] Skenario: TC55 Commercial Pemindahbukuan | Result: Approver 2/3 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 02:23:24] Skenario: TC55 Commercial Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 02:23:44] Skenario: TC55 Commercial Pemindahbukuan | Result: END
+[2025-02-18 02:23:51] Skenario: TC56 Commercial Pembukaan Rek | Result: START
+[2025-02-18 02:24:46] Skenario: TC56 Commercial Pembukaan Rek | Result: Approver 1/3 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 02:25:47] Skenario: TC56 Commercial Pembukaan Rek | Result: Approver 2/3 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 02:25:47] Skenario: TC56 Commercial Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 02:26:25] Skenario: TC56 Commercial Pembukaan Rek | Result: END
+[2025-02-18 02:26:57] Skenario: TC57 Commercial Blokir Rekening | Result: START
+[2025-02-18 02:27:35] Skenario: TC57 Commercial Blokir Rekening | Result: Approver 1/3 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 02:28:28] Skenario: TC57 Commercial Blokir Rekening | Result: Approver 2/3 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 02:28:28] Skenario: TC57 Commercial Blokir Rekening | Result: Cek status pada user maker
+[2025-02-18 02:29:14] Skenario: TC57 Commercial Blokir Rekening | Result: END
+[2025-02-18 02:29:27] Skenario: TC58 Commercial Pending Rekening | Result: START
+[2025-02-18 02:29:59] Skenario: TC58 Commercial Pending Rekening | Result: Approver 1/3 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 02:30:44] Skenario: TC58 Commercial Pending Rekening | Result: Approver 2/3 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 02:30:44] Skenario: TC58 Commercial Pending Rekening | Result: Cek status pada user maker
+[2025-02-18 02:31:14] Skenario: TC58 Commercial Pending Rekening | Result: END
+[2025-02-18 02:31:31] Skenario: TC59 Commercial Restrukturisasi Rek | Result: START
+[2025-02-18 02:32:18] Skenario: TC59 Commercial Restrukturisasi Rek | Result: Approver 1/3 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 02:33:11] Skenario: TC59 Commercial Restrukturisasi Rek | Result: Approver 2/3 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 02:33:11] Skenario: TC59 Commercial Restrukturisasi Rek | Result: Cek status pada user maker
+[2025-02-18 02:34:03] Skenario: TC59 Commercial Restrukturisasi Rek | Result: END
+[2025-02-18 02:34:13] Skenario: TC60 Commercial Maintenance Info | Result: START
+[2025-02-18 02:34:50] Skenario: TC60 Commercial Maintenance Info | Result: Approver 1/3 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 02:35:34] Skenario: TC60 Commercial Maintenance Info | Result: Approver 2/3 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 02:35:34] Skenario: TC60 Commercial Maintenance Info | Result: Cek status pada user maker
+[2025-02-18 02:36:09] Skenario: TC60 Commercial Maintenance Info | Result: END
+[2025-02-18 02:36:30] Skenario: TC61 Commercial Maintenance Rek | Result: START
+[2025-02-18 02:37:12] Skenario: TC61 Commercial Maintenance Rek | Result: Approver 1/3 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 02:37:59] Skenario: TC61 Commercial Maintenance Rek | Result: Approver 2/3 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 02:37:59] Skenario: TC61 Commercial Maintenance Rek | Result: Cek status pada user maker
+[2025-02-18 02:38:45] Skenario: TC61 Commercial Maintenance Rek | Result: END
+[2025-02-18 02:38:54] Skenario: TC62 Commercial Penutupan Rek | Result: START
+[2025-02-18 02:39:28] Skenario: TC62 Commercial Penutupan Rek | Result: Approver 1/3 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 02:40:17] Skenario: TC62 Commercial Penutupan Rek | Result: Approver 2/3 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 02:40:17] Skenario: TC62 Commercial Penutupan Rek | Result: Cek status pada user maker
+[2025-02-18 02:41:01] Skenario: TC62 Commercial Penutupan Rek | Result: END
+[2025-02-18 02:41:11] Skenario: TC63 Commercial Bucket Adjusment | Result: START
+[2025-02-18 02:41:44] Skenario: TC63 Commercial Bucket Adjusment | Result: Approver 1/3 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 02:42:29] Skenario: TC63 Commercial Bucket Adjusment | Result: Approver 2/3 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 02:42:29] Skenario: TC63 Commercial Bucket Adjusment | Result: Cek status pada user maker
+[2025-02-18 02:43:04] Skenario: TC63 Commercial Bucket Adjusment | Result: END
+[2025-02-18 02:43:14] Skenario: TC64 Commercial Asuransi | Result: START
+[2025-02-18 02:44:03] Skenario: TC64 Commercial Asuransi | Result: Approver 1/3 Sukses || 79626 DEDY SUTANTO
+[2025-02-18 02:44:39] Skenario: TC64 Commercial Asuransi | Result: Approver 2/3 Sukses || 13538 USDEKY HERBERT NUSA
+[2025-02-18 02:44:39] Skenario: TC64 Commercial Asuransi | Result: Cek status pada user maker
+[2025-02-18 02:45:10] Skenario: TC64 Commercial Asuransi | Result: END
+[2025-02-18 19:42:46] Skenario: TC24 Syndikasi as Fasilitas Pemindahbukuan | Result: START
+[2025-02-18 19:43:44] Skenario: TC24 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 1/5 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 19:44:41] Skenario: TC24 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 2/5 Sukses || 101198 Rahma Yanti
+[2025-02-18 19:45:50] Skenario: TC24 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-02-18 19:46:56] Skenario: TC24 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-02-18 19:48:05] Skenario: TC24 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 5/5 Sukses || 14584 ABD. SALAM KADIR
+[2025-02-18 19:48:05] Skenario: TC24 Syndikasi as Fasilitas Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 19:48:23] Skenario: TC24 Syndikasi as Fasilitas Pemindahbukuan | Result: END
+[2025-02-18 19:49:09] Skenario: TC25 Syndikasi as Fasilitas Pemindahbukuan | Result: START
+[2025-02-18 19:49:50] Skenario: TC25 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 1/4 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 19:50:50] Skenario: TC25 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 2/4 Sukses || 101198 Rahma Yanti
+[2025-02-18 19:51:57] Skenario: TC25 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 3/4 Sukses || 13895 DWI JATNO DJOKO SANTOSO V.
+[2025-02-18 19:51:57] Skenario: TC25 Syndikasi as Fasilitas Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 19:52:30] Skenario: TC25 Syndikasi as Fasilitas Pemindahbukuan | Result: END
+[2025-02-18 19:53:55] Skenario: TC26 Syndikasi as Fasilitas Pemindahbukuan | Result: START
+[2025-02-18 19:54:36] Skenario: TC26 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 1/5 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 19:55:49] Skenario: TC26 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 2/5 Sukses || 101198 Rahma Yanti
+[2025-02-18 19:56:49] Skenario: TC26 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-02-18 19:57:38] Skenario: TC26 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-02-18 19:57:38] Skenario: TC26 Syndikasi as Fasilitas Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 19:57:53] Skenario: TC26 Syndikasi as Fasilitas Pemindahbukuan | Result: END
+[2025-02-18 19:58:06] Skenario: TC27 Syndikasi as Fasilitas Pemindahbukuan | Result: START
+[2025-02-18 19:58:55] Skenario: TC27 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 1/5 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 20:00:01] Skenario: TC27 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 2/5 Sukses || 101198 Rahma Yanti
+[2025-02-18 20:01:08] Skenario: TC27 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-02-18 20:02:03] Skenario: TC27 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-02-18 20:02:49] Skenario: TC27 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 5/5 Sukses || 14584 ABD. SALAM KADIR
+[2025-02-18 20:02:49] Skenario: TC27 Syndikasi as Fasilitas Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 20:03:04] Skenario: TC27 Syndikasi as Fasilitas Pemindahbukuan | Result: END
+[2025-02-18 20:04:26] Skenario: TC28 Syndikasi as Fasilitas Pembukaan Rek | Result: START
+[2025-02-18 20:05:06] Skenario: TC28 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 1/5 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 20:06:00] Skenario: TC28 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 2/5 Sukses || 101198 Rahma Yanti
+[2025-02-18 20:07:10] Skenario: TC28 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-02-18 20:08:09] Skenario: TC28 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-02-18 20:08:09] Skenario: TC28 Syndikasi as Fasilitas Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 20:08:25] Skenario: TC28 Syndikasi as Fasilitas Pembukaan Rek | Result: END
+[2025-02-18 20:08:41] Skenario: TC29 Syndikasi as Fasilitas Pembukaan Rek | Result: START
+[2025-02-18 20:09:27] Skenario: TC29 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 1/5 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 20:10:20] Skenario: TC29 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 2/5 Sukses || 101198 Rahma Yanti
+[2025-02-18 20:11:24] Skenario: TC29 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-02-18 20:12:14] Skenario: TC29 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-02-18 20:13:05] Skenario: TC29 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 5/5 Sukses || 14584 ABD. SALAM KADIR
+[2025-02-18 20:13:05] Skenario: TC29 Syndikasi as Fasilitas Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 20:13:19] Skenario: TC29 Syndikasi as Fasilitas Pembukaan Rek | Result: END
+[2025-02-18 20:13:40] Skenario: TC30 Syndikasi as Fasilitas Pembukaan Rek | Result: START
+[2025-02-18 20:14:21] Skenario: TC30 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 1/4 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 20:15:12] Skenario: TC30 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 2/4 Sukses || 101198 Rahma Yanti
+[2025-02-18 20:16:16] Skenario: TC30 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 3/4 Sukses || 13895 DWI JATNO DJOKO SANTOSO V.
+[2025-02-18 20:16:16] Skenario: TC30 Syndikasi as Fasilitas Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 20:16:55] Skenario: TC30 Syndikasi as Fasilitas Pembukaan Rek | Result: END
+[2025-02-18 20:31:26] Skenario: TC31 Syndikasi as Fasilitas Pembukaan Rek | Result: START
+[2025-02-18 20:32:07] Skenario: TC31 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 1/5 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 20:33:01] Skenario: TC31 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 2/5 Sukses || 101198 Rahma Yanti
+[2025-02-18 20:34:08] Skenario: TC31 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-02-18 20:35:12] Skenario: TC31 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-02-18 20:35:12] Skenario: TC31 Syndikasi as Fasilitas Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 20:35:50] Skenario: TC31 Syndikasi as Fasilitas Pembukaan Rek | Result: END
+[2025-02-18 20:47:51] Skenario: TC32 Syndikasi as Fasilitas Pembukaan Rek | Result: START
+[2025-02-18 20:48:35] Skenario: TC32 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 1/5 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 20:49:31] Skenario: TC32 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 2/5 Sukses || 101198 Rahma Yanti
+[2025-02-18 20:50:40] Skenario: TC32 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-02-18 20:51:48] Skenario: TC32 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-02-18 20:52:44] Skenario: TC32 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 5/5 Sukses || 14584 ABD. SALAM KADIR
+[2025-02-18 20:52:44] Skenario: TC32 Syndikasi as Fasilitas Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 20:53:00] Skenario: TC32 Syndikasi as Fasilitas Pembukaan Rek | Result: END
+[2025-02-18 20:53:57] Skenario: TC33 Syndikasi as Fasilitas Blokir Rekening | Result: START
+[2025-02-18 20:54:30] Skenario: TC33 Syndikasi as Fasilitas Blokir Rekening | Result: Approver 1/3 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 20:55:22] Skenario: TC33 Syndikasi as Fasilitas Blokir Rekening | Result: Approver 2/3 Sukses || 101198 Rahma Yanti
+[2025-02-18 20:55:22] Skenario: TC33 Syndikasi as Fasilitas Blokir Rekening | Result: Cek status pada user maker
+[2025-02-18 20:56:00] Skenario: TC33 Syndikasi as Fasilitas Blokir Rekening | Result: END
+[2025-02-18 20:56:26] Skenario: TC34 Syndikasi as Fasilitas Pemindahbukuan | Result: START
+[2025-02-18 20:59:05] Skenario: TC35 Syndikasi as Fasilitas Penutupan Rek | Result: START
+[2025-02-18 20:59:40] Skenario: TC35 Syndikasi as Fasilitas Penutupan Rek | Result: Approver 1/3 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 21:00:26] Skenario: TC35 Syndikasi as Fasilitas Penutupan Rek | Result: Approver 2/3 Sukses || 101198 Rahma Yanti
+[2025-02-18 21:00:26] Skenario: TC35 Syndikasi as Fasilitas Penutupan Rek | Result: Cek status pada user maker
+[2025-02-18 21:01:08] Skenario: TC35 Syndikasi as Fasilitas Penutupan Rek | Result: END
+[2025-02-18 21:01:37] Skenario: TC36 Syndikasi as Fasilitas Bucket Adjusment | Result: START
+[2025-02-18 21:02:09] Skenario: TC36 Syndikasi as Fasilitas Bucket Adjusment | Result: Approver 1/3 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 21:02:55] Skenario: TC36 Syndikasi as Fasilitas Bucket Adjusment | Result: Approver 2/3 Sukses || 101198 Rahma Yanti
+[2025-02-18 21:02:55] Skenario: TC36 Syndikasi as Fasilitas Bucket Adjusment | Result: Cek status pada user maker
+[2025-02-18 21:03:44] Skenario: TC36 Syndikasi as Fasilitas Bucket Adjusment | Result: END
+[2025-02-18 21:03:50] Skenario: TC37 Syndikasi as Fasilitas Restrukturisasi Rek | Result: START
+[2025-02-18 21:04:29] Skenario: TC37 Syndikasi as Fasilitas Restrukturisasi Rek | Result: Approver 1/3 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 21:05:13] Skenario: TC37 Syndikasi as Fasilitas Restrukturisasi Rek | Result: Approver 2/3 Sukses || 101198 Rahma Yanti
+[2025-02-18 21:05:13] Skenario: TC37 Syndikasi as Fasilitas Restrukturisasi Rek | Result: Cek status pada user maker
+[2025-02-18 21:05:54] Skenario: TC37 Syndikasi as Fasilitas Restrukturisasi Rek | Result: END
+[2025-02-18 21:06:03] Skenario: TC38 Syndikasi as Fasilitas Pending Rekening | Result: START
+[2025-02-18 21:06:29] Skenario: TC38 Syndikasi as Fasilitas Pending Rekening | Result: Approver 1/3 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 21:07:10] Skenario: TC38 Syndikasi as Fasilitas Pending Rekening | Result: Approver 2/3 Sukses || 101198 Rahma Yanti
+[2025-02-18 21:07:10] Skenario: TC38 Syndikasi as Fasilitas Pending Rekening | Result: Cek status pada user maker
+[2025-02-18 21:07:52] Skenario: TC38 Syndikasi as Fasilitas Pending Rekening | Result: END
+[2025-02-18 21:08:01] Skenario: TC39 Syndikasi as Fasilitas Pembukaan Rek | Result: START
+[2025-02-18 21:08:31] Skenario: TC39 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 1/3 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 21:09:12] Skenario: TC39 Syndikasi as Fasilitas Pembukaan Rek | Result: Approver 2/3 Sukses || 101198 Rahma Yanti
+[2025-02-18 21:09:12] Skenario: TC39 Syndikasi as Fasilitas Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 21:09:58] Skenario: TC39 Syndikasi as Fasilitas Pembukaan Rek | Result: END
+[2025-02-18 21:10:04] Skenario: TC40 Syndikasi as Fasilitas Asuransi | Result: START
+[2025-02-18 21:10:37] Skenario: TC40 Syndikasi as Fasilitas Asuransi | Result: Approver 1/3 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 21:11:17] Skenario: TC40 Syndikasi as Fasilitas Asuransi | Result: Approver 2/3 Sukses || 101198 Rahma Yanti
+[2025-02-18 21:11:17] Skenario: TC40 Syndikasi as Fasilitas Asuransi | Result: Cek status pada user maker
+[2025-02-18 21:11:57] Skenario: TC40 Syndikasi as Fasilitas Asuransi | Result: END
+[2025-02-18 21:12:11] Skenario: TC41 Syndikasi as Fasilitas Maintenance Rek | Result: START
+[2025-02-18 21:12:39] Skenario: TC41 Syndikasi as Fasilitas Maintenance Rek | Result: Approver 1/3 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 21:13:17] Skenario: TC41 Syndikasi as Fasilitas Maintenance Rek | Result: Approver 2/3 Sukses || 101198 Rahma Yanti
+[2025-02-18 21:13:17] Skenario: TC41 Syndikasi as Fasilitas Maintenance Rek | Result: Cek status pada user maker
+[2025-02-18 21:14:01] Skenario: TC41 Syndikasi as Fasilitas Maintenance Rek | Result: END
+[2025-02-18 21:14:18] Skenario: TC42 Syndikasi as Fasilitas Maintenance Info | Result: START
+[2025-02-18 21:14:47] Skenario: TC42 Syndikasi as Fasilitas Maintenance Info | Result: Approver 1/3 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 21:15:24] Skenario: TC42 Syndikasi as Fasilitas Maintenance Info | Result: Approver 2/3 Sukses || 101198 Rahma Yanti
+[2025-02-18 21:15:24] Skenario: TC42 Syndikasi as Fasilitas Maintenance Info | Result: Cek status pada user maker
+[2025-02-18 21:16:04] Skenario: TC42 Syndikasi as Fasilitas Maintenance Info | Result: END
+[2025-02-18 21:25:53] Skenario: TC23 Syndikasi as Fasilitas Pemindahbukuan | Result: START
+[2025-02-18 21:26:51] Skenario: TC23 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 1/5 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 21:27:58] Skenario: TC23 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 2/5 Sukses || 101198 Rahma Yanti
+[2025-02-18 21:29:03] Skenario: TC23 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-02-18 21:30:11] Skenario: TC23 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-02-18 21:30:11] Skenario: TC23 Syndikasi as Fasilitas Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 21:30:45] Skenario: TC23 Syndikasi as Fasilitas Pemindahbukuan | Result: END
+[2025-02-18 21:30:52] Skenario: TC34 Syndikasi as Fasilitas Pemindahbukuan | Result: START
+[2025-02-18 21:31:26] Skenario: TC34 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 1/3 Sukses || 75789 ANDRI ARDIANSYAH
+[2025-02-18 21:32:12] Skenario: TC34 Syndikasi as Fasilitas Pemindahbukuan | Result: Approver 2/3 Sukses || 101198 Rahma Yanti
+[2025-02-18 21:32:12] Skenario: TC34 Syndikasi as Fasilitas Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 21:32:44] Skenario: TC34 Syndikasi as Fasilitas Pemindahbukuan | Result: END
+[2025-02-18 21:34:42] Skenario: TC67 Retail Pemindahbukuan | Result: START
+[2025-02-18 21:35:17] Skenario: TC67 Retail Pemindahbukuan | Result: Approver 1/2 Sukses || 79474 ALFENDRI ABRAR
+[2025-02-18 21:35:17] Skenario: TC67 Retail Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 21:35:56] Skenario: TC67 Retail Pemindahbukuan | Result: END
+[2025-02-18 21:36:10] Skenario: TC68 Retail Pemindahbukuan | Result: START
+[2025-02-18 21:36:44] Skenario: TC68 Retail Pemindahbukuan | Result: Approver 1/3 Sukses || 79474 ALFENDRI ABRAR
+[2025-02-18 21:37:38] Skenario: TC68 Retail Pemindahbukuan | Result: Approver 2/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 21:37:38] Skenario: TC68 Retail Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 21:38:16] Skenario: TC68 Retail Pemindahbukuan | Result: END
+[2025-02-18 21:38:26] Skenario: TC69 Retail Pemindahbukuan | Result: START
+[2025-02-18 21:39:26] Skenario: TC69 Retail Pemindahbukuan | Result: Approver 1/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 21:40:32] Skenario: TC69 Retail Pemindahbukuan | Result: Approver 2/3 Sukses || 26048 ABDI SIREGAR
+[2025-02-18 21:40:32] Skenario: TC69 Retail Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 21:41:05] Skenario: TC69 Retail Pemindahbukuan | Result: END
+[2025-02-18 21:41:14] Skenario: TC70 Retail Pemindahbukuan | Result: START
+[2025-02-18 21:42:05] Skenario: TC70 Retail Pemindahbukuan | Result: Approver 1/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 21:42:47] Skenario: TC70 Retail Pemindahbukuan | Result: Approver 2/3 Sukses || 22208 ARIE ARDYANTO
+[2025-02-18 21:42:47] Skenario: TC70 Retail Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 21:43:19] Skenario: TC70 Retail Pemindahbukuan | Result: END
+[2025-02-18 21:43:23] Skenario: TC71 Retail Pemindahbukuan | Result: START
+[2025-02-18 21:44:19] Skenario: TC71 Retail Pemindahbukuan | Result: Approver 1/2 Sukses || 79474 ALFENDRI ABRAR
+[2025-02-18 21:44:19] Skenario: TC71 Retail Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 21:44:43] Skenario: TC71 Retail Pemindahbukuan | Result: END
+[2025-02-18 21:44:51] Skenario: TC72 Retail Pemindahbukuan | Result: START
+[2025-02-18 21:45:42] Skenario: TC72 Retail Pemindahbukuan | Result: Approver 1/3 Sukses || 79474 ALFENDRI ABRAR
+[2025-02-18 21:46:47] Skenario: TC72 Retail Pemindahbukuan | Result: Approver 2/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 21:46:47] Skenario: TC72 Retail Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 21:47:24] Skenario: TC72 Retail Pemindahbukuan | Result: END
+[2025-02-18 21:47:34] Skenario: TC73 Retail Pemindahbukuan | Result: START
+[2025-02-18 21:48:26] Skenario: TC73 Retail Pemindahbukuan | Result: Approver 1/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 21:49:08] Skenario: TC73 Retail Pemindahbukuan | Result: Approver 2/3 Sukses || 26048 ABDI SIREGAR
+[2025-02-18 21:49:08] Skenario: TC73 Retail Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 21:49:40] Skenario: TC73 Retail Pemindahbukuan | Result: END
+[2025-02-18 21:49:53] Skenario: TC74 Retail Pembukaan Rek | Result: START
+[2025-02-18 21:50:42] Skenario: TC74 Retail Pembukaan Rek | Result: Approver 1/2 Sukses || 79474 ALFENDRI ABRAR
+[2025-02-18 21:50:42] Skenario: TC74 Retail Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 21:51:17] Skenario: TC74 Retail Pembukaan Rek | Result: END
+[2025-02-18 21:51:23] Skenario: TC75 Retail Pembukaan Rek | Result: START
+[2025-02-18 21:52:20] Skenario: TC75 Retail Pembukaan Rek | Result: Approver 1/3 Sukses || 79474 ALFENDRI ABRAR
+[2025-02-18 21:53:15] Skenario: TC75 Retail Pembukaan Rek | Result: Approver 2/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 21:53:15] Skenario: TC75 Retail Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 21:53:55] Skenario: TC75 Retail Pembukaan Rek | Result: END
+[2025-02-18 21:54:08] Skenario: TC76 Retail Pembukaan Rek | Result: START
+[2025-02-18 21:54:58] Skenario: TC76 Retail Pembukaan Rek | Result: Approver 1/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 21:56:01] Skenario: TC76 Retail Pembukaan Rek | Result: Approver 2/3 Sukses || 26048 ABDI SIREGAR
+[2025-02-18 21:56:01] Skenario: TC76 Retail Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 21:56:39] Skenario: TC76 Retail Pembukaan Rek | Result: END
+[2025-02-18 21:56:57] Skenario: TC77 Retail Pembukaan Rek | Result: START
+[2025-02-18 21:57:38] Skenario: TC77 Retail Pembukaan Rek | Result: Approver 1/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 21:58:54] Skenario: TC77 Retail Pembukaan Rek | Result: Approver 2/3 Sukses || 22208 ARIE ARDYANTO
+[2025-02-18 21:58:54] Skenario: TC77 Retail Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 21:59:29] Skenario: TC77 Retail Pembukaan Rek | Result: END
+[2025-02-18 22:00:14] Skenario: TC78 Retail Pembukaan Rek | Result: START
+[2025-02-18 22:00:48] Skenario: TC78 Retail Pembukaan Rek | Result: Approver 1/2 Sukses || 79474 ALFENDRI ABRAR
+[2025-02-18 22:00:48] Skenario: TC78 Retail Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 22:01:20] Skenario: TC78 Retail Pembukaan Rek | Result: END
+[2025-02-18 22:01:31] Skenario: TC79 Retail Pembukaan Rek | Result: START
+[2025-02-18 22:02:23] Skenario: TC79 Retail Pembukaan Rek | Result: Approver 1/3 Sukses || 79474 ALFENDRI ABRAR
+[2025-02-18 22:03:23] Skenario: TC79 Retail Pembukaan Rek | Result: Approver 2/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 22:03:23] Skenario: TC79 Retail Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 22:04:06] Skenario: TC79 Retail Pembukaan Rek | Result: END
+[2025-02-18 22:04:33] Skenario: TC80 Retail Pembukaan Rek | Result: START
+[2025-02-18 22:05:12] Skenario: TC80 Retail Pembukaan Rek | Result: Approver 1/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 22:06:05] Skenario: TC80 Retail Pembukaan Rek | Result: Approver 2/3 Sukses || 26048 ABDI SIREGAR
+[2025-02-18 22:06:05] Skenario: TC80 Retail Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 22:06:46] Skenario: TC80 Retail Pembukaan Rek | Result: END
+[2025-02-18 22:07:29] Skenario: TC81 Retail Blokir Rekening | Result: START
+[2025-02-18 22:08:02] Skenario: TC81 Retail Blokir Rekening | Result: Approver 1/3 Sukses || 79474 ALFENDRI ABRAR
+[2025-02-18 22:09:02] Skenario: TC81 Retail Blokir Rekening | Result: Approver 2/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 22:09:02] Skenario: TC81 Retail Blokir Rekening | Result: Cek status pada user maker
+[2025-02-18 22:09:42] Skenario: TC81 Retail Blokir Rekening | Result: END
+[2025-02-18 22:10:01] Skenario: TC82 Retail Pemindahbukuan | Result: START
+[2025-02-18 22:10:44] Skenario: TC82 Retail Pemindahbukuan | Result: Approver 1/3 Sukses || 79474 ALFENDRI ABRAR
+[2025-02-18 22:11:34] Skenario: TC82 Retail Pemindahbukuan | Result: Approver 2/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 22:11:34] Skenario: TC82 Retail Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-18 22:12:18] Skenario: TC82 Retail Pemindahbukuan | Result: END
+[2025-02-18 22:13:30] Skenario: TC83 Retail Penutupan Rek | Result: START
+[2025-02-18 22:14:03] Skenario: TC83 Retail Penutupan Rek | Result: Approver 1/3 Sukses || 79474 ALFENDRI ABRAR
+[2025-02-18 22:15:04] Skenario: TC83 Retail Penutupan Rek | Result: Approver 2/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 22:15:04] Skenario: TC83 Retail Penutupan Rek | Result: Cek status pada user maker
+[2025-02-18 22:15:46] Skenario: TC83 Retail Penutupan Rek | Result: END
+[2025-02-18 22:15:57] Skenario: TC84 Retail Bucket Adjusment | Result: START
+[2025-02-18 22:16:32] Skenario: TC84 Retail Bucket Adjusment | Result: Approver 1/3 Sukses || 79474 ALFENDRI ABRAR
+[2025-02-18 22:17:20] Skenario: TC84 Retail Bucket Adjusment | Result: Approver 2/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 22:17:20] Skenario: TC84 Retail Bucket Adjusment | Result: Cek status pada user maker
+[2025-02-18 22:18:06] Skenario: TC84 Retail Bucket Adjusment | Result: END
+[2025-02-18 22:18:11] Skenario: TC85 Retail Restrukturisasi Rek | Result: START
+[2025-02-18 22:18:47] Skenario: TC85 Retail Restrukturisasi Rek | Result: Approver 1/3 Sukses || 79474 ALFENDRI ABRAR
+[2025-02-18 22:19:54] Skenario: TC85 Retail Restrukturisasi Rek | Result: Approver 2/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 22:19:54] Skenario: TC85 Retail Restrukturisasi Rek | Result: Cek status pada user maker
+[2025-02-18 22:20:33] Skenario: TC85 Retail Restrukturisasi Rek | Result: END
+[2025-02-18 22:20:43] Skenario: TC86 Retail Pending Rekening | Result: START
+[2025-02-18 22:21:37] Skenario: TC86 Retail Pending Rekening | Result: Approver 1/3 Sukses || 79474 ALFENDRI ABRAR
+[2025-02-18 22:22:13] Skenario: TC86 Retail Pending Rekening | Result: Approver 2/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 22:22:13] Skenario: TC86 Retail Pending Rekening | Result: Cek status pada user maker
+[2025-02-18 22:22:44] Skenario: TC86 Retail Pending Rekening | Result: END
+[2025-02-18 22:22:50] Skenario: TC87 Retail Pembukaan Rek | Result: START
+[2025-02-18 22:23:46] Skenario: TC87 Retail Pembukaan Rek | Result: Approver 1/2 Sukses || 79474 ALFENDRI ABRAR
+[2025-02-18 22:23:46] Skenario: TC87 Retail Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-18 22:24:18] Skenario: TC87 Retail Pembukaan Rek | Result: END
+[2025-02-18 22:24:32] Skenario: TC88 Retail Asuransi | Result: START
+[2025-02-18 22:25:20] Skenario: TC88 Retail Asuransi | Result: Approver 1/3 Sukses || 79474 ALFENDRI ABRAR
+[2025-02-18 22:26:22] Skenario: TC88 Retail Asuransi | Result: Approver 2/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 22:26:22] Skenario: TC88 Retail Asuransi | Result: Cek status pada user maker
+[2025-02-18 22:27:07] Skenario: TC88 Retail Asuransi | Result: END
+[2025-02-18 22:27:28] Skenario: TC89 Retail Maintenance Rek | Result: START
+[2025-02-18 22:28:22] Skenario: TC89 Retail Maintenance Rek | Result: Approver 1/3 Sukses || 79474 ALFENDRI ABRAR
+[2025-02-18 22:29:27] Skenario: TC89 Retail Maintenance Rek | Result: Approver 2/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 22:29:27] Skenario: TC89 Retail Maintenance Rek | Result: Cek status pada user maker
+[2025-02-18 22:30:04] Skenario: TC89 Retail Maintenance Rek | Result: END
+[2025-02-18 22:30:36] Skenario: TC90 Retail Maintenance Info | Result: START
+[2025-02-18 22:31:28] Skenario: TC90 Retail Maintenance Info | Result: Approver 1/3 Sukses || 79474 ALFENDRI ABRAR
+[2025-02-18 22:32:34] Skenario: TC90 Retail Maintenance Info | Result: Approver 2/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-18 22:32:34] Skenario: TC90 Retail Maintenance Info | Result: Cek status pada user maker
+[2025-02-18 22:33:15] Skenario: TC90 Retail Maintenance Info | Result: END

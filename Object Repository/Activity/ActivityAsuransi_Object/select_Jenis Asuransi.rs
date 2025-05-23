@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Jenis Asuransi</name>
+   <tag></tag>
+   <elementGuidId>f0359536-4bec-4e01-a493-4c91f52c3a2a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='JenisAsuransi']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#JenisAsuransi</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>513d11dc-bcc7-40eb-b3e4-e702f8c875e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>03af8fdd-8fc6-45a7-a573-c51f4a539960</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>e69457ff-36fd-4d55-abfb-f1a24437efe5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val-required</name>
+      <type>Main</type>
+      <value>The JenisAsuransi field is required.</value>
+      <webElementGuid>6acd9d62-064b-4ebd-ae4d-85d376f53781</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>JenisAsuransi</value>
+      <webElementGuid>2d08b238-cda7-425f-bc9a-c6c13e8978a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>JenisAsuransi</value>
+      <webElementGuid>c7d3a611-3e3e-4c97-bc29-c27c6ad59e24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>-
+02 : Jiwa
+03 : Jaminan
+</value>
+      <webElementGuid>c73906dc-47ce-4be6-8827-ffabd2ee2a69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;JenisAsuransi&quot;)</value>
+      <webElementGuid>0300e46f-541e-4ea9-87ce-973bcb24e3dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='JenisAsuransi']</value>
+      <webElementGuid>cc419045-4d95-416c-8cae-4dbc8c2bfc1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='AddEditFormAsuransi']/div/div[5]/div/select</value>
+      <webElementGuid>34b4c310-2f7c-4418-9a37-88a75b2a4353</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>0df29d43-226c-4ee0-a0d4-220dff581f44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'JenisAsuransi' and @name = 'JenisAsuransi' and (text() = '-
+02 : Jiwa
+03 : Jaminan
+' or . = '-
+02 : Jiwa
+03 : Jaminan
+')]</value>
+      <webElementGuid>0d564fb4-1436-45e9-b0fe-805f333cd836</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

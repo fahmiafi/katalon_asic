@@ -1,0 +1,123 @@
+[2025-02-17 21:10:15] Skenario: TC19 Korporasi & Enterprise Bucket Adjusment | Result: START
+[2025-02-17 21:11:31] Skenario: TC19 Korporasi & Enterprise Bucket Adjusment | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-02-17 21:12:16] Skenario: TC19 Korporasi & Enterprise Bucket Adjusment | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 21:12:16] Skenario: TC19 Korporasi & Enterprise Bucket Adjusment | Result: Cek status pada user maker
+[2025-02-17 21:12:52] Skenario: TC19 Korporasi & Enterprise Bucket Adjusment | Result: END
+[2025-02-17 21:16:26] Skenario: TC01 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-02-17 21:17:10] Skenario: TC01 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/5 Sukses || 76331 Imran Riyadi
+[2025-02-17 21:18:31] Skenario: TC01 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/5 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 21:20:25] Skenario: TC01 Korporasi & Enterprise Pemindahbukuan | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-02-17 21:21:33] Skenario: TC01 Korporasi & Enterprise Pemindahbukuan | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-02-17 21:21:33] Skenario: TC01 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-17 21:22:15] Skenario: TC01 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-02-17 21:22:27] Skenario: TC02 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-02-17 21:23:33] Skenario: TC02 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/5 Sukses || 76331 Imran Riyadi
+[2025-02-17 21:24:32] Skenario: TC02 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/5 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 21:25:40] Skenario: TC02 Korporasi & Enterprise Pemindahbukuan | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-02-17 21:27:05] Skenario: TC02 Korporasi & Enterprise Pemindahbukuan | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-02-17 21:27:55] Skenario: TC02 Korporasi & Enterprise Pemindahbukuan | Result: Approver 5/5 Sukses || 14584 ABD. SALAM KADIR
+[2025-02-17 21:27:55] Skenario: TC02 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-17 21:28:53] Skenario: TC02 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-02-17 21:29:19] Skenario: TC03 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-02-17 21:30:04] Skenario: TC03 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/4 Sukses || 76331 Imran Riyadi
+[2025-02-17 21:31:01] Skenario: TC03 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/4 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 21:32:10] Skenario: TC03 Korporasi & Enterprise Pemindahbukuan | Result: Approver 3/4 Sukses || 13895 DWI JATNO DJOKO SANTOSO V.
+[2025-02-17 21:32:10] Skenario: TC03 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-17 21:32:50] Skenario: TC03 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-02-17 21:33:03] Skenario: TC04 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-02-17 21:34:11] Skenario: TC04 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/5 Sukses || 76331 Imran Riyadi
+[2025-02-17 21:35:15] Skenario: TC04 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/5 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 21:36:08] Skenario: TC04 Korporasi & Enterprise Pemindahbukuan | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-02-17 21:37:12] Skenario: TC04 Korporasi & Enterprise Pemindahbukuan | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-02-17 21:37:12] Skenario: TC04 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-17 21:37:44] Skenario: TC04 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-02-17 21:38:04] Skenario: TC05 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-02-17 21:38:41] Skenario: TC05 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/5 Sukses || 76331 Imran Riyadi
+[2025-02-17 21:40:00] Skenario: TC05 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/5 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 21:41:03] Skenario: TC05 Korporasi & Enterprise Pemindahbukuan | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-02-17 21:42:14] Skenario: TC05 Korporasi & Enterprise Pemindahbukuan | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-02-17 21:43:30] Skenario: TC05 Korporasi & Enterprise Pemindahbukuan | Result: Approver 5/5 Sukses || 14584 ABD. SALAM KADIR
+[2025-02-17 21:43:30] Skenario: TC05 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-17 21:44:02] Skenario: TC05 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-02-17 21:45:18] Skenario: TC06 Korporasi & Enterprise Pembukaan Rek | Result: START
+[2025-02-17 21:45:53] Skenario: TC06 Korporasi & Enterprise Pembukaan Rek | Result: Approver 1/5 Sukses || 76331 Imran Riyadi
+[2025-02-17 21:46:43] Skenario: TC06 Korporasi & Enterprise Pembukaan Rek | Result: Approver 2/5 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 21:48:03] Skenario: TC06 Korporasi & Enterprise Pembukaan Rek | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-02-17 21:49:06] Skenario: TC06 Korporasi & Enterprise Pembukaan Rek | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-02-17 21:49:06] Skenario: TC06 Korporasi & Enterprise Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-17 21:49:50] Skenario: TC06 Korporasi & Enterprise Pembukaan Rek | Result: END
+[2025-02-17 21:50:34] Skenario: TC07 Korporasi & Enterprise Pembukaan Rek | Result: START
+[2025-02-17 21:51:41] Skenario: TC07 Korporasi & Enterprise Pembukaan Rek | Result: Approver 1/5 Sukses || 76331 Imran Riyadi
+[2025-02-17 21:52:52] Skenario: TC07 Korporasi & Enterprise Pembukaan Rek | Result: Approver 2/5 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 21:54:00] Skenario: TC07 Korporasi & Enterprise Pembukaan Rek | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-02-17 21:55:07] Skenario: TC07 Korporasi & Enterprise Pembukaan Rek | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-02-17 21:56:11] Skenario: TC07 Korporasi & Enterprise Pembukaan Rek | Result: Approver 5/5 Sukses || 14584 ABD. SALAM KADIR
+[2025-02-17 21:56:11] Skenario: TC07 Korporasi & Enterprise Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-17 21:56:45] Skenario: TC07 Korporasi & Enterprise Pembukaan Rek | Result: END
+[2025-02-17 21:56:51] Skenario: TC08 Korporasi & Enterprise Pembukaan Rek | Result: START
+[2025-02-17 21:57:57] Skenario: TC08 Korporasi & Enterprise Pembukaan Rek | Result: Approver 1/4 Sukses || 76331 Imran Riyadi
+[2025-02-17 21:59:15] Skenario: TC08 Korporasi & Enterprise Pembukaan Rek | Result: Approver 2/4 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 22:00:18] Skenario: TC08 Korporasi & Enterprise Pembukaan Rek | Result: Approver 3/4 Sukses || 13895 DWI JATNO DJOKO SANTOSO V.
+[2025-02-17 22:00:18] Skenario: TC08 Korporasi & Enterprise Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-17 22:00:58] Skenario: TC08 Korporasi & Enterprise Pembukaan Rek | Result: END
+[2025-02-17 22:01:20] Skenario: TC09 Korporasi & Enterprise Pembukaan Rek | Result: START
+[2025-02-17 22:02:05] Skenario: TC09 Korporasi & Enterprise Pembukaan Rek | Result: Approver 1/5 Sukses || 76331 Imran Riyadi
+[2025-02-17 22:03:12] Skenario: TC09 Korporasi & Enterprise Pembukaan Rek | Result: Approver 2/5 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 22:04:24] Skenario: TC09 Korporasi & Enterprise Pembukaan Rek | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-02-17 22:05:47] Skenario: TC09 Korporasi & Enterprise Pembukaan Rek | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-02-17 22:05:47] Skenario: TC09 Korporasi & Enterprise Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-17 22:06:25] Skenario: TC09 Korporasi & Enterprise Pembukaan Rek | Result: END
+[2025-02-17 22:07:08] Skenario: TC10 Korporasi & Enterprise Pembukaan Rek | Result: START
+[2025-02-17 22:08:06] Skenario: TC10 Korporasi & Enterprise Pembukaan Rek | Result: Approver 1/5 Sukses || 76331 Imran Riyadi
+[2025-02-17 22:09:34] Skenario: TC10 Korporasi & Enterprise Pembukaan Rek | Result: Approver 2/5 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 22:10:36] Skenario: TC10 Korporasi & Enterprise Pembukaan Rek | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-02-17 22:12:07] Skenario: TC10 Korporasi & Enterprise Pembukaan Rek | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-02-17 22:13:15] Skenario: TC10 Korporasi & Enterprise Pembukaan Rek | Result: Approver 5/5 Sukses || 14584 ABD. SALAM KADIR
+[2025-02-17 22:13:15] Skenario: TC10 Korporasi & Enterprise Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-17 22:13:39] Skenario: TC10 Korporasi & Enterprise Pembukaan Rek | Result: END
+[2025-02-17 22:14:50] Skenario: TC11 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-02-17 22:15:21] Skenario: TC11 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-02-17 22:16:11] Skenario: TC11 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 22:16:11] Skenario: TC11 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-02-17 22:16:59] Skenario: TC11 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-02-17 22:17:06] Skenario: TC12 Korporasi & Enterprise Pembukaan Rek | Result: START
+[2025-02-17 22:17:51] Skenario: TC12 Korporasi & Enterprise Pembukaan Rek | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-02-17 22:25:44] Skenario: TC13 Korporasi & Enterprise Blokir Rekening | Result: START
+[2025-02-17 22:26:28] Skenario: TC13 Korporasi & Enterprise Blokir Rekening | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-02-17 22:27:34] Skenario: TC13 Korporasi & Enterprise Blokir Rekening | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 22:27:34] Skenario: TC13 Korporasi & Enterprise Blokir Rekening | Result: Cek status pada user maker
+[2025-02-17 22:28:18] Skenario: TC13 Korporasi & Enterprise Blokir Rekening | Result: END
+[2025-02-17 22:28:35] Skenario: TC14 Korporasi & Enterprise Pending Rekening | Result: START
+[2025-02-17 22:29:16] Skenario: TC14 Korporasi & Enterprise Pending Rekening | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-02-17 22:30:15] Skenario: TC14 Korporasi & Enterprise Pending Rekening | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 22:30:15] Skenario: TC14 Korporasi & Enterprise Pending Rekening | Result: Cek status pada user maker
+[2025-02-17 22:30:59] Skenario: TC14 Korporasi & Enterprise Pending Rekening | Result: END
+[2025-02-17 22:31:13] Skenario: TC15 Korporasi & Enterprise Restrukturisasi Rek | Result: START
+[2025-02-17 22:31:50] Skenario: TC15 Korporasi & Enterprise Restrukturisasi Rek | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-02-17 22:33:04] Skenario: TC15 Korporasi & Enterprise Restrukturisasi Rek | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 22:33:04] Skenario: TC15 Korporasi & Enterprise Restrukturisasi Rek | Result: Cek status pada user maker
+[2025-02-17 22:33:44] Skenario: TC15 Korporasi & Enterprise Restrukturisasi Rek | Result: END
+[2025-02-17 22:34:03] Skenario: TC16 Korporasi & Enterprise Maintenance Info | Result: START
+[2025-02-17 22:34:49] Skenario: TC16 Korporasi & Enterprise Maintenance Info | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-02-17 22:35:43] Skenario: TC16 Korporasi & Enterprise Maintenance Info | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 22:35:43] Skenario: TC16 Korporasi & Enterprise Maintenance Info | Result: Cek status pada user maker
+[2025-02-17 22:36:31] Skenario: TC16 Korporasi & Enterprise Maintenance Info | Result: END
+[2025-02-17 22:36:46] Skenario: TC17 Korporasi & Enterprise Maintenance Rek | Result: START
+[2025-02-17 22:37:33] Skenario: TC17 Korporasi & Enterprise Maintenance Rek | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-02-17 22:38:26] Skenario: TC17 Korporasi & Enterprise Maintenance Rek | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 22:38:26] Skenario: TC17 Korporasi & Enterprise Maintenance Rek | Result: Cek status pada user maker
+[2025-02-17 22:39:17] Skenario: TC17 Korporasi & Enterprise Maintenance Rek | Result: END
+[2025-02-17 22:39:38] Skenario: TC18 Korporasi & Enterprise Penutupan Rek | Result: START
+[2025-02-17 22:40:20] Skenario: TC18 Korporasi & Enterprise Penutupan Rek | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-02-17 22:41:14] Skenario: TC18 Korporasi & Enterprise Penutupan Rek | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 22:41:14] Skenario: TC18 Korporasi & Enterprise Penutupan Rek | Result: Cek status pada user maker
+[2025-02-17 22:41:59] Skenario: TC18 Korporasi & Enterprise Penutupan Rek | Result: END
+[2025-02-17 22:42:08] Skenario: TC20 Korporasi & Enterprise Asuransi | Result: START
+[2025-02-17 22:42:57] Skenario: TC20 Korporasi & Enterprise Asuransi | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-02-17 22:43:31] Skenario: TC20 Korporasi & Enterprise Asuransi | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 22:43:31] Skenario: TC20 Korporasi & Enterprise Asuransi | Result: Cek status pada user maker
+[2025-02-17 22:44:03] Skenario: TC20 Korporasi & Enterprise Asuransi | Result: END
+[2025-02-17 22:45:48] Skenario: TC12 Korporasi & Enterprise Pembukaan Rek | Result: START
+[2025-02-17 22:46:31] Skenario: TC12 Korporasi & Enterprise Pembukaan Rek | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-02-17 22:46:31] Skenario: TC12 Korporasi & Enterprise Pembukaan Rek | Result: Cek status pada user maker
+[2025-02-17 22:47:04] Skenario: TC12 Korporasi & Enterprise Pembukaan Rek | Result: END

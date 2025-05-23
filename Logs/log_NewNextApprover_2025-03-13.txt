@@ -1,0 +1,127 @@
+[2025-03-13 14:38:43] Skenario: T01-0311 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-03-13 14:39:50] Skenario: T01-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/5 Sukses || 76331 Imran Riyadi
+[2025-03-13 14:40:51] Skenario: T01-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/5 Sukses || 19784 EVI MAYALIANA
+[2025-03-13 14:41:59] Skenario: T01-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-03-13 14:43:07] Skenario: T01-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-03-13 14:43:07] Skenario: T01-0311 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-13 14:43:42] Skenario: T01-0311 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-03-13 14:43:53] Skenario: T02-0311 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-03-13 14:44:44] Skenario: T02-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/4 Sukses || 76331 Imran Riyadi
+[2025-03-13 14:46:02] Skenario: T02-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/4 Sukses || 19784 EVI MAYALIANA
+[2025-03-13 14:46:58] Skenario: T02-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 3/4 Sukses || 13895 DWI JATNO DJOKO SANTOSO V.
+[2025-03-13 14:46:58] Skenario: T02-0311 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-13 14:47:43] Skenario: T02-0311 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-03-13 14:48:01] Skenario: T03-0311 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-03-13 14:48:47] Skenario: T03-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-03-13 14:49:58] Skenario: T03-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-03-13 14:49:58] Skenario: T03-0311 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-13 14:50:35] Skenario: T03-0311 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-03-13 14:50:46] Skenario: T04-0311 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-03-13 14:51:38] Skenario: T04-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/5 Sukses || 76331 Imran Riyadi
+[2025-03-13 14:52:39] Skenario: T04-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/5 Sukses || 19784 EVI MAYALIANA
+[2025-03-13 14:53:48] Skenario: T04-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-03-13 14:54:53] Skenario: T04-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-03-13 14:54:53] Skenario: T04-0311 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-13 14:55:28] Skenario: T04-0311 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-03-13 14:55:40] Skenario: T05-0311 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-03-13 14:56:30] Skenario: T05-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/4 Sukses || 76331 Imran Riyadi
+[2025-03-13 14:57:24] Skenario: T05-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/4 Sukses || 19784 EVI MAYALIANA
+[2025-03-13 14:58:30] Skenario: T05-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 3/4 Sukses || 13895 DWI JATNO DJOKO SANTOSO V.
+[2025-03-13 14:58:30] Skenario: T05-0311 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-13 14:59:06] Skenario: T05-0311 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-03-13 14:59:19] Skenario: T06-0311 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-03-13 15:00:04] Skenario: T06-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-03-13 15:01:13] Skenario: T06-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-03-13 15:01:13] Skenario: T06-0311 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-13 15:01:52] Skenario: T06-0311 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-03-13 15:02:30] Skenario: T07-0311 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-03-13 15:03:04] Skenario: T07-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/4 Sukses || 76331 Imran Riyadi
+[2025-03-13 15:03:53] Skenario: T07-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/4 Sukses || 19784 EVI MAYALIANA
+[2025-03-13 15:04:51] Skenario: T07-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 3/4 Sukses || 13895 DWI JATNO DJOKO SANTOSO V.
+[2025-03-13 15:04:51] Skenario: T07-0311 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-13 15:05:04] Skenario: T07-0311 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-03-13 15:05:21] Skenario: T08-0311 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-03-13 15:06:06] Skenario: T08-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/4 Sukses || 76331 Imran Riyadi
+[2025-03-13 15:06:54] Skenario: T08-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/4 Sukses || 19784 EVI MAYALIANA
+[2025-03-13 15:07:52] Skenario: T08-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 3/4 Sukses || 13895 DWI JATNO DJOKO SANTOSO V.
+[2025-03-13 15:07:52] Skenario: T08-0311 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-13 15:08:06] Skenario: T08-0311 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-03-13 15:08:38] Skenario: T09-0311 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-03-13 15:09:12] Skenario: T09-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-03-13 15:09:57] Skenario: T09-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-03-13 15:09:57] Skenario: T09-0311 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-13 15:10:36] Skenario: T09-0311 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-03-13 15:10:51] Skenario: T10-0311 Korporasi & Enterprise Bucket Adjusment | Result: START
+[2025-03-13 15:11:22] Skenario: T10-0311 Korporasi & Enterprise Bucket Adjusment | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-03-13 15:12:05] Skenario: T10-0311 Korporasi & Enterprise Bucket Adjusment | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-03-13 15:12:05] Skenario: T10-0311 Korporasi & Enterprise Bucket Adjusment | Result: Cek status pada user maker
+[2025-03-13 15:12:45] Skenario: T10-0311 Korporasi & Enterprise Bucket Adjusment | Result: END
+[2025-03-13 15:12:55] Skenario: T11-0311 Korporasi & Enterprise Asuransi | Result: START
+[2025-03-13 15:13:25] Skenario: T11-0311 Korporasi & Enterprise Asuransi | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-03-13 15:14:08] Skenario: T11-0311 Korporasi & Enterprise Asuransi | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-03-13 15:14:08] Skenario: T11-0311 Korporasi & Enterprise Asuransi | Result: Cek status pada user maker
+[2025-03-13 15:14:48] Skenario: T11-0311 Korporasi & Enterprise Asuransi | Result: END
+[2025-03-13 15:15:05] Skenario: T12-0311 BOP Pemindahbukuan | Result: START
+[2025-03-13 15:15:42] Skenario: T12-0311 BOP Pemindahbukuan | Result: Approver 1/4 Sukses || 46581 DODY SETIYADI
+[2025-03-13 15:16:36] Skenario: T12-0311 BOP Pemindahbukuan | Result: Approver 2/4 Sukses || 43523 MOH TAUFAN ADIDAYA
+[2025-03-13 15:17:32] Skenario: T12-0311 BOP Pemindahbukuan | Result: Approver 3/4 Sukses || 27174 PEDY BINAWAN
+[2025-03-13 15:17:32] Skenario: T12-0311 BOP Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-13 15:17:44] Skenario: T12-0311 BOP Pemindahbukuan | Result: END
+[2025-03-13 15:18:02] Skenario: T13-0311 BOP Pemindahbukuan | Result: START
+[2025-03-13 15:18:53] Skenario: T13-0311 BOP Pemindahbukuan | Result: Approver 1/4 Sukses || 46581 DODY SETIYADI
+[2025-03-13 15:19:45] Skenario: T13-0311 BOP Pemindahbukuan | Result: Approver 2/4 Sukses || 43523 MOH TAUFAN ADIDAYA
+[2025-03-13 15:19:45] Skenario: T13-0311 BOP Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-13 15:20:25] Skenario: T13-0311 BOP Pemindahbukuan | Result: END
+[2025-03-13 15:20:44] Skenario: T14-0311 BOP Pemindahbukuan | Result: START
+[2025-03-13 15:21:21] Skenario: T14-0311 BOP Pemindahbukuan | Result: Approver 1/4 Sukses || 46581 DODY SETIYADI
+[2025-03-13 15:22:14] Skenario: T14-0311 BOP Pemindahbukuan | Result: Approver 2/4 Sukses || 43523 MOH TAUFAN ADIDAYA
+[2025-03-13 15:23:10] Skenario: T14-0311 BOP Pemindahbukuan | Result: Approver 3/4 Sukses || 27174 PEDY BINAWAN
+[2025-03-13 15:23:10] Skenario: T14-0311 BOP Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-13 15:23:22] Skenario: T14-0311 BOP Pemindahbukuan | Result: END
+[2025-03-13 15:23:33] Skenario: T15-0311 BOP Pemindahbukuan | Result: START
+[2025-03-13 15:24:20] Skenario: T15-0311 BOP Pemindahbukuan | Result: Approver 1/4 Sukses || 46581 DODY SETIYADI
+[2025-03-13 15:24:56] Skenario: T15-0311 BOP Pemindahbukuan | Result: Approver 2/4 Sukses || 43523 MOH TAUFAN ADIDAYA
+[2025-03-13 15:24:56] Skenario: T15-0311 BOP Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-13 15:25:21] Skenario: T15-0311 BOP Pemindahbukuan | Result: END
+[2025-03-13 15:25:39] Skenario: T16-0311 BOP Bucket Adjusment | Result: START
+[2025-03-13 15:26:23] Skenario: T16-0311 BOP Bucket Adjusment | Result: Approver 1/4 Sukses || 46581 DODY SETIYADI
+[2025-03-13 15:27:15] Skenario: T16-0311 BOP Bucket Adjusment | Result: Approver 2/4 Sukses || 43523 MOH TAUFAN ADIDAYA
+[2025-03-13 15:28:09] Skenario: T16-0311 BOP Bucket Adjusment | Result: Approver 3/4 Sukses || 27174 PEDY BINAWAN
+[2025-03-13 15:28:09] Skenario: T16-0311 BOP Bucket Adjusment | Result: Cek status pada user maker
+[2025-03-13 15:28:21] Skenario: T16-0311 BOP Bucket Adjusment | Result: END
+[2025-03-13 15:28:44] Skenario: T17-0311 BOP Asuransi | Result: START
+[2025-03-13 15:29:24] Skenario: T17-0311 BOP Asuransi | Result: Approver 1/4 Sukses || 46581 DODY SETIYADI
+[2025-03-13 15:30:14] Skenario: T17-0311 BOP Asuransi | Result: Approver 2/4 Sukses || 43523 MOH TAUFAN ADIDAYA
+[2025-03-13 15:30:14] Skenario: T17-0311 BOP Asuransi | Result: Cek status pada user maker
+[2025-03-13 15:30:40] Skenario: T17-0311 BOP Asuransi | Result: END
+[2025-03-13 21:53:43] Skenario: T07-0311 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-03-13 21:54:34] Skenario: T07-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/5 Sukses || 76331 Imran Riyadi
+[2025-03-13 21:55:24] Skenario: T07-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/5 Sukses || 19784 EVI MAYALIANA
+[2025-03-13 21:56:29] Skenario: T07-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 3/5 Sukses || 17067 EEP MULYANA
+[2025-03-13 21:57:03] Skenario: T07-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 4/5 Sukses || 13801 ANOM SURYONO
+[2025-03-13 21:57:03] Skenario: T07-0311 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-13 21:57:30] Skenario: T07-0311 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-03-13 21:59:36] Skenario: T08-0311 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-03-13 22:00:10] Skenario: T08-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/4 Sukses || 76331 Imran Riyadi
+[2025-03-13 22:01:11] Skenario: T08-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/4 Sukses || 19784 EVI MAYALIANA
+[2025-03-13 22:02:11] Skenario: T08-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 3/4 Sukses || 13895 DWI JATNO DJOKO SANTOSO V.
+[2025-03-13 22:02:11] Skenario: T08-0311 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-13 22:02:33] Skenario: T08-0311 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-03-13 22:02:52] Skenario: T09-0311 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-03-13 22:03:35] Skenario: T09-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/3 Sukses || 76331 Imran Riyadi
+[2025-03-13 22:04:28] Skenario: T09-0311 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/3 Sukses || 19784 EVI MAYALIANA
+[2025-03-13 22:04:28] Skenario: T09-0311 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-13 22:05:18] Skenario: T09-0311 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-03-13 22:05:29] Skenario: T12-0311 BOP Pemindahbukuan | Result: START
+[2025-03-13 22:06:36] Skenario: T12-0311 BOP Pemindahbukuan | Result: Approver 1/4 Sukses || 46581 DODY SETIYADI
+[2025-03-13 22:08:14] Skenario: T12-0311 BOP Pemindahbukuan | Result: Approver 2/4 Sukses || 43523 MOH TAUFAN ADIDAYA
+[2025-03-13 22:09:19] Skenario: T12-0311 BOP Pemindahbukuan | Result: Approver 3/4 Sukses || 27174 PEDY BINAWAN
+[2025-03-13 22:09:19] Skenario: T12-0311 BOP Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-13 22:09:31] Skenario: T12-0311 BOP Pemindahbukuan | Result: END
+[2025-03-13 22:10:42] Skenario: T14-0311 BOP Pemindahbukuan | Result: START
+[2025-03-13 22:11:21] Skenario: T14-0311 BOP Pemindahbukuan | Result: Approver 1/4 Sukses || 46581 DODY SETIYADI
+[2025-03-13 22:12:18] Skenario: T14-0311 BOP Pemindahbukuan | Result: Approver 2/4 Sukses || 43523 MOH TAUFAN ADIDAYA
+[2025-03-13 22:13:22] Skenario: T14-0311 BOP Pemindahbukuan | Result: Approver 3/4 Sukses || 27174 PEDY BINAWAN
+[2025-03-13 22:13:22] Skenario: T14-0311 BOP Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-13 22:14:01] Skenario: T14-0311 BOP Pemindahbukuan | Result: END
+[2025-03-13 22:20:50] Skenario: T15-0311 BOP Pemindahbukuan | Result: START

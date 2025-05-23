@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Download Result</name>
+   <tag></tag>
+   <elementGuidId>144c395d-ef2f-4133-ae04-8fbd39bf5989</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//i[@title = 'Download Attachment']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fas.fa-download</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>60614a63-6a36-446d-95a1-2f38c1d3086a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Download Attachment</value>
+      <webElementGuid>77873fd2-b6c7-4278-8c52-976500716035</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-download</value>
+      <webElementGuid>7bb0a1c2-25df-4dfb-b38f-26274e86b6c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>DownloadAttachment('79722')</value>
+      <webElementGuid>84ac778d-a99e-4ddb-bf56-68f10341a9ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header-1&quot;)/i[@class=&quot;fas fa-download&quot;]</value>
+      <webElementGuid>5b366aaf-2a8d-4c5f-9371-b60667f9c20b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//i[@onclick=&quot;DownloadAttachment('79722')&quot;]</value>
+      <webElementGuid>1bced2be-3d0b-4df7-a9e4-dbafa6479303</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='header-1']/i</value>
+      <webElementGuid>c038e73f-84fa-4a35-a3e7-d15b1fd92d39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/ul/li/a/i</value>
+      <webElementGuid>de7c79e2-b6c2-456b-8d7c-c809a77df4d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//i[@title = 'Download Attachment']</value>
+      <webElementGuid>c0e24e44-bcad-493b-bfd0-0756e0514346</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

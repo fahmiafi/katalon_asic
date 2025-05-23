@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_FERRY K.W. TARUMINGI - COPCORMK1</name>
+   <tag></tag>
+   <elementGuidId>27a6eb9d-26b9-4cf4-b915-fee3d7ddea80</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='DisplayLogin']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#DisplayLogin</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1c759021-cb5d-4114-9a7a-6519123764d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>DisplayLogin</value>
+      <webElementGuid>2be183c2-ee0c-4eaf-baed-6690f461e863</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>FERRY K.W. TARUMINGI - COPCORMK1</value>
+      <webElementGuid>beb85b24-a796-49e6-a7f3-2ceafd368410</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;DisplayLogin&quot;)</value>
+      <webElementGuid>a3e25eca-e5ce-4bea-9638-c69b981e1598</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='DisplayLogin']</value>
+      <webElementGuid>5633946f-3c90-4f83-9f75-51c27eaf3f83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a/span</value>
+      <webElementGuid>4be2deb7-88a8-4238-bb02-94e887682379</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'DisplayLogin' and (text() = 'FERRY K.W. TARUMINGI - COPCORMK1' or . = 'FERRY K.W. TARUMINGI - COPCORMK1')]</value>
+      <webElementGuid>35dfc117-55fc-4ccb-aa84-526721962dfe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

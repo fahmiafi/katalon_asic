@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Upload Excel Activity</name>
+   <tag></tag>
+   <elementGuidId>9d0d2989-bde1-459a-b717-df72f660ca5d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.custom-file-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='fileData']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>1fde7c74-e002-448e-af57-2894efd9b331</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-file-label</value>
+      <webElementGuid>21255d87-fef5-4507-b8d6-140c1c663c56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>fileData</value>
+      <webElementGuid>2a635e63-561e-4e50-8ec1-20f620cf0bfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Choose file(s)</value>
+      <webElementGuid>56a81839-1623-4592-924e-3ab8346902cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formUpload&quot;)/label[@class=&quot;custom-file-label&quot;]</value>
+      <webElementGuid>86618e4d-1805-4f71-bf54-f2407765261d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='fileData]</value>
+      <webElementGuid>50ff91b2-496b-408a-9df5-1437bd59d848</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload Excel'])[1]/following::label[1]</value>
+      <webElementGuid>5b847233-10e3-4b71-b305-686112d8927d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pembukaan Rekening Pinjaman'])[1]/following::label[2]</value>
+      <webElementGuid>922f0677-dbc6-4608-a61b-d76ec599afa1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Input From'])[1]/preceding::label[1]</value>
+      <webElementGuid>fa6980c8-4941-40b5-a38e-49a991500800</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Choose file(s)']/parent::*</value>
+      <webElementGuid>98f28e37-e3d9-4fab-9169-bc7d04dff8b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/label</value>
+      <webElementGuid>f31cd26c-aa92-4f08-b1ee-081d12d0a21b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Choose file(s)' or . = 'Choose file(s)')]</value>
+      <webElementGuid>aa119b80-0391-4a2b-a0a1-d42c27bf4ea7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,28 @@
+[2025-03-08 00:03:28] Skenario: TES10-0302 BOP Pemindahbukuan | Result: START
+[2025-03-08 00:04:20] Skenario: TES10-0302 BOP Pemindahbukuan | Result: Approver 1/4 Sukses || 46581 DODY SETIYADI
+[2025-03-08 00:05:24] Skenario: TES10-0302 BOP Pemindahbukuan | Result: Approver 2/4 Sukses || 43523 MOH TAUFAN ADIDAYA
+[2025-03-08 00:06:31] Skenario: TES10-0302 BOP Pemindahbukuan | Result: Approver 3/4 Sukses || 27174 PEDY BINAWAN
+[2025-03-08 00:06:31] Skenario: TES10-0302 BOP Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-08 00:07:04] Skenario: TES10-0302 BOP Pemindahbukuan | Result: END
+[2025-03-08 00:07:10] Skenario: TES11-0302 BOP Bucket Adjusment | Result: START
+[2025-03-08 00:08:02] Skenario: TES11-0302 BOP Bucket Adjusment | Result: Approver 1/4 Sukses || 46581 DODY SETIYADI
+[2025-03-08 00:08:45] Skenario: TES11-0302 BOP Bucket Adjusment | Result: Approver 2/4 Sukses || 43523 MOH TAUFAN ADIDAYA
+[2025-03-08 00:09:40] Skenario: TES11-0302 BOP Bucket Adjusment | Result: Approver 3/4 Sukses || 27174 PEDY BINAWAN
+[2025-03-08 00:09:40] Skenario: TES11-0302 BOP Bucket Adjusment | Result: Cek status pada user maker
+[2025-03-08 00:10:19] Skenario: TES11-0302 BOP Bucket Adjusment | Result: END
+[2025-03-08 00:10:22] Skenario: TES12-0302 BOP Asuransi | Result: START
+[2025-03-08 00:11:03] Skenario: TES12-0302 BOP Asuransi | Result: Approver 1/4 Sukses || 46581 DODY SETIYADI
+[2025-03-08 00:12:00] Skenario: TES12-0302 BOP Asuransi | Result: Approver 2/4 Sukses || 43523 MOH TAUFAN ADIDAYA
+[2025-03-08 00:12:00] Skenario: TES12-0302 BOP Asuransi | Result: Cek status pada user maker
+[2025-03-08 00:12:29] Skenario: TES12-0302 BOP Asuransi | Result: END
+[2025-03-08 00:12:39] Skenario: TES13-0302 Korporasi & Enterprise Pemindahbukuan | Result: START
+[2025-03-08 00:13:28] Skenario: TES13-0302 Korporasi & Enterprise Pemindahbukuan | Result: Approver 1/4 Sukses || 76331 Imran Riyadi
+[2025-03-08 00:14:05] Skenario: TES13-0302 Korporasi & Enterprise Pemindahbukuan | Result: Approver 2/4 Sukses || 19784 EVI MAYALIANA
+[2025-03-08 00:14:53] Skenario: TES13-0302 Korporasi & Enterprise Pemindahbukuan | Result: Approver 3/4 Sukses || 13895 DWI JATNO DJOKO SANTOSO V.
+[2025-03-08 00:14:53] Skenario: TES13-0302 Korporasi & Enterprise Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-08 00:15:36] Skenario: TES13-0302 Korporasi & Enterprise Pemindahbukuan | Result: END
+[2025-03-08 00:15:40] Skenario: TES14-0302 BOP Pemindahbukuan | Result: START
+[2025-03-08 00:16:16] Skenario: TES14-0302 BOP Pemindahbukuan | Result: Approver 1/4 Sukses || 46581 DODY SETIYADI
+[2025-03-08 00:17:06] Skenario: TES14-0302 BOP Pemindahbukuan | Result: Approver 2/4 Sukses || 43523 MOH TAUFAN ADIDAYA
+[2025-03-08 00:17:06] Skenario: TES14-0302 BOP Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-08 00:17:49] Skenario: TES14-0302 BOP Pemindahbukuan | Result: END

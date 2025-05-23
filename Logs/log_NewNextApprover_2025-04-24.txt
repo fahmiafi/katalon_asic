@@ -1,0 +1,4 @@
+[2025-04-24 16:11:35] Skenario: TEST042407 Korporasi & Enterprise Pembukaan Rek | Result: START
+[2025-04-24 16:12:14] Skenario: TEST042407 Korporasi & Enterprise Pembukaan Rek | Result: Approver 1/5 Sukses || 76331 Imran Riyadi
+[2025-04-24 16:13:05] Skenario: TEST042407 Korporasi & Enterprise Pembukaan Rek | Result: Approver 2/5 Sukses || 19784 EVI MAYALIANA
+[2025-04-24 16:13:56] Skenario: TEST042407 Korporasi & Enterprise Pembukaan Rek | Result: Approver 3/5 Sukses || 17067 EEP MULYANA

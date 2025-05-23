@@ -1,0 +1,11 @@
+[2025-03-14 14:11:07] Skenario: T15-0311 BOP Pemindahbukuan | Result: START
+[2025-03-14 14:12:14] Skenario: T15-0311 BOP Pemindahbukuan | Result: Approver 1/4 Sukses || 46581 DODY SETIYADI
+[2025-03-14 14:13:20] Skenario: T15-0311 BOP Pemindahbukuan | Result: Approver 2/4 Sukses || 43523 MOH TAUFAN ADIDAYA
+[2025-03-14 14:13:20] Skenario: T15-0311 BOP Pemindahbukuan | Result: Cek status pada user maker
+[2025-03-14 14:13:51] Skenario: T15-0311 BOP Pemindahbukuan | Result: END
+[2025-03-14 14:14:10] Skenario: T16-0311 BOP Bucket Adjusment | Result: START
+[2025-03-14 14:14:48] Skenario: T16-0311 BOP Bucket Adjusment | Result: Approver 1/4 Sukses || 46581 DODY SETIYADI
+[2025-03-14 14:15:56] Skenario: T16-0311 BOP Bucket Adjusment | Result: Approver 2/4 Sukses || 43523 MOH TAUFAN ADIDAYA
+[2025-03-14 14:16:58] Skenario: T16-0311 BOP Bucket Adjusment | Result: Approver 3/4 Sukses || 27174 PEDY BINAWAN
+[2025-03-14 14:16:58] Skenario: T16-0311 BOP Bucket Adjusment | Result: Cek status pada user maker
+[2025-03-14 14:17:41] Skenario: T16-0311 BOP Bucket Adjusment | Result: END

@@ -1,0 +1,34 @@
+[2025-02-14 09:15:04] Skenario: TC-021-20250212 Syndikasi as Fasilitas Pemindahbukuan | Result: PASS
+[2025-02-14 09:16:36] Skenario: TC-022-20250212 Syndikasi as Fasilitas Pemindahbukuan | Result: PASS
+[2025-02-14 09:18:57] Skenario: TC-023-20250212 Syndikasi as Fasilitas Pemindahbukuan | Result: PASS
+[2025-02-14 09:20:46] Skenario: TC-024-20250212 Syndikasi as Fasilitas Pemindahbukuan | Result: PASS
+[2025-02-14 09:22:02] Skenario: TC-025-20250212 Syndikasi as Fasilitas Pemindahbukuan | Result: PASS
+[2025-02-14 09:24:02] Skenario: TC-026-20250212 Syndikasi as Fasilitas Pembukaan Rek | Result: PASS
+[2025-02-14 09:25:37] Skenario: TC-027-20250212 Syndikasi as Fasilitas Pembukaan Rek | Result: PASS
+[2025-02-14 09:26:38] Skenario: TC-028-20250212 Syndikasi as Fasilitas Pembukaan Rek | Result: PASS
+[2025-02-14 09:28:21] Skenario: TC-029-20250212 Syndikasi as Fasilitas Pembukaan Rek | Result: PASS
+[2025-02-14 09:29:42] Skenario: TC-030-20250212 Syndikasi as Fasilitas Pembukaan Rek | Result: PASS
+[2025-02-14 09:31:01] Skenario: TC-031-20250212 Syndikasi as Fasilitas Pemindahbukuan | Result: PASS
+[2025-02-14 09:32:22] Skenario: TC-032-20250212 Syndikasi as Fasilitas Pembukaan Rek | Result: PASS
+[2025-02-14 09:33:37] Skenario: TC-033-20250212 Syndikasi as Fasilitas Blokir Rekening | Result: PASS
+[2025-02-14 09:34:31] Skenario: TC-034-20250212 Syndikasi as Fasilitas Pending Rekening | Result: PASS
+[2025-02-14 09:35:33] Skenario: TC-035-20250212 Syndikasi as Fasilitas Restrukturisasi Rek | Result: PASS
+[2025-02-14 09:36:41] Skenario: TC-036-20250212 Syndikasi as Fasilitas Maintenance Info | Result: PASS
+[2025-02-14 09:37:48] Skenario: TC-037-20250212 Syndikasi as Fasilitas Maintenance Rek | Result: PASS
+[2025-02-14 09:38:49] Skenario: TC-038-20250212 Syndikasi as Fasilitas Penutupan Rek | Result: PASS
+[2025-02-14 09:39:48] Skenario: TC-039-20250212 Syndikasi as Fasilitas Bucket Adjusment | Result: PASS
+[2025-02-14 09:40:58] Skenario: TC-040-20250212 Syndikasi as Fasilitas Asuransi | Result: PASS
+[2025-02-14 09:51:30] Skenario: TC-041-20250212 Syndikasi Escrow Pemindahbukuan | Result: PASS
+[2025-02-14 09:52:47] Skenario: TC-042-20250212 Syndikasi Escrow Pemindahbukuan | Result: PASS
+[2025-02-14 09:54:04] Skenario: TC-043-20250212 Syndikasi Escrow Pembukaan Rek | Result: PASS
+[2025-02-14 09:55:46] Skenario: TC-044-20250212 Syndikasi Escrow Pembukaan Rek | Result: PASS
+[2025-02-14 09:56:50] Skenario: TC-045-20250212 Syndikasi Escrow Pemindahbukuan | Result: PASS
+[2025-02-14 09:58:01] Skenario: TC-046-20250212 Syndikasi Escrow Pembukaan Rek | Result: PASS
+[2025-02-14 09:59:03] Skenario: TC-047-20250212 Syndikasi Escrow Blokir Rekening | Result: PASS
+[2025-02-14 10:00:00] Skenario: TC-048-20250212 Syndikasi Escrow Pending Rekening | Result: PASS
+[2025-02-14 10:01:02] Skenario: TC-049-20250212 Syndikasi Escrow Restrukturisasi Rek | Result: PASS
+[2025-02-14 10:02:28] Skenario: TC-050-20250212 Syndikasi Escrow Maintenance Info | Result: PASS
+[2025-02-14 10:04:00] Skenario: TC-051-20250212 Syndikasi Escrow Maintenance Rek | Result: PASS
+[2025-02-14 10:05:14] Skenario: TC-052-20250212 Syndikasi Escrow Penutupan Rek | Result: PASS
+[2025-02-14 10:06:17] Skenario: TC-053-20250212 Syndikasi Escrow Bucket Adjusment | Result: PASS
+[2025-02-14 10:07:35] Skenario: TC-054-20250212 Syndikasi Escrow Asuransi | Result: PASS

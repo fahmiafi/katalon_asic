@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Card RestrukturisasiRek</name>
+   <tag></tag>
+   <elementGuidId>9c17b082-ed8c-423b-8739-9e41ebe563a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab_2']/div/div[3]/a/div/div/h5</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>ed4e9c8c-d692-4b30-a658-e5643eed756e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Restrukturisasi Rekening</value>
+      <webElementGuid>ad4a57a6-fb5e-4ebc-b966-37c07805d630</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab_2&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6 col-6&quot;]/a[1]/div[@class=&quot;small-box bg-info&quot;]/div[@class=&quot;inner&quot;]/h5[1]</value>
+      <webElementGuid>186079dd-f49a-4c6d-84a1-7403b83dd6bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab_2']/div/div[3]/a/div/div/h5</value>
+      <webElementGuid>970c0d44-cac8-4dca-80e7-f310c200d330</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[3]/a/div/div/h5</value>
+      <webElementGuid>16847aac-cb0e-4ba8-b06c-88f2859c3eaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = 'Restrukturisasi Rekening' or . = 'Restrukturisasi Rekening')]</value>
+      <webElementGuid>85292629-2e91-477a-8bfa-2395019e4a70</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_AddActivity</name>
+   <tag></tag>
+   <elementGuidId>5d79c57e-396a-46f8-95a2-c98def73e794</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//i[@onclick='addActivity()']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-plus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>87f25c1e-a22a-42ed-988f-f0fc3bbf3f6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-plus</value>
+      <webElementGuid>8552f192-2825-42f9-b082-6bfd96c314ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>addActivity()</value>
+      <webElementGuid>49f3e97b-4824-4432-8194-ad43b7a786f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;layout-navbar-fixed layout-fixed sidebar-mini&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-md-12 col-lg-12&quot;]/div[@class=&quot;card card-outline card-orange&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/a[@class=&quot;col-auto&quot;]/i[@class=&quot;fa fa-plus&quot;]</value>
+      <webElementGuid>75ffd99c-2974-4309-af23-f3efbdf0a970</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//i[@onclick='addActivity()']</value>
+      <webElementGuid>6676ff1a-0bb7-4f8e-8e04-7a70979edfcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/a/i</value>
+      <webElementGuid>7e49e7fb-4dec-4b96-b96a-50f807e6ac17</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

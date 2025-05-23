@@ -1,0 +1,102 @@
+[2025-02-09 17:27:46] Skenario: TC-001-20250206 Korporasi & Enterprise Pemindahbukuan | Result: PASS
+[2025-02-09 17:33:25] Skenario: TC-002-20250206 Korporasi & Enterprise Pemindahbukuan | Result: PASS
+[2025-02-09 17:36:17] Skenario: TC-003-20250206 Korporasi & Enterprise Pemindahbukuan | Result: PASS
+[2025-02-09 17:40:35] Skenario: TC-004-20250206 Korporasi & Enterprise Pemindahbukuan | Result: PASS
+[2025-02-09 17:44:57] Skenario: TC-005-20250206 Korporasi & Enterprise Pemindahbukuan | Result: PASS
+[2025-02-09 17:48:03] Skenario: TC-006-20250206 Korporasi & Enterprise Pembukaan Rek | Result: PASS
+[2025-02-09 17:52:03] Skenario: TC-007-20250206 Korporasi & Enterprise Pembukaan Rek | Result: PASS
+[2025-02-09 17:54:13] Skenario: TC-008-20250206 Korporasi & Enterprise Pembukaan Rek | Result: PASS
+[2025-02-09 17:58:13] Skenario: TC-009-20250206 Korporasi & Enterprise Pembukaan Rek | Result: PASS
+[2025-02-09 18:01:59] Skenario: TC-010-20250206 Korporasi & Enterprise Pembukaan Rek | Result: PASS
+[2025-02-09 18:03:17] Skenario: TC-011-20250206 Korporasi & Enterprise Pemindahbukuan | Result: PASS
+[2025-02-09 18:04:50] Skenario: TC-012-20250206 Korporasi & Enterprise Pembukaan Rek | Result: PASS
+[2025-02-09 18:06:31] Skenario: TC-013-20250206 Korporasi & Enterprise Blokir Rekening | Result: PASS
+[2025-02-09 18:07:56] Skenario: TC-014-20250206 Korporasi & Enterprise Pending Rekening | Result: PASS
+[2025-02-09 18:09:21] Skenario: TC-015-20250206 Korporasi & Enterprise Restrukturisasi Rek | Result: PASS
+[2025-02-09 18:11:32] Skenario: TC-016-20250206 Korporasi & Enterprise Maintenance Info | Result: PASS
+[2025-02-09 18:13:38] Skenario: TC-017-20250206 Korporasi & Enterprise Maintenance Rek | Result: PASS
+[2025-02-09 18:15:46] Skenario: TC-018-20250206 Korporasi & Enterprise Penutupan Rek | Result: PASS
+[2025-02-09 18:17:05] Skenario: TC-019-20250206 Korporasi & Enterprise Bucket Adjusment | Result: PASS
+[2025-02-09 18:18:45] Skenario: TC-020-20250206 Korporasi & Enterprise Asuransi | Result: PASS
+[2025-02-09 18:21:29] Skenario: TC-021-20250206 Syndikasi as Fasilitas Pemindahbukuan | Result: PASS
+[2025-02-09 18:25:18] Skenario: TC-022-20250206 Syndikasi as Fasilitas Pemindahbukuan | Result: PASS
+[2025-02-09 18:27:42] Skenario: TC-023-20250206 Syndikasi as Fasilitas Pemindahbukuan | Result: PASS
+[2025-02-09 18:30:18] Skenario: TC-024-20250206 Syndikasi as Fasilitas Pemindahbukuan | Result: PASS
+[2025-02-09 18:34:03] Skenario: TC-025-20250206 Syndikasi as Fasilitas Pemindahbukuan | Result: PASS
+[2025-02-09 18:37:20] Skenario: TC-026-20250206 Syndikasi as Fasilitas Pembukaan Rek | Result: PASS
+[2025-02-09 18:41:09] Skenario: TC-027-20250206 Syndikasi as Fasilitas Pembukaan Rek | Result: PASS
+[2025-02-09 18:43:27] Skenario: TC-028-20250206 Syndikasi as Fasilitas Pembukaan Rek | Result: PASS
+[2025-02-09 18:46:28] Skenario: TC-029-20250206 Syndikasi as Fasilitas Pembukaan Rek | Result: PASS
+[2025-02-09 18:50:12] Skenario: TC-030-20250206 Syndikasi as Fasilitas Pembukaan Rek | Result: PASS
+[2025-02-09 18:51:41] Skenario: TC-031-20250206 Syndikasi as Fasilitas Pemindahbukuan | Result: PASS
+[2025-02-09 18:53:03] Skenario: TC-032-20250206 Syndikasi as Fasilitas Pembukaan Rek | Result: PASS
+[2025-02-09 18:54:53] Skenario: TC-033-20250206 Syndikasi as Fasilitas Blokir Rekening | Result: PASS
+[2025-02-09 18:56:21] Skenario: TC-034-20250206 Syndikasi as Fasilitas Pending Rekening | Result: PASS
+[2025-02-09 18:57:36] Skenario: TC-035-20250206 Syndikasi as Fasilitas Restrukturisasi Rek | Result: PASS
+[2025-02-09 18:59:42] Skenario: TC-036-20250206 Syndikasi as Fasilitas Maintenance Info | Result: PASS
+[2025-02-09 19:01:37] Skenario: TC-037-20250206 Syndikasi as Fasilitas Maintenance Rek | Result: PASS
+[2025-02-09 19:07:53] Skenario: TC-038-20250206 Syndikasi as Fasilitas Penutupan Rek | Result: PASS
+[2025-02-09 19:10:03] Skenario: TC-039-20250206 Syndikasi as Fasilitas Bucket Adjusment | Result: PASS
+[2025-02-09 19:12:16] Skenario: TC-040-20250206 Syndikasi as Fasilitas Asuransi | Result: PASS
+[2025-02-09 19:14:26] Skenario: TC-041-20250206 Syndikasi Escrow Pemindahbukuan | Result: PASS
+[2025-02-09 19:17:31] Skenario: TC-042-20250206 Syndikasi Escrow Pemindahbukuan | Result: PASS
+[2025-02-09 19:18:51] Skenario: TC-043-20250206 Syndikasi Escrow Pembukaan Rek | Result: PASS
+[2025-02-09 19:21:35] Skenario: TC-044-20250206 Syndikasi Escrow Pembukaan Rek | Result: PASS
+[2025-02-09 19:23:11] Skenario: TC-045-20250206 Syndikasi Escrow Pemindahbukuan | Result: PASS
+[2025-02-09 19:24:34] Skenario: TC-046-20250206 Syndikasi Escrow Pembukaan Rek | Result: PASS
+[2025-02-09 19:26:18] Skenario: TC-047-20250206 Syndikasi Escrow Blokir Rekening | Result: PASS
+[2025-02-09 19:27:46] Skenario: TC-048-20250206 Syndikasi Escrow Pending Rekening | Result: PASS
+[2025-02-09 19:29:15] Skenario: TC-049-20250206 Syndikasi Escrow Restrukturisasi Rek | Result: PASS
+[2025-02-09 19:30:56] Skenario: TC-050-20250206 Syndikasi Escrow Maintenance Info | Result: PASS
+[2025-02-09 19:32:25] Skenario: TC-051-20250206 Syndikasi Escrow Maintenance Rek | Result: PASS
+[2025-02-09 19:33:44] Skenario: TC-052-20250206 Syndikasi Escrow Penutupan Rek | Result: PASS
+[2025-02-09 19:36:29] Skenario: TC-053-20250206 Syndikasi Escrow Bucket Adjusment | Result: PASS
+[2025-02-09 19:56:01] Skenario: TC-054-20250206 Syndikasi Escrow Asuransi | Result: PASS
+[2025-02-09 19:58:13] Skenario: TC-055-20250206 Commercial Pemindahbukuan | Result: PASS
+[2025-02-09 20:01:11] Skenario: TC-056-20250206 Commercial Pemindahbukuan | Result: PASS
+[2025-02-09 20:01:43] Skenario: TC-057-20250206 Commercial Pemindahbukuan | Result: PASS
+[2025-02-09 20:03:19] Skenario: TC-058-20250206 Commercial Pemindahbukuan | Result: PASS
+[2025-02-09 20:06:25] Skenario: TC-059-20250206 Commercial Pemindahbukuan | Result: PASS
+[2025-02-09 20:07:40] Skenario: TC-060-20250206 Commercial Pembukaan Rek | Result: PASS
+[2025-02-09 20:10:45] Skenario: TC-061-20250206 Commercial Pembukaan Rek | Result: PASS
+[2025-02-09 20:11:28] Skenario: TC-062-20250206 Commercial Pembukaan Rek | Result: PASS
+[2025-02-09 20:12:39] Skenario: TC-063-20250206 Commercial Pembukaan Rek | Result: PASS
+[2025-02-09 20:15:06] Skenario: TC-064-20250206 Commercial Pembukaan Rek | Result: PASS
+[2025-02-09 20:15:50] Skenario: TC-065-20250206 Commercial Pemindahbukuan | Result: PASS
+[2025-02-09 20:16:21] Skenario: TC-066-20250206 Commercial Pembukaan Rek | Result: PASS
+[2025-02-09 20:16:55] Skenario: TC-067-20250206 Commercial Blokir Rekening | Result: PASS
+[2025-02-09 20:17:33] Skenario: TC-068-20250206 Commercial Pending Rekening | Result: PASS
+[2025-02-09 20:18:29] Skenario: TC-069-20250206 Commercial Restrukturisasi Rek | Result: PASS
+[2025-02-09 20:19:10] Skenario: TC-070-20250206 Commercial Maintenance Info | Result: PASS
+[2025-02-09 20:19:51] Skenario: TC-071-20250206 Commercial Maintenance Rek | Result: PASS
+[2025-02-09 20:20:32] Skenario: TC-072-20250206 Commercial Penutupan Rek | Result: PASS
+[2025-02-09 20:21:00] Skenario: TC-073-20250206 Commercial Bucket Adjusment | Result: PASS
+[2025-02-09 20:21:40] Skenario: TC-074-20250206 Commercial Asuransi | Result: PASS
+[2025-02-09 20:22:41] Skenario: TC-075-20250206 Retail Pemindahbukuan | Result: PASS
+[2025-02-09 20:24:16] Skenario: TC-076-20250206 Retail Pemindahbukuan | Result: PASS
+[2025-02-09 20:25:33] Skenario: TC-077-20250206 Retail Pemindahbukuan | Result: PASS
+[2025-02-09 20:27:13] Skenario: TC-078-20250206 Retail Pemindahbukuan | Result: PASS
+[2025-02-09 20:27:58] Skenario: TC-079-20250206 Retail Pemindahbukuan | Result: PASS
+[2025-02-09 20:29:09] Skenario: TC-080-20250206 Retail Pemindahbukuan | Result: PASS
+[2025-02-09 20:30:28] Skenario: TC-081-20250206 Retail Pemindahbukuan | Result: PASS
+[2025-02-09 20:31:30] Skenario: TC-082-20250206 Retail Pembukaan Rek | Result: PASS
+[2025-02-09 20:33:06] Skenario: TC-083-20250206 Retail Pembukaan Rek | Result: PASS
+[2025-02-09 20:34:31] Skenario: TC-084-20250206 Retail Pembukaan Rek | Result: PASS
+[2025-02-09 20:36:13] Skenario: TC-085-20250206 Retail Pembukaan Rek | Result: PASS
+[2025-02-09 20:37:09] Skenario: TC-086-20250206 Retail Pembukaan Rek | Result: PASS
+[2025-02-09 20:38:37] Skenario: TC-087-20250206 Retail Pembukaan Rek | Result: PASS
+[2025-02-09 20:40:03] Skenario: TC-088-20250206 Retail Pembukaan Rek | Result: PASS
+[2025-02-09 20:41:50] Skenario: TC-089-20250206 Retail Pemindahbukuan | Result: PASS
+[2025-02-09 20:42:36] Skenario: TC-090-20250206 Retail Pembukaan Rek | Result: ERROR Approval ke-1 tidak ada
+[2025-02-09 20:43:44] Skenario: TC-091-20250206 Retail Blokir Rekening | Result: PASS
+[2025-02-09 20:45:45] Skenario: TC-092-20250206 Retail Pending Rekening | Result: PASS
+[2025-02-09 20:47:09] Skenario: TC-093-20250206 Retail Restrukturisasi Rek | Result: PASS
+[2025-02-09 20:48:37] Skenario: TC-094-20250206 Retail Maintenance Info | Result: PASS
+[2025-02-09 20:58:12] Skenario: TC-096-20250206 Retail Penutupan Rek | Result: PASS
+[2025-02-09 21:00:21] Skenario: TC-097-20250206 Retail Bucket Adjusment | Result: PASS
+[2025-02-09 21:02:32] Skenario: TC-098-20250206 Retail Asuransi | Result: PASS
+[2025-02-09 21:15:29] Skenario: TC-094-20250206 Retail Maintenance Info | Result: START
+[2025-02-09 21:18:25] Skenario: TC-094-20250206 Retail Maintenance Info | Result: START
+[2025-02-09 21:20:11] Skenario: TC-095-20250206 Retail Maintenance Rek | Result: START
+[2025-02-09 21:20:43] Skenario: TC-095-20250206 Retail Maintenance Rek | Result: Approver 2/3 Sukses || 30028 M. FAHREZI WIJAYA
+[2025-02-09 21:20:43] Skenario: TC-095-20250206 Retail Maintenance Rek | Result: END

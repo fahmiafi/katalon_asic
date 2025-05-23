@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Imbal Jasa</name>
+   <tag></tag>
+   <elementGuidId>9ef2b11f-2e0f-4dbf-95aa-bb489498efe5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='Asuransi_Detail_ImbalJasa']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Asuransi_Detail_ImbalJasa</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>57610a1b-e426-4fc6-a1a4-38b574bc149b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>b08dd1f8-4d98-4ad3-8c45-cf980c330493</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>7d978892-0429-4734-af6f-542e2fe9fb58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val-number</name>
+      <type>Main</type>
+      <value>The field ImbalJasa must be a number.</value>
+      <webElementGuid>16b00275-3714-42cb-9ab2-7644e5f7108b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Asuransi_Detail_ImbalJasa</value>
+      <webElementGuid>b521b660-e0dc-4929-8fce-5471f74931e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Asuransi_Detail.ImbalJasa</value>
+      <webElementGuid>055bcb11-4397-4a1d-ac4e-34576ec4eca6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>calculateImbalJasa()</value>
+      <webElementGuid>1ab5c254-5b42-4828-af81-126acd6938fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>-
+0,0
+7,5
+15,0
+20,0
+25,0
+</value>
+      <webElementGuid>b2ce5692-3a63-4fc7-8dc3-f48c9f2798b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Asuransi_Detail_ImbalJasa&quot;)</value>
+      <webElementGuid>8be39e76-b8a8-488a-a6f1-3a5c4729b474</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='Asuransi_Detail_ImbalJasa']</value>
+      <webElementGuid>2ad627b5-43ec-480a-a19f-9a5208854c0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='AddEditFormAsuransi']/div/div[5]/div/select[2]</value>
+      <webElementGuid>9a1cc5df-0235-4b2f-a157-35b14c0896e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select[2]</value>
+      <webElementGuid>0b83d2bf-92ea-478a-adbb-8e82b00ad991</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'Asuransi_Detail_ImbalJasa' and @name = 'Asuransi_Detail.ImbalJasa' and (text() = '-
+0,0
+7,5
+15,0
+20,0
+25,0
+' or . = '-
+0,0
+7,5
+15,0
+20,0
+25,0
+')]</value>
+      <webElementGuid>e3dc0179-64b8-40fe-8233-e1ecdc714564</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Status Activity</name>
+   <tag></tag>
+   <elementGuidId>a0c06bb3-35f2-4f82-bad4-6c97354bc0d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='activityTable']/tbody/tr/td[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#activityTable > tbody > tr.odd > td:nth-of-type(4)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>16210c04-6a4c-44e1-9280-245f486e9d37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Execution Failed</value>
+      <webElementGuid>b3188d73-78f4-408c-8647-639ea3465c34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;activityTable&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[4]</value>
+      <webElementGuid>1d494c0e-fd0a-4b88-913a-694823f9647b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='activityTable']/tbody/tr/td[4]</value>
+      <webElementGuid>acf2c32f-7a2b-4c26-9c83-2f67a68021a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div[2]/div/table/tbody/tr/td[4]</value>
+      <webElementGuid>17645316-5b62-4e6d-b499-b245954e94ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Execution Failed' or . = 'Execution Failed')]</value>
+      <webElementGuid>9d48e2d4-135f-4f6c-865a-40cb5717b606</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button Re-Execute</name>
+   <tag></tag>
+   <elementGuidId>eadc03bf-da22-4b67-bc16-25d3287143c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//i[(text() = ' Re-Execute' or . = ' Re-Execute')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-retweet</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>95e04ccf-ca96-4b04-9023-21a5b65146d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-retweet</value>
+      <webElementGuid>1a4b455a-924e-4556-99b5-5ab04e992847</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>RetryBatch(40052)</value>
+      <webElementGuid>8799d30c-f203-4b83-934c-6e4657c5b378</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Re-Execute</value>
+      <webElementGuid>874b8b7b-3051-4b6c-971b-fb0629d9b0d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;card-adc&quot;)/div[@class=&quot;card-body&quot;]/div[@class=&quot;mb-4&quot;]/div[@class=&quot;btn-group&quot;]/a[@class=&quot;btn btn-default text-primary&quot;]/i[@class=&quot;fa fa-retweet&quot;]</value>
+      <webElementGuid>e4d2a8eb-7f99-4d44-a0d2-cce406419c81</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//i[@onclick='RetryBatch(40052)']</value>
+      <webElementGuid>91ae6a35-13e3-4f37-87d8-f77b16fe9bf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='card-adc']/div[2]/div[9]/div/a[3]/i</value>
+      <webElementGuid>4e6c8299-3f59-4161-afb6-e3d8d03aae4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]/i</value>
+      <webElementGuid>81f72b83-ed60-4fb6-9ec6-dd905d359e76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//i[(text() = ' Re-Execute' or . = ' Re-Execute')]</value>
+      <webElementGuid>a538e307-b255-4c8b-aef4-7ded4ef40ed8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

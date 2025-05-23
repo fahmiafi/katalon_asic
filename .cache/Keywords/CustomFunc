@@ -1,0 +1,33 @@
+{
+  "keywordFileContentHash": "AFFE1795E88FB197A6E3E24FDD605E56",
+  "keywordClasses": [
+    {
+      "name": "CustomFunc",
+      "keywordMethods": [
+        {
+          "name": "getTimestamp",
+          "parameters": []
+        },
+        {
+          "name": "takeSS",
+          "parameters": [
+            {
+              "name": "name",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

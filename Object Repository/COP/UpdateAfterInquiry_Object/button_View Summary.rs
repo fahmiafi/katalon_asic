@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_View Summary</name>
+   <tag></tag>
+   <elementGuidId>5c5af7e0-bdf8-411a-87e9-fcbe5e504c4a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type = 'button' and (text() = 'View Summary' or . = 'View Summary')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-sm.btn-outline-success.mr-3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fd32d447-5a3f-4006-9a04-99fe6a5e9808</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>32a58aa4-e9de-4bf5-ba2b-a7ba3296c822</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>viewSummary(39914,3260125)</value>
+      <webElementGuid>49fee59b-2b94-4e4d-8076-3b1a5d5b2284</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-outline-success mr-3</value>
+      <webElementGuid>2932e594-d43a-414f-a2d8-02d0b8ba2daa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View Summary</value>
+      <webElementGuid>c0d24646-b0bc-4b24-b999-f2ab87300fc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;card-adc&quot;)/div[@class=&quot;card-body&quot;]/div[@class=&quot;p-3 mb-3&quot;]/div[@class=&quot;mb-4&quot;]/button[@class=&quot;btn btn-sm btn-outline-success mr-3&quot;]</value>
+      <webElementGuid>420c9049-ed44-433b-8b0f-5abacd253cc7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>c89f7532-737e-4ff6-9ff8-6297b07b3edc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='card-adc']/div[2]/div[13]/div[4]/button</value>
+      <webElementGuid>55e02f33-ba4b-4b0f-a41f-76bc3142cefa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/button</value>
+      <webElementGuid>78c4d28b-8bb6-41f9-97f6-da70764b8180</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'View Summary' or . = 'View Summary')]</value>
+      <webElementGuid>6969ae9a-24a2-47fc-9174-fbc439cf43f9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

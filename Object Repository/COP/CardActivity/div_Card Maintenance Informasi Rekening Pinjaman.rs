@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Card Maintenance Informasi Rekening Pinjaman</name>
+   <tag></tag>
+   <elementGuidId>0ee48647-6289-4596-96ca-23ce537bf339</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab_4']/div/div[2]/a/div/div/h5</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>2abab9b8-c3c9-40c6-b66f-bbdf10fc32ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Maintenance Informasi Rekening Pinjaman</value>
+      <webElementGuid>cc2dd415-2e30-4e9d-afa7-bde4fbdfd3f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab_4&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6&quot;]/a[1]/div[@class=&quot;small-box bg-info&quot;]/div[@class=&quot;inner&quot;]/h5[1]</value>
+      <webElementGuid>0a7ac11f-6ac9-4b20-a39c-b865648a0c69</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab_4']/div/div[2]/a/div/div/h5</value>
+      <webElementGuid>6d962580-98f0-4e61-8a3c-9ec0a3904029</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/a/div/div/h5</value>
+      <webElementGuid>6aff6209-45a2-4823-b5c8-63482080e4c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = 'Maintenance Informasi Rekening Pinjaman' or . = 'Maintenance Informasi Rekening Pinjaman')]</value>
+      <webElementGuid>a2568aae-e265-40b1-a094-a5e9dadfb7d3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

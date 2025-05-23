@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_fas fa-sign-out-alt</name>
+   <tag></tag>
+   <elementGuidId>25d57c3e-17d9-411c-a483-37f60efafee8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='activityTable']/tbody/tr/td[7]/button[2]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-outline-secondary > i.fas.fa-database</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>060fecdc-a8ed-4999-b8b9-92450796c35c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-database</value>
+      <webElementGuid>fdeab81a-7011-4760-bec9-94039739c13b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;activityTable&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[7]/button[@class=&quot;btn btn-outline-secondary&quot;]/i[@class=&quot;fas fa-database&quot;]</value>
+      <webElementGuid>6a7b99cb-8712-4a99-9d55-d14a7d7164e1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='activityTable']/tbody/tr/td[7]/button[2]/i</value>
+      <webElementGuid>cdcb5173-ac42-4f07-8b05-2f59e39a5460</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/i</value>
+      <webElementGuid>9889fc82-97e0-4c9c-8320-28a313d602b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//aside/div/nav/ul/li/a/i</value>
+      <webElementGuid>342c8b3c-34de-4645-b298-4a10731ca61a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div/a/i</value>
+      <webElementGuid>2f44c9e5-8aa3-4468-a962-3bce8ea9bc0b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

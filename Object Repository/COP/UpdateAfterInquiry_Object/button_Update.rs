@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Update</name>
+   <tag></tag>
+   <elementGuidId>11ca452d-bafe-49c1-b4e6-ae3c5ca8585f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(@class, 'btn btn-primary') and normalize-space(text())='Update']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'buttonSubmit' and (text() = 'Update' or . = 'Update')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#buttonSubmit</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b942d208-1156-49d7-b621-5d42f955f69f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>buttonSubmit</value>
+      <webElementGuid>d50ed2bc-2953-46a1-b831-f7f22e3278b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>2d4ef912-c745-4c7a-ae6e-49c9b0761c3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>checkAlertSaldo('False', 'Inquiry Incomplete')</value>
+      <webElementGuid>3701e34f-ccea-4bb9-8f16-d2013269a277</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Update</value>
+      <webElementGuid>8331e98c-c64a-4ad9-8a79-67d97c839c79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;buttonSubmit&quot;)</value>
+      <webElementGuid>68ac53bf-7482-47b6-84bb-fae7bb72650c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[contains(@class, 'btn btn-primary') and normalize-space(text())='Update']</value>
+      <webElementGuid>09e7dc17-67a9-4c9f-a023-7d8e0600d56c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
