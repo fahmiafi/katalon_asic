@@ -26,13 +26,18 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 import org.openqa.selenium.By
 import org.openqa.selenium.WebElement
 import excel.ExcelHelper
+import custom.ActivityUtils
+import logger.TestStepLogger
 
-String testCaseName = RunConfiguration.getExecutionSourceName()
 String NoTC = GlobalVariable.NoTC
 String Seq = GlobalVariable.Seq
 String Pencairan = GlobalVariable.Pencairan
+String UseCase = GlobalVariable.UseCase
 String newDirectoryPath = GlobalVariable.newDirectoryPath
 Integer numberCapture = 1
+String BulkUpload = GlobalVariable.BulkUpload
+String ExcelFilename = GlobalVariable.ExcelFilename
+String stepName = GlobalVariable.stepName
 
 List<String> KodeRestrukList = [
 	'0: Remove',
@@ -59,67 +64,69 @@ List<String> MetodeRestrukList = [
 	'A: Penambahan fasilitas kredit,  pengurangan tunggakan bunga kredit, dan perpanjangan jangka waktu kredit',
 	'B: Lainnya',
 ]
-// Path ke file Excel
-String excelFilePath = RunConfiguration.getProjectDir() + GlobalVariable.PathDataExcel
-FileInputStream file = new FileInputStream(excelFilePath)
-Workbook workbook = new XSSFWorkbook(file)
-Sheet sheetAct = workbook.getSheet("Act Restrukturisasi Rek")
 
-// Cari berdasarkan TC
-String TanggalRestruk          = ""
-String Frekuensi               = ""
-String KodeRM                  = ""
-String Deskripsi               = ""
-String NoRek                   = ""
-String KodeRestruk             = ""
-String MetodeRestruk           = ""
-String KolektabilitasRekening  = ""
-String FlagStimulus            = ""
-for (int i = 2; i <= sheetAct.getLastRowNum(); i++) {
-	Row row = sheetAct.getRow(i)
-	if (row != null && ExcelHelper.getCellValueAsString(row, 0) == NoTC && ExcelHelper.getCellValueAsString(row, 1) == Seq) {
-		TanggalRestruk          = ExcelHelper.getCellValueAsString(row, 4)
-		Frekuensi               = ExcelHelper.getCellValueAsString(row, 5)
-		KodeRM                  = ExcelHelper.getCellValueAsString(row, 6)
-		Deskripsi               = ExcelHelper.getCellValueAsString(row, 7)
-		NoRek                   = ExcelHelper.getCellValueAsString(row, 8)
-		KodeRestruk             = ExcelHelper.getCellValueAsString(row, 9)
-		MetodeRestruk           = ExcelHelper.getCellValueAsString(row, 10)
-		KolektabilitasRekening  = ExcelHelper.getCellValueAsString(row, 11)
-		FlagStimulus            = ExcelHelper.getCellValueAsString(row, 12)
-		break
-	}
-}
-WebDriver driver = DriverFactory.getWebDriver()
-WebUI.comment("TC: ${NoTC}")
-
-WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Card Activity.png')
 WebUI.click(findTestObject('Object Repository/COP/TabCard/a_Tab_PenutupanPendingRestrukturisasi'))
+TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Pilih Use Case '+ UseCase, newDirectoryPath, true, false)
 WebUI.click(findTestObject('Object Repository/COP/CardActivity/div_Card RestrukturisasiRek'))
-WebUI.delay(3)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/input_NoRek'), NoRek)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/input_TglRestruk'), TanggalRestruk)
-//WebUI.click(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/input_Frekuensi'))
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/input_Frekuensi'), Frekuensi)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/input_KodeRM'), KodeRM)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/textarea_Deskripsi'), Deskripsi)
-String resultKodeResult = KodeRestrukList.find { it.contains(KodeRestruk) }
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/select_Kode Restrukturisasi'), resultKodeResult, true)
-WebUI.delay(3)
-String resultMetodeRestruk = MetodeRestrukList.find { it.contains(MetodeRestruk) }
-WebUI.selectOptionByValue(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/select_Metode Restrukturisasi'), resultMetodeRestruk, true)
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/select_Kolektabilitas Rekening'), KolektabilitasRekening, true)
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/select_FlagStimulus'), FlagStimulus, true)
 
-CustomKeywords.'custom.CustomKeywords.scrollToTop'()
-WebUI.click(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/input_NoRek'))
+if (BulkUpload == 'Y') {
+	// Input Excel
+	WebUI.click(findTestObject('Object Repository/COP/input_Excel'))
+	TestObject uploadExel = findTestObject('Object Repository/COP/label_Upload Excel Activity')
+	WebUI.uploadFile(uploadExel, ExcelFilename)
+}
+else {
+	// Path ke file Excel
+	String excelFilePath = RunConfiguration.getProjectDir() + GlobalVariable.PathDataExcel
+	FileInputStream file = new FileInputStream(excelFilePath)
+	Workbook workbook = new XSSFWorkbook(file)
+	Sheet sheetAct = workbook.getSheet("Act Restrukturisasi Rek")
+	
+	// Cari berdasarkan TC
+	String TanggalRestruk          = ""
+	String Frekuensi               = ""
+	String KodeRM                  = ""
+	String Deskripsi               = ""
+	String NoRek                   = ""
+	String KodeRestruk             = ""
+	String MetodeRestruk           = ""
+	String KolektabilitasRekening  = ""
+	String FlagStimulus            = ""
+	for (int i = 2; i <= sheetAct.getLastRowNum(); i++) {
+		Row row = sheetAct.getRow(i)
+		if (row != null && ExcelHelper.getCellValueAsString(row, 0) == NoTC && ExcelHelper.getCellValueAsString(row, 1) == Seq) {
+			TanggalRestruk          = ExcelHelper.getCellValueAsString(row, 4)
+			Frekuensi               = ExcelHelper.getCellValueAsString(row, 5)
+			KodeRM                  = ExcelHelper.getCellValueAsString(row, 6)
+			Deskripsi               = ExcelHelper.getCellValueAsString(row, 7)
+			NoRek                   = ExcelHelper.getCellValueAsString(row, 8)
+			KodeRestruk             = ExcelHelper.getCellValueAsString(row, 9)
+			MetodeRestruk           = ExcelHelper.getCellValueAsString(row, 10)
+			KolektabilitasRekening  = ExcelHelper.getCellValueAsString(row, 11)
+			FlagStimulus            = ExcelHelper.getCellValueAsString(row, 12)
+			break
+		}
+	}
+	WebDriver driver = DriverFactory.getWebDriver()
+	WebUI.comment("TC: ${NoTC}")
+	
+	WebUI.delay(3)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/input_NoRek'), NoRek)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/input_TglRestruk'), TanggalRestruk)
+	WebUI.click(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/input_Frekuensi'))
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/input_Frekuensi'), Frekuensi)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/input_KodeRM'), KodeRM)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/textarea_Deskripsi'), Deskripsi)
+	String resultKodeResult = KodeRestrukList.find { it.contains(KodeRestruk) }
+	WebUI.selectOptionByLabel(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/select_Kode Restrukturisasi'), resultKodeResult, true)
+	WebUI.delay(3)
+	String resultMetodeRestruk = MetodeRestrukList.find { it.contains(MetodeRestruk) }
+	WebUI.selectOptionByValue(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/select_Metode Restrukturisasi'), resultMetodeRestruk, true)
+	WebUI.selectOptionByLabel(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/select_Kolektabilitas Rekening'), KolektabilitasRekening, true)
+	WebUI.selectOptionByLabel(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/select_FlagStimulus'), FlagStimulus, true)
+	
+	CustomKeywords.'custom.CustomKeywords.scrollToTop'()
+	WebUI.click(findTestObject('Object Repository/Activity/ActivityRestrukturisasiRek_Object/input_NoRek'))
+}
 
-CustomKeywords.'custom.CustomKeywords.captureFullPageInSections'(newDirectoryPath+'/', numberCapture++ +'. Input Form')
-
-WebUI.scrollToElement(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/button_Save'), 30)
-WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Simpan.png')
-WebUI.click(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/button_Save'))
-WebUI.waitForElementVisible(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/button_Save OK'), 30)
-WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Berhasil disimpan.png')
-WebUI.click(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/button_Save OK'))
-
+ActivityUtils.saveActivityAndCapture(NoTC, stepName, newDirectoryPath, numberCapture)

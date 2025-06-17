@@ -66,9 +66,9 @@ class CustomKeywords {
 		}
 		jsExecutor.executeScript("window.scrollTo(0, document.body.scrollHeight);")
 		File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE)
-//		BufferedImage image = ImageIO.read(screenshot)
-//		File outputFile = new File(outputDirectory + "/"+filename+"_save.png")
-//		ImageIO.write(image, "png", outputFile)
+		//		BufferedImage image = ImageIO.read(screenshot)
+		//		File outputFile = new File(outputDirectory + "/"+filename+"_save.png")
+		//		ImageIO.write(image, "png", outputFile)
 
 		println "Semua screenshot bagian telah disimpan di folder: " + outputDirectory
 	}

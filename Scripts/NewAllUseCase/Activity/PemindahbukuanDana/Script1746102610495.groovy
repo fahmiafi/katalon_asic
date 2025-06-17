@@ -24,14 +24,21 @@ import java.io.FileInputStream
 import java.text.SimpleDateFormat
 import java.util.Date
 import excel.ExcelHelper
+import custom.ActivityUtils
+import logger.TestStepLogger
 
-String testCaseName = RunConfiguration.getExecutionSourceName()
 String NoTC = GlobalVariable.NoTC
 String Seq = GlobalVariable.Seq
 String Pencairan = GlobalVariable.Pencairan
+String UseCase = GlobalVariable.UseCase
 String newDirectoryPath = GlobalVariable.newDirectoryPath
 Integer numberCapture = 1
-String UseCase = GlobalVariable.UseCase
+String BulkUpload = GlobalVariable.BulkUpload
+String ExcelFilename = GlobalVariable.ExcelFilename
+String stepName = GlobalVariable.stepName
+
+TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Pilih Use Case '+ UseCase, newDirectoryPath, true, false)
+WebUI.click(findTestObject('Object Repository/COP/CardActivity/div_card_pinbuk'))
 
 // Path ke file Excel
 String excelFilePath = RunConfiguration.getProjectDir() + GlobalVariable.PathDataExcel
@@ -39,51 +46,49 @@ FileInputStream file = new FileInputStream(excelFilePath)
 Workbook workbook = new XSSFWorkbook(file)
 Sheet sheetAct = workbook.getSheet("Act Pemindahbukuan")
 
-// Cari berdasarkan TC
-String RekDebit = ""
-String RekKredit = ""
-String Nominal = ""
-for (int i = 2; i <= sheetAct.getLastRowNum(); i++) {
-	Row row = sheetAct.getRow(i)
-	if (row != null && ExcelHelper.getCellValueAsString(row, 0) == NoTC && ExcelHelper.getCellValueAsString(row, 1) == Seq) {
-		RekDebit 	= ExcelHelper.getCellValueAsString(row, 4)
-		RekKredit 	= ExcelHelper.getCellValueAsString(row, 5)
-		Nominal 	= ExcelHelper.getCellValueAsString(row, 6)
-		break
-	}
-}
-
-WebUI.comment("TC: ${NoTC}; Pencairan: ${Pencairan} ; RekDebit: ${RekDebit}; RekKredit ${RekKredit} Nominal: ${Nominal}")
-
-WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Pilih Use Case '+ UseCase +'.png')
-WebUI.click(findTestObject('Object Repository/COP/CardActivity/div_card_pinbuk'))
-
-if (Pencairan == 'Pencairan Pertama') {
-	WebUI.click(findTestObject('Object Repository/Activity/ActivtyPemindahbukuan/label_Pencairan Pertama'))
-}
-else if (Pencairan == 'Pencairan ke 2 dan seterusnya') {
-	WebUI.click(findTestObject('Object Repository/Activity/ActivtyPemindahbukuan/label_Pencairan Kedua dan Sterusnya'))
+if (BulkUpload == 'Y') {
+	// Input Excel
+	WebUI.click(findTestObject('Object Repository/COP/input_Excel'))
+	TestObject uploadExel = findTestObject('Object Repository/COP/label_Upload Excel Activity')
+	WebUI.uploadFile(uploadExel, ExcelFilename)
 }
 else {
-	WebUI.click(findTestObject('Object Repository/Activity/ActivtyPemindahbukuan/label_Non Pencairan'))
+	// Cari berdasarkan TC
+	String RekDebit = ""
+	String RekKredit = ""
+	String Nominal = ""
+	for (int i = 2; i <= sheetAct.getLastRowNum(); i++) {
+		Row row = sheetAct.getRow(i)
+		if (row != null && ExcelHelper.getCellValueAsString(row, 0) == NoTC && ExcelHelper.getCellValueAsString(row, 1) == Seq) {
+			RekDebit 	= ExcelHelper.getCellValueAsString(row, 4)
+			RekKredit 	= ExcelHelper.getCellValueAsString(row, 5)
+			Nominal 	= ExcelHelper.getCellValueAsString(row, 6)
+			break
+		}
+	}
+	
+	WebUI.comment("TC: ${NoTC}; Pencairan: ${Pencairan} ; RekDebit: ${RekDebit}; RekKredit ${RekKredit} Nominal: ${Nominal}")
+	
+	if (Pencairan == 'Pencairan Pertama') {
+		WebUI.click(findTestObject('Object Repository/Activity/ActivtyPemindahbukuan/label_Pencairan Pertama'))
+	}
+	else if (Pencairan == 'Pencairan ke 2 dan seterusnya') {
+		WebUI.click(findTestObject('Object Repository/Activity/ActivtyPemindahbukuan/label_Pencairan Kedua dan Sterusnya'))
+	}
+	else {
+		WebUI.click(findTestObject('Object Repository/Activity/ActivtyPemindahbukuan/label_Non Pencairan'))
+	}
+	
+	
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivtyPemindahbukuan/input_NoRekDebit'), RekDebit)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivtyPemindahbukuan/input_NoRekKredit'), RekKredit)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivtyPemindahbukuan/input_DetailPemindahan.Nominal'), Nominal.replaceAll("[^0-9]", ""))
+	// Ambil tanggal dan waktu sekarang
+	Date now = new Date()
+	SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss")
+	String DataTimeNow = sdf.format(now)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivtyPemindahbukuan/textarea_DetailPemindahan.Narasi'), "ASIC-"+DataTimeNow+"-"+NoTC+"-"+Seq)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivtyPemindahbukuan/textarea_DetailPemindahan.NarasiTambahan'), 'Test Narasi 2')
 }
 
-
-WebUI.setText(findTestObject('Object Repository/Activity/ActivtyPemindahbukuan/input_NoRekDebit'), RekDebit)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivtyPemindahbukuan/input_NoRekKredit'), RekKredit)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivtyPemindahbukuan/input_DetailPemindahan.Nominal'), Nominal.replaceAll("[^0-9]", ""))
-// Ambil tanggal dan waktu sekarang
-Date now = new Date()
-SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss")
-String DataTimeNow = sdf.format(now)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivtyPemindahbukuan/textarea_DetailPemindahan.Narasi'), "ASIC-"+DataTimeNow+"-"+NoTC+"-"+Seq)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivtyPemindahbukuan/textarea_DetailPemindahan.NarasiTambahan'), 'Test Narasi 2')
-
-CustomKeywords.'custom.CustomKeywords.captureFullPageInSections'(newDirectoryPath+'/', numberCapture++ +'. Input Form')
-
-WebUI.scrollToElement(findTestObject('Object Repository/COP/button_Save'), 30)
-WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Simpan.png')
-WebUI.click(findTestObject('Object Repository/COP/button_Save'))
-WebUI.waitForElementVisible(findTestObject('Object Repository/COP/button_OK (1)'), 30)
-WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Berhasil disimpan.png')
-WebUI.click(findTestObject('Object Repository/COP/button_OK (1)'))
+ActivityUtils.saveActivityAndCapture(NoTC, stepName, newDirectoryPath, numberCapture)

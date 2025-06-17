@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type = 'button' and (text() = 'Save' or . = 'Save')]</value>
+         <value>//button[(text() = 'Save' or . = 'Save')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e6996ac1-57ab-4f7f-acc1-78ae329f4afc</webElementGuid>
+      <webElementGuid>aee604ec-fe0c-4783-bdf1-07ae0eb69080</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4d784657-a412-467d-959c-903ee1f3c598</webElementGuid>
+      <webElementGuid>7976e109-7aa2-4eab-a56d-d4f6790d8207</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>63b78644-f917-424c-8914-6e1ce65912aa</webElementGuid>
+      <webElementGuid>1b7682f0-9e84-4cee-8240-d0344778a268</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>SaveBlokirRekeningForm()</value>
-      <webElementGuid>c42951da-0857-460a-babb-f492d53a575a</webElementGuid>
+      <webElementGuid>73524077-7933-4f08-89fd-80014459e040</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>1f596ee8-d961-48be-9988-da8f6c958033</webElementGuid>
+      <webElementGuid>fc88d5cc-093a-44ef-819e-13888bce0dd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;layout-navbar-fixed layout-fixed sidebar-mini&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-md-12 col-lg-12&quot;]/div[@class=&quot;card card-outline card-orange&quot;]/div[@class=&quot;card-footer&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>342e2876-8996-4ded-8247-ca4d27dd3236</webElementGuid>
+      <webElementGuid>7b782c84-c8ad-4b50-a480-dd937bebca69</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[4]</value>
-      <webElementGuid>78561393-ddcf-46cf-b019-45b533ae9ca1</webElementGuid>
+      <webElementGuid>481f448c-d4e8-42de-b681-45a073aabc5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button</value>
-      <webElementGuid>31dea2a4-17a9-4d02-89ee-5d5f8eab97be</webElementGuid>
+      <webElementGuid>fa2bd1d1-89ed-4b67-ae23-261730aadc65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Save' or . = 'Save')]</value>
-      <webElementGuid>041b64ee-73d0-48b2-adc2-8bdf878d4729</webElementGuid>
+      <webElementGuid>268bcb2f-2e2d-4b96-ae0f-1de700f31671</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

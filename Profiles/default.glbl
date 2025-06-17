@@ -104,4 +104,19 @@
       <initValue>'1'</initValue>
       <name>Seq</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'N'</initValue>
+      <name>BulkUpload</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ExcelFilename.xlsx'</initValue>
+      <name>ExcelFilename</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>stepName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

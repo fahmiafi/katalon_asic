@@ -139,4 +139,41 @@ public class ApprovalHelper {
 
 		return [dataApproval: dataApproval[maxKey], maxApprovalId: maxKey]
 	}
+	
+	def static Map<String, List<List<String>>> getApprovalDataById(Sheet sheetApproval, String id, String Segmen) {
+		def dataApproval = [:]
+		for (int b = 1; b <= sheetApproval.getLastRowNum(); b++) {
+			Row rowApproval = sheetApproval.getRow(b)
+			String Approval_Id = ExcelHelper.getCellValueAsString(rowApproval, 0)
+			String Approval_Segmen = ExcelHelper.getCellValueAsString(rowApproval, 1)
+
+			if (Approval_Id == id && Approval_Segmen == Segmen) {
+				def approvalList = []
+				
+				def approvers = [
+					[6, 7, 8],
+					[11, 12, 13],
+					[16, 17, 18],
+					[21, 22, 23],
+					[26, 27, 28]
+				]
+				
+				for (appr in approvers) {
+					String npp = ExcelHelper.getCellValueAsString(rowApproval, appr[0])
+					String pwd = ExcelHelper.getCellValueAsString(rowApproval, appr[1])
+					String name = ExcelHelper.getCellValueAsString(rowApproval, appr[2])
+				
+					if (npp && pwd && name) {
+						approvalList.add([npp, pwd, name])
+					}
+				}
+				
+				if (!approvalList.isEmpty()) {
+					dataApproval[Approval_Id] = approvalList
+				}
+				return [dataApproval: dataApproval[Approval_Id], maxApprovalId: Approval_Id]
+				break
+			}
+		}
+	}
 }

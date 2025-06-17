@@ -25,14 +25,24 @@ import org.openqa.selenium.WebDriver
 import com.kms.katalon.core.webui.driver.DriverFactory
 import org.openqa.selenium.By
 import org.openqa.selenium.WebElement
-import excel.ExcelHelper
 
-String testCaseName = RunConfiguration.getExecutionSourceName()
+import excel.ExcelHelper
+import custom.ActivityUtils
+import logger.TestStepLogger
+
 String NoTC = GlobalVariable.NoTC
 String Seq = GlobalVariable.Seq
 String Pencairan = GlobalVariable.Pencairan
+String UseCase = GlobalVariable.UseCase
 String newDirectoryPath = GlobalVariable.newDirectoryPath
 Integer numberCapture = 1
+String BulkUpload = GlobalVariable.BulkUpload
+String ExcelFilename = GlobalVariable.ExcelFilename
+String stepName = GlobalVariable.stepName
+
+WebUI.click(findTestObject('Object Repository/COP/TabCard/a_Tab_AsuransiPembukaan'))
+TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Pilih Use Case '+ UseCase, newDirectoryPath, true, false)
+WebUI.click(findTestObject('Object Repository/COP/CardActivity/div_Card Asuransi Jaminan'))
 
 // Path ke file Excel
 String excelFilePath = RunConfiguration.getProjectDir() + GlobalVariable.PathDataExcel
@@ -40,93 +50,90 @@ FileInputStream file = new FileInputStream(excelFilePath)
 Workbook workbook = new XSSFWorkbook(file)
 Sheet sheetAct = workbook.getSheet("Act Asuransi")
 
-// Cari berdasarkan TC
-String NomorRekening = ""
-String JenisAsuransi = ""
-String NominalCover = ""
-String NominalPremi = ""
-String ImbalJasa = ""
-String BiayaPolis = ""
-String BiayaMaterai = ""
-String Keterangan = ""
-String RekPerusahaanAsuransi = ""
-String NoPolis = ""
-String TanggalMulai = ""
-String TanggalJatuhTempo = ""
-String RekPembebananBiaya = ""
-for (int i = 2; i <= sheetAct.getLastRowNum(); i++) {
-	Row row = sheetAct.getRow(i)
-	if (row != null && ExcelHelper.getCellValueAsString(row, 0) == NoTC && ExcelHelper.getCellValueAsString(row, 1) == Seq) {
-		NomorRekening 			= ExcelHelper.getCellValueAsString(row, 4)
-		JenisAsuransi 			= ExcelHelper.getCellValueAsString(row, 5)
-		NominalCover 			= ExcelHelper.getCellValueAsString(row, 6)
-		NominalPremi 			= ExcelHelper.getCellValueAsString(row, 7)
-		ImbalJasa 				= ExcelHelper.getCellValueAsString(row, 8)
-		BiayaPolis 				= ExcelHelper.getCellValueAsString(row, 9)
-		BiayaMaterai 			= ExcelHelper.getCellValueAsString(row, 10)
-		Keterangan 				= ExcelHelper.getCellValueAsString(row, 11)
-		RekPerusahaanAsuransi 	= ExcelHelper.getCellValueAsString(row, 12)
-		NoPolis 				= ExcelHelper.getCellValueAsString(row, 13)
-		TanggalMulai 			= ExcelHelper.getCellValueAsString(row, 14)
-		TanggalJatuhTempo 		= ExcelHelper.getCellValueAsString(row, 15)
-		RekPembebananBiaya 		= ExcelHelper.getCellValueAsString(row, 16)
-		break
-	}
+if (BulkUpload == 'Y') {
+	// Input Excel
+	WebUI.click(findTestObject('Object Repository/COP/input_Excel'))
+	TestObject uploadExel = findTestObject('Object Repository/COP/label_Upload Excel Activity')
+	WebUI.uploadFile(uploadExel, ExcelFilename)
 }
-WebDriver driver = DriverFactory.getWebDriver()
-WebUI.comment("TC: ${NoTC}")
+else {
+	// Cari berdasarkan TC
+	String NomorRekening = ""
+	String JenisAsuransi = ""
+	String NominalCover = ""
+	String NominalPremi = ""
+	String ImbalJasa = ""
+	String BiayaPolis = ""
+	String BiayaMaterai = ""
+	String Keterangan = ""
+	String RekPerusahaanAsuransi = ""
+	String NoPolis = ""
+	String TanggalMulai = ""
+	String TanggalJatuhTempo = ""
+	String RekPembebananBiaya = ""
+	for (int i = 2; i <= sheetAct.getLastRowNum(); i++) {
+		Row row = sheetAct.getRow(i)
+		if (row != null && ExcelHelper.getCellValueAsString(row, 0) == NoTC && ExcelHelper.getCellValueAsString(row, 1) == Seq) {
+			NomorRekening 			= ExcelHelper.getCellValueAsString(row, 4)
+			JenisAsuransi 			= ExcelHelper.getCellValueAsString(row, 5)
+			NominalCover 			= ExcelHelper.getCellValueAsString(row, 6)
+			NominalPremi 			= ExcelHelper.getCellValueAsString(row, 7)
+			ImbalJasa 				= ExcelHelper.getCellValueAsString(row, 8)
+			BiayaPolis 				= ExcelHelper.getCellValueAsString(row, 9)
+			BiayaMaterai 			= ExcelHelper.getCellValueAsString(row, 10)
+			Keterangan 				= ExcelHelper.getCellValueAsString(row, 11)
+			RekPerusahaanAsuransi 	= ExcelHelper.getCellValueAsString(row, 12)
+			NoPolis 				= ExcelHelper.getCellValueAsString(row, 13)
+			TanggalMulai 			= ExcelHelper.getCellValueAsString(row, 14)
+			TanggalJatuhTempo 		= ExcelHelper.getCellValueAsString(row, 15)
+			RekPembebananBiaya 		= ExcelHelper.getCellValueAsString(row, 16)
+			break
+		}
+	}
+	WebDriver driver = DriverFactory.getWebDriver()
+	WebUI.comment("TC: ${NoTC}")
+	
+	println ("NomorRekening: "+NomorRekening)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_Nomor Rekening'), NomorRekening)
+	
+	println ("JenisAsuransi: "+JenisAsuransi)
+	WebUI.selectOptionByLabel(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/select_Jenis Asuransi'), JenisAsuransi, true)
+	
+	println ("NominalCover: "+NominalCover)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_Nominal Cover'), NominalCover.replaceAll("[^0-9]", ""))
+	
+	println ("NominalPremi: "+NominalPremi)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_Nominal Premi'), NominalPremi.replaceAll("[^0-9]", ""))
+	
+	println ("ImbalJasa: "+ImbalJasa)
+	WebUI.selectOptionByLabel(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/select_Imbal Jasa'), ImbalJasa, true)
+	
+	println ("BiayaPolis: "+BiayaPolis)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_Biaya Polis'), BiayaPolis.replaceAll("[^0-9]", ""))
+	
+	println ("BiayaMaterai: "+BiayaMaterai)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_Biaya Materai'), BiayaPolis.replaceAll("[^0-9]", ""))
+	
+	println ("Keterangan: "+Keterangan)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/textarea_Keterangan'), Keterangan)
+	
+	println ("RekPerusahaanAsuransi: "+RekPerusahaanAsuransi)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_Rek. Perusahaan Asuransi'), RekPerusahaanAsuransi)
+	
+	println ("NoPolis: "+NoPolis)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_No Polis'), NoPolis)
+	
+	println ("TanggalMulai: "+TanggalMulai)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_Tanggal Mulai'), TanggalMulai)
+	
+	println ("TanggalJatuhTempo: "+TanggalJatuhTempo)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_Tanggal Jatuh Tempo'), TanggalJatuhTempo)
+	
+	println ("RekPembebananBiaya: "+RekPembebananBiaya)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_Rek. Pembebanan Biaya'), RekPembebananBiaya)
+	WebUI.selectOptionByLabel(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/select_Jenis Rek Pembebanan Biaya'), 'Simpanan', true)
+	
+	WebUI.click(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/textarea_Keterangan'))
+}
 
-WebUI.click(findTestObject('Object Repository/COP/TabCard/a_Tab_AsuransiPembukaan'))
-WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Card Activity.png')
-WebUI.click(findTestObject('Object Repository/COP/CardActivity/div_Card Asuransi Jaminan'))
-
-println ("NomorRekening: "+NomorRekening)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_Nomor Rekening'), NomorRekening)
-
-println ("JenisAsuransi: "+JenisAsuransi)
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/select_Jenis Asuransi'), JenisAsuransi, true)
-
-println ("NominalCover: "+NominalCover)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_Nominal Cover'), NominalCover.replaceAll("[^0-9]", ""))
-
-println ("NominalPremi: "+NominalPremi)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_Nominal Premi'), NominalPremi.replaceAll("[^0-9]", ""))
-
-println ("ImbalJasa: "+ImbalJasa)
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/select_Imbal Jasa'), ImbalJasa, true)
-
-println ("BiayaPolis: "+BiayaPolis)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_Biaya Polis'), BiayaPolis.replaceAll("[^0-9]", ""))
-
-println ("BiayaMaterai: "+BiayaMaterai)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_Biaya Materai'), BiayaPolis.replaceAll("[^0-9]", ""))
-
-println ("Keterangan: "+Keterangan)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/textarea_Keterangan'), Keterangan)
-
-println ("RekPerusahaanAsuransi: "+RekPerusahaanAsuransi)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_Rek. Perusahaan Asuransi'), RekPerusahaanAsuransi)
-
-println ("NoPolis: "+NoPolis)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_No Polis'), NoPolis)
-
-println ("TanggalMulai: "+TanggalMulai)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_Tanggal Mulai'), TanggalMulai)
-
-println ("TanggalJatuhTempo: "+TanggalJatuhTempo)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_Tanggal Jatuh Tempo'), TanggalJatuhTempo)
-
-println ("RekPembebananBiaya: "+RekPembebananBiaya)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/input_Rek. Pembebanan Biaya'), RekPembebananBiaya)
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/select_Jenis Rek Pembebanan Biaya'), 'Simpanan', true)
-
-WebUI.click(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/textarea_Keterangan'))
-
-CustomKeywords.'custom.CustomKeywords.captureFullPageInSections'(newDirectoryPath+'/', numberCapture++ +'. Input Form')
-
-WebUI.scrollToElement(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/button_Save'), 30)
-WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Simpan.png')
-WebUI.click(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/button_Save'))
-WebUI.waitForElementVisible(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/button_Save OK'), 30)
-WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Berhasil disimpan.png')
-WebUI.click(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/button_Save OK'))
+ActivityUtils.saveActivityAndCapture(NoTC, stepName, newDirectoryPath, numberCapture)

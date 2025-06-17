@@ -31,6 +31,8 @@ import com.kms.katalon.core.testobject.ConditionType
 import utils.LogHelper
 import excel.ExcelHelper
 import approval.ApprovalHelper
+import logger.TestStepLogger
+import custom.Select2Handler
 
 String stepName = 'Maker'
 
@@ -84,12 +86,10 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 		NextApproverName_1 = dataApproval[0][2]
 		println "NextApproverName_1 : ${NextApproverName_1}"
 		
-		String newDirectoryPath = GlobalVariable.PathCapture+"\\"+NoTC+"\\"+stepName
-		GlobalVariable.newDirectoryPath = newDirectoryPath
-		Integer numberCapture = 10
-		
-		File directory = new File(newDirectoryPath)
-		directory.mkdirs()
+//		String newDirectoryPath = GlobalVariable.PathCapture+"\\"+NoTC+"\\"+stepName
+//		GlobalVariable.newDirectoryPath = newDirectoryPath
+		Integer numberCapture = 9
+		dirCapture = stepName
 		
 		// Buat TestObject dinamis untuk elemen loading
 		TestObject loadingPanel = new TestObject().tap {
@@ -99,7 +99,6 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 		// Login
 		WebUI.setText(findTestObject('Object Repository/Login/inputtxtUsername'), MakerNpp)
 		WebUI.setText(findTestObject('Object Repository/Login/inputtxtPassword'), MakerPassword)
-//		WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Login.png')
 		WebUI.click(findTestObject('Object Repository/Login/button_Sign In'))
 		
 		WebUI.waitForElementVisible(findTestObject('Object Repository/COP/a_Admin Kredit'), 30)
@@ -121,21 +120,22 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 		
 		// Update Inquired / Inquiry Incomplete
 		WebUI.scrollToElement(findTestObject('Object Repository/COP/DokUnderlying/label_Flag Batch'), 30)
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Proses Inquiry selesai', dirCapture, true, false)
 		
-		WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Proses Inquiry selesai.png')
 		WebDriver driver = DriverFactory.getWebDriver()
 		def activityTableRows = driver.findElements(By.cssSelector('#activityTable tbody tr'))
 		println("jumlah activity : "+activityTableRows.size())
 		
 		
 		int NumberAct = 1;
+		int NumberActCapture = 1;
 		for (int j = 0; j < activityTableRows.size(); j++) {
-			newDirectoryPath = GlobalVariable.PathCapture+"\\"+NoTC+"\\"+stepName+"\\Form Inquired Activity-"+NumberAct
-			GlobalVariable.newDirectoryPath = newDirectoryPath
+			dirCapture = stepName+"/Form Inquired Activity-"+NumberAct
 			
 			WebElement activityTableRow = activityTableRows.get(j)
 			String activityName = activityTableRow.findElements(By.tagName('td')).get(1).getText().trim()
 			println("update activity ke-"+j+" : "+activityName)
+			TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, NumberActCapture++, "View Use Case ${activityName}", dirCapture, true, false)
 		
 			int updateCount = activityName.equalsIgnoreCase('Pemindahbukuan Dana') ? 2 : 1
 //			int updateCount = 1
@@ -147,7 +147,7 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 				}
 				println("update status : "+Status)
 				
-				WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Status '+Status+'.png')
+				TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, NumberActCapture++, 'Status '+Status, dirCapture, true, false)
 				// Klik tombol Edit
 				WebElement editButton = activityTableRow.findElement(By.cssSelector("button[onclick^='viewDetailWithSetViewed']"))
 				WebUI.delay(1)
@@ -159,15 +159,15 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 				
 				if (activityName != 'Penutupan Rek') {
 					// Tunggu form dan klik tombol Update
-					CustomKeywords.'custom.CustomKeywords.captureFullPageInSections'(newDirectoryPath+'/', numberCapture++ +'. Update Activity '+Status)
+					TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, NumberActCapture++, "Update Activity ${Status}", dirCapture, true, true)
 					WebUI.delay(2)
 					WebUI.waitForElementVisible(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_Update'),30)
-					WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Submit Update '+Status+'.png')
+					TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, NumberActCapture++, "Submit Update ${Status}", dirCapture, true, false)
 					WebUI.scrollToElement(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_Update'), 30)
 
 					WebUI.click(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_Update'))
 					WebUI.waitForElementVisible(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_OK'), 30)
-					WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Berhasil Update '+Status+'.png')
+					TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, NumberActCapture++, "Berhasil Update ${Status}", dirCapture, true, false)
 					WebUI.click(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_OK'))
 				}
 				else {
@@ -189,11 +189,9 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 			WebUI.delay(1)
 		}
 		
-		newDirectoryPath = GlobalVariable.PathCapture+"\\"+NoTC+"\\"+stepName
-		GlobalVariable.newDirectoryPath = newDirectoryPath
+		dirCapture = stepName
 		
 		WebUI.scrollToElement(findTestObject('Object Repository/COP/DokUnderlying/label_Flag Batch'), 30)
-		// WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Inquired After View.png')
 		
 		// Submit to approval
 		WebUI.scrollToElement(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_Submit_Batch'), 30)
@@ -210,58 +208,22 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/span_next approver'))
 		WebUI.delay(1)
-		List<WebElement> approverOptions = driver.findElements(By.xpath("//li[contains(@class,'select2-results__option')]"))
-		// Pastikan ada opsi yang ditemukan
-		int totalOptions = approverOptions.size()
-		if (totalOptions > 0) {
-			println("Jumlah total opsi dalam Select2: " + totalOptions)
 		
-			int displayedOptions = 6  // Jumlah opsi yang ditampilkan per halaman
-			int screenshotCount = 1    // Nomor urut screenshot
-			
-			// **1️⃣ Ambil screenshot pertama sebelum scroll**
-			WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +". Dropdown Next Approver Page_${screenshotCount}.png")
-			println("Screenshot awal (tanpa scroll) berhasil disimpan.")
-			
-			// **2️⃣ Scroll bertahap jika opsi lebih dari 6**
-			if (totalOptions > displayedOptions) {
-				JavascriptExecutor js = (JavascriptExecutor) driver
-				
-				for (int j = displayedOptions; j < totalOptions; j += displayedOptions) {
-					WebElement nextOption = approverOptions[j]
-					
-					// **Scroll ke opsi berikutnya**
-					js.executeScript("arguments[0].scrollIntoView(true);", nextOption)
-					WebUI.delay(1) // Jeda agar scroll berjalan dengan baik
-					
-					// **Ambil screenshot setelah scroll**
-					screenshotCount++
-					WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +". Dropdown Next Approver Page_${screenshotCount}.png")
-					println("Screenshot halaman ke-${screenshotCount} berhasil disimpan.")
-				}
-			}
-			WebUI.delay(1)
-			// pilih next approver
-			List<WebElement> approverOption = driver.findElements(By.xpath("//li[contains(@class,'select2-results__option') and contains(text(),'" + NextApproverName_1 + "')]"))
-			approverOption[0].click()
-			println("Klik opsi ${NextApproverName_1} berhasil.")
-		} else {
-			println("Tidak ada opsi yang ditemukan dalam Select2.")
-		}
+		Select2Handler.handleSelect2DropdownWithScreenshot(NoTC, stepName, numberCapture++, dirCapture, NextApproverName_1)
 		
 		// comment
 		WebUI.setText(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/textarea__Comment'), 'submit ke approver 1')
-		WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Pilih RM Pengelola, Next Approver, input comment.png')
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, "Pilih RM Pengelola, Next Approver, input comment, dan Submit Batch", dirCapture, true, false)
 		WebUI.click(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_Submit_Batch'))
 		WebUI.waitForElementVisible(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_OK_sukses_submit'), 30)
-		WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Sukses Submit Batch.png')
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, "Sukses Submit Batch", dirCapture, true, false)
 		WebUI.click(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_OK_sukses_submit'))
 		
 		// View After Submit to approval
 		WebUI.setText(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/input_filter_no_batch'), NoMemo)
 		WebUI.click(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/search_button'))
-		WebUI.delay(5)
-		WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Status setelah submit batch.png')
+		WebUI.waitForElementNotVisible(loadingPanel, 30)
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, "Status setelah submit batch Waiting for Approval", dirCapture, true, false)
 		
 		// Logout
 		WebUI.click(findTestObject('Object Repository/Login/i_User Logout'))

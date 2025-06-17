@@ -26,13 +26,21 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 import org.openqa.selenium.By
 import org.openqa.selenium.WebElement
 import excel.ExcelHelper
+import custom.ActivityUtils
+import logger.TestStepLogger
 
-String testCaseName = RunConfiguration.getExecutionSourceName()
 String NoTC = GlobalVariable.NoTC
 String Seq = GlobalVariable.Seq
 String Pencairan = GlobalVariable.Pencairan
+String UseCase = GlobalVariable.UseCase
 String newDirectoryPath = GlobalVariable.newDirectoryPath
 Integer numberCapture = 1
+String BulkUpload = GlobalVariable.BulkUpload
+String ExcelFilename = GlobalVariable.ExcelFilename
+String stepName = GlobalVariable.stepName
+
+TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Pilih Use Case '+ UseCase, newDirectoryPath, true, false)
+WebUI.click(findTestObject('Object Repository/COP/CardActivity/div_Card BlokirRek'))
 
 // Path ke file Excel
 String excelFilePath = RunConfiguration.getProjectDir() + GlobalVariable.PathDataExcel
@@ -40,49 +48,47 @@ FileInputStream file = new FileInputStream(excelFilePath)
 Workbook workbook = new XSSFWorkbook(file)
 Sheet sheetAct = workbook.getSheet("Act Blokir Rek")
 
-// Cari berdasarkan TC
-String NoRek = ""
-String IsPasang = ""
-String Nominal = ""
-for (int i = 2; i <= sheetAct.getLastRowNum(); i++) {
-	Row row = sheetAct.getRow(i)
-	if (row != null && ExcelHelper.getCellValueAsString(row, 0) == NoTC && ExcelHelper.getCellValueAsString(row, 1) == Seq) {
-		NoRek 		= ExcelHelper.getCellValueAsString(row, 4)
-		IsPasang 	= ExcelHelper.getCellValueAsString(row, 5)
-		Nominal 	= ExcelHelper.getCellValueAsString(row, 6)
-		break
+if (BulkUpload == 'Y') {
+	// Input Excel
+	WebUI.click(findTestObject('Object Repository/COP/input_Excel'))
+	TestObject uploadExel = findTestObject('Object Repository/COP/label_Upload Excel Activity')
+	WebUI.uploadFile(uploadExel, ExcelFilename)
+}
+else {
+	// Cari berdasarkan TC
+	String NoRek = ""
+	String IsPasang = ""
+	String Nominal = ""
+	for (int i = 2; i <= sheetAct.getLastRowNum(); i++) {
+		Row row = sheetAct.getRow(i)
+		if (row != null && ExcelHelper.getCellValueAsString(row, 0) == NoTC && ExcelHelper.getCellValueAsString(row, 1) == Seq) {
+			NoRek 		= ExcelHelper.getCellValueAsString(row, 4)
+			IsPasang 	= ExcelHelper.getCellValueAsString(row, 5)
+			Nominal 	= ExcelHelper.getCellValueAsString(row, 6)
+			break
+		}
 	}
+	WebDriver driver = DriverFactory.getWebDriver()
+	WebUI.comment("TC: ${NoTC}")
+	
+	println("NoRek : "+NoRek)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/input_NomorRekening'), NoRek)
+	String valPasang = "Pasang"
+	if (IsPasang != "Pasang") {
+		valPasang = "Lepas"
+	}
+	println("IsPasang : "+IsPasang)
+	WebUI.selectOptionByValue(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/select_PasangOrLepas'), valPasang, true)
+	if (valPasang == 'Pasang') {
+		WebUI.click(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/span_PerlakuanBlokir'))
+		WebUI.delay(1)
+		List<WebElement> subPerlakuakBlokir = driver.findElements(By.xpath("//li[contains(@class,'select2-results__option') and contains(text(),'09: Lainnya')]"))
+		subPerlakuakBlokir[0].click()	
+	}
+	println("Nominal : "+Nominal)
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/input_NominalBlokir'), Nominal.replaceAll("[^0-9]", ""))
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/input_NarasiBlokir1'), 'Test Narasi 1')
+	//WebUI.setText(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/input_NarasiBlokir2'), 'Test Narasi 1')
 }
-WebDriver driver = DriverFactory.getWebDriver()
-WebUI.comment("TC: ${NoTC}")
 
-WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Card Activity.png')
-WebUI.click(findTestObject('Object Repository/COP/CardActivity/div_Card BlokirRek'))
-
-println("NoRek : "+NoRek)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/input_NomorRekening'), NoRek)
-String valPasang = "Pasang"
-if (IsPasang != "Pasang") {
-	valPasang = "Lepas"
-}
-println("IsPasang : "+IsPasang)
-WebUI.selectOptionByValue(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/select_PasangOrLepas'), valPasang, true)
-if (valPasang == 'Pasang') {
-	WebUI.click(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/span_PerlakuanBlokir'))
-	WebUI.delay(1)
-	List<WebElement> subPerlakuakBlokir = driver.findElements(By.xpath("//li[contains(@class,'select2-results__option') and contains(text(),'09: Lainnya')]"))
-	subPerlakuakBlokir[0].click()	
-}
-println("Nominal : "+Nominal)
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/input_NominalBlokir'), Nominal.replaceAll("[^0-9]", ""))
-WebUI.setText(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/input_NarasiBlokir1'), 'Test Narasi 1')
-//WebUI.setText(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/input_NarasiBlokir2'), 'Test Narasi 1')
-
-CustomKeywords.'custom.CustomKeywords.captureFullPageInSections'(newDirectoryPath+'/', numberCapture++ +'. Input Form')
-
-WebUI.scrollToElement(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/button_Save'), 30)
-WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Simpan.png')
-WebUI.click(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/button_Save'))
-WebUI.waitForElementVisible(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/button_Save OK'), 30)
-WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Berhasil disimpan.png')
-WebUI.click(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/button_Save OK'))
+ActivityUtils.saveActivityAndCapture(NoTC, stepName, newDirectoryPath, numberCapture)
