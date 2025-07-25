@@ -43,7 +43,7 @@ class Select2Handler {
 			// Ambil screenshot pertama (awal)
 			List<String> imageFiles = []
 			String filename = numberCapture+". Dropdown Next Approver Page_${screenshotCount}"
-//			WebUI.takeScreenshot(newDirectoryPath + "/${filename}.png")
+			//			WebUI.takeScreenshot(newDirectoryPath + "/${filename}.png")
 			imageFiles << stepName+"/"+filename
 			//			numberCapture++
 			println("Screenshot awal (tanpa scroll) berhasil disimpan.")
@@ -58,7 +58,7 @@ class Select2Handler {
 					WebUI.delay(1)
 					screenshotCount++
 					filename = numberCapture+". Dropdown Next Approver Page_${screenshotCount}"
-//					WebUI.takeScreenshot(newDirectoryPath + "/${filename}.png")
+					//					WebUI.takeScreenshot(newDirectoryPath + "/${filename}.png")
 					//					numberCapture++
 					imageFiles << stepName+"/"+filename
 					println("Screenshot halaman ke-${screenshotCount} berhasil disimpan.")
@@ -76,7 +76,7 @@ class Select2Handler {
 			}
 			println(imageFiles)
 			String[] imageFilesArray = imageFiles.toArray(new String[0])
-//			TestStepLogger.addStepWithUserAndWithOutCapture(NoTC, stepName, 1, "Dropdown Next Approver", imageFilesArray)
+			//			TestStepLogger.addStepWithUserAndWithOutCapture(NoTC, stepName, 1, "Dropdown Next Approver", imageFilesArray)
 		} else {
 			println("Tidak ada opsi yang ditemukan dalam Select2.")
 		}

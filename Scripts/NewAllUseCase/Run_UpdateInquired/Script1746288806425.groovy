@@ -214,6 +214,7 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 					if (activityName == 'Bucket Adjustment') {
 						TestObject AlertConfirm = findTestObject('Object Repository/ValidasiPK/AlertConfirm')
 						if (WebUI.verifyElementPresent(AlertConfirm, 5, FailureHandling.OPTIONAL)) {
+							TestStepLogger.addOutputWithUserAndCapture(NoTC, stepName, numberCapture++, 1, "Muncul popup konfirmasi Rekening single side menggunakan Rek Simpanan atau GL dan Dana Cukup", "Output", true, false)
 							WebUI.click(AlertConfirm)
 						}
 					}

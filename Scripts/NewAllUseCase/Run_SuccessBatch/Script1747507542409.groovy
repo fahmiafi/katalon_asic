@@ -32,6 +32,7 @@ import org.openqa.selenium.interactions.Actions
 import utils.LogHelper
 import excel.ExcelHelper
 import stepCapture.StepCaptureHelper
+import logger.TestStepLogger
 
 // Dapatkan browser yang sedang dieksekusi
 def browserType = DriverFactory.getExecutedBrowser().getName()
@@ -81,6 +82,7 @@ def listMethodeCapture = [
 
 StepCaptureHelper captureHelper = new StepCaptureHelper()
 String stepName = 'Result'
+String dirCapture = stepName
 
 // Path ke file Excel
 String excelFilePath = RunConfiguration.getProjectDir() + GlobalVariable.PathDataExcel
@@ -158,7 +160,8 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 				
 				if (isViewBatchExists) {
 					// Klik tombol View Batch Success jika ditemukan
-					WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Status Batch Success.png')
+//					WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Status Batch Success.png')
+					TestStepLogger.addOutputWithUserAndCapture(NoTC, stepName, numberCapture++, 1, 'Status Batch Success', dirCapture, true, false)
 					WebUI.click(viewBatchButton)
 					WebUI.delay(3)
 					break // Keluar dari loop jika proses selesai
@@ -168,8 +171,6 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 						WebUI.click(findTestObject('Object Repository/COP/a_Monitoring Batch Progress  Failed'))
 					}
 					else {
-//						WebUI.click(findTestObject('Object Repository/BOP/CreateNewBatch/p_Admin Kredit_Menu'))
-//						WebUI.click(findTestObject('Object Repository/BOP/CreateNewBatch/a_Admin Kredit_SubMenu'))
 						WebUI.click(findTestObject('Object Repository/COP/a_Admin Kredit'))
 						WebUI.click(findTestObject('Object Repository/COP/a_Monitoring Batch Progress  Failed'))
 					}
@@ -179,7 +180,8 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 					WebUI.delay(5)
 					
 					// Klik tombol View jika ditemukan
-					WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Status Batch Success.png')
+					TestStepLogger.addOutputWithUserAndCapture(NoTC, stepName, numberCapture++, 1, 'Status Batch Success', dirCapture, true, false)
+//					WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Status Batch Success.png')
 					WebUI.click(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_View'))
 					WebUI.delay(3)
 					break // Keluar dari loop jika proses selesai
@@ -191,7 +193,8 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 			}
 		}
 		
-		CustomKeywords.'custom.CustomKeywords.captureFullPageInSections'(newDirectoryPath+'/', numberCapture++ +'. Status Activity Success')
+		TestStepLogger.addOutputWithUserAndCapture(NoTC, stepName, numberCapture++, 1, 'Status Activity Success', dirCapture, true, true)
+//		CustomKeywords.'custom.CustomKeywords.captureFullPageInSections'(newDirectoryPath+'/', numberCapture++ +'. Status Activity Success')
 		WebUI.delay(3)
 		WebUI.click(findTestObject('Object Repository/COP/div_Approval History'))
 		
@@ -202,7 +205,8 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 			WebUI.scrollToElement(findTestObject('Object Repository/COP/div_Approval History'), 30)
 		}
 		
-		WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Approval History.png')
+//		TestStepLogger.addOutputWithUserAndCapture(NoTC, stepName, numberCapture++, 1, 'Status Activity Success', dirCapture, true, true)
+//		WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Approval History.png')
 		WebUI.delay(1)
 //		WebUI.click(findTestObject('Object Repository/COP/SuccessBatch/button_View Result Success'))
 		
@@ -241,7 +245,8 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 			String pdfUrl = WebUI.getAttribute(iframeElement, 'src')
 			println("PDF URL: " + pdfUrl)
 			WebUI.delay(15)
-			WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Result Rekonsiliasi.png')
+//			WebUI.takeScreenshot(newDirectoryPath + '/'+ numberCapture++ +'. Result Rekonsiliasi.png')
+			TestStepLogger.addOutputWithUserAndCapture(NoTC, stepName, numberCapture++, 4, 'Result Rekonsiliasi', dirCapture, true, false)
 			driver.close()
 			WebUI.delay(2)
 			
@@ -273,10 +278,10 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 			WebUI.delay(2)
 			
 			if(stepCapture == 'scroll') {
-				captureHelper.scrollCapture(newDirectoryPath, numberCapture, 'Result Rekonsiliasi')
+				captureHelper.scrollCapture(stepName, NoTC, numberCapture, 'Evidence Result Rekonsiliasi')
 			}
 			else if (stepCapture == 'page') {
-				captureHelper.pageCapture(newDirectoryPath, numberCapture, 'Result Rekonsiliasi')
+				captureHelper.pageCapture(stepName, NoTC, numberCapture, 'Evidence Result Rekonsiliasi')
 			}
 			numberCapture++
 			

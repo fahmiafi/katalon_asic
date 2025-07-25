@@ -24,10 +24,12 @@ import org.openqa.selenium.Keys
 import com.kms.katalon.core.testobject.ConditionType
 
 import internal.GlobalVariable
+import logger.TestStepLogger
 
 public class StepCaptureHelper {
 	@Keyword
-	def scrollCapture(String newDirectoryPath, int numberCapture, String imgName) {
+	def scrollCapture(String stepName, String NoTC, int numberCapture, String imgName) {
+		String newDirectoryPath = GlobalVariable.PathCapture+"\\"+NoTC+"\\"+stepName
 		int page = 1
 		def driver = DriverFactory.getWebDriver()
 		def scrollStep = 650
@@ -47,19 +49,27 @@ public class StepCaptureHelper {
 			return false
 		}
 
-		WebUI.takeScreenshot(newDirectoryPath + '/' + numberCapture + '. '+ imgName +'_' + page++ + '.png')
+		List<String> imageFiles = []
+		String filename = numberCapture + '. '+ imgName +'_' + page++ + '.png'
+		imageFiles << stepName+"/"+filename
+		WebUI.takeScreenshot(newDirectoryPath + '/' + filename)
 		while (true) {
 			def isBottomReached = scrollStepByStep()
-			WebUI.takeScreenshot(newDirectoryPath + '/' + numberCapture + '. '+ imgName +'_' + page++ + '.png')
+			filename = numberCapture + '. '+ imgName +'_' + page++ + '.png'
+			WebUI.takeScreenshot(newDirectoryPath + '/' + filename)
 			if (isBottomReached) {
 				break
 			}
+			imageFiles << stepName+"/"+filename
 			WebUI.delay(scrollInterval / 1000)
 		}
+		String[] imageFilesArray = imageFiles.toArray(new String[0])
+		TestStepLogger.addOutputWithUserAndWithOutCapture(NoTC, 'Maker', 4, imgName, imageFilesArray)
 	}
 
 	@Keyword
-	def pageCapture(String newDirectoryPath, int numberCapture, String imgName) {
+	def pageCapture(String stepName, String NoTC, int numberCapture, String imgName) {
+		String newDirectoryPath = GlobalVariable.PathCapture+"\\"+NoTC+"\\"+stepName
 		def driver = DriverFactory.getWebDriver()
 		def actions = new Actions(driver)
 
@@ -72,8 +82,11 @@ public class StepCaptureHelper {
 		String pageNumberStr = numPages.replaceAll("[^0-9]", "")
 		int pageNumber = Integer.parseInt(pageNumberStr)
 
+		List<String> imageFiles = []
+		String filename = ""
 		for (int j = 1; j <= pageNumber; j++) {
 			int page = j
+			filename = numberCapture++ + '. '+ imgName +'_' + page + '.png'
 
 			WebUI.click(inputElement)
 
@@ -85,7 +98,10 @@ public class StepCaptureHelper {
 			actions.sendKeys(Keys.ENTER).perform()
 			WebUI.delay(2)
 
-			WebUI.takeScreenshot(newDirectoryPath + '/' + numberCapture++ + '. '+ imgName +'_' + page + '.png')
+			WebUI.takeScreenshot(newDirectoryPath + '/' + filename)
+			imageFiles << stepName+"/"+filename
 		}
+		String[] imageFilesArray = imageFiles.toArray(new String[0])
+		TestStepLogger.addOutputWithUserAndWithOutCapture(NoTC, 'Maker', 4, imgName, imageFilesArray)
 	}
 }

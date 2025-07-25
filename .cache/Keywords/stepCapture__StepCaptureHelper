@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "E363B15788C901921DBC2061A4D77023",
+  "keywordFileContentHash": "D98BB3AE0B1D1789272E24A1316912F1",
   "keywordClasses": [
     {
       "name": "stepCapture.StepCaptureHelper",
@@ -8,7 +8,20 @@
           "name": "scrollCapture",
           "parameters": [
             {
-              "name": "newDirectoryPath",
+              "name": "stepName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "NoTC",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -46,14 +59,26 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "pageCapture",
           "parameters": [
             {
-              "name": "newDirectoryPath",
+              "name": "stepName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "NoTC",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -91,11 +116,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
