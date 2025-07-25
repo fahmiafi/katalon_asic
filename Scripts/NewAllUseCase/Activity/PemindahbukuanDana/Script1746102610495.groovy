@@ -37,7 +37,7 @@ String BulkUpload = GlobalVariable.BulkUpload
 String ExcelFilename = GlobalVariable.ExcelFilename
 String stepName = GlobalVariable.stepName
 
-TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Pilih Use Case '+ UseCase, newDirectoryPath, true, false)
+TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 3, 'Pilih Use Case '+ UseCase, newDirectoryPath, true, false)
 WebUI.click(findTestObject('Object Repository/COP/CardActivity/div_card_pinbuk'))
 
 // Path ke file Excel

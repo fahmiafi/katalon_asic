@@ -38,45 +38,49 @@ Integer numberCapture = 1
 String BulkUpload = GlobalVariable.BulkUpload
 String ExcelFilename = GlobalVariable.ExcelFilename
 String stepName = GlobalVariable.stepName
-
-WebUI.click(findTestObject('Object Repository/COP/TabCard/a_Tab_PenutupanPendingRestrukturisasi'))
-TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 3, 'Pilih Use Case '+ UseCase, newDirectoryPath, true, false)
-WebUI.click(findTestObject('Object Repository/COP/CardActivity/div_Card Pending Rekening'))
-
 // Path ke file Excel
 String excelFilePath = RunConfiguration.getProjectDir() + GlobalVariable.PathDataExcel
 FileInputStream file = new FileInputStream(excelFilePath)
 Workbook workbook = new XSSFWorkbook(file)
-Sheet sheetAct = workbook.getSheet("Act Pending Rekening")
+Sheet sheetAct = workbook.getSheet("Act Bucket Adjusment")
 
-if (BulkUpload == 'Y') {
-	// Input Excel
-	WebUI.click(findTestObject('Object Repository/COP/input_Excel'))
-	TestObject uploadExel = findTestObject('Object Repository/COP/label_Upload Excel Activity')
-	WebUI.uploadFile(uploadExel, ExcelFilename)
+List<String> ArrayWorstColForPokok = ['01', '02', '03', '04', '05']
+List<String> ArrayWorstColForBiaya = ['01', '02']
+
+println("Seq: "+Seq)
+// Cari berdasarkan TC
+String RekSingleSidePokok = ""
+String RekSingleSideBiaya = ""
+for (int i = 2; i <= sheetAct.getLastRowNum(); i++) {
+	Row row = sheetAct.getRow(i)
+	if (row != null && ExcelHelper.getCellValueAsString(row, 0) == NoTC && ExcelHelper.getCellValueAsString(row, 1) == Seq) {
+//	if (row != null && ExcelHelper.getCellValueAsString(row, 0) == NoTC) {
+		RekSingleSidePokok = ExcelHelper.getCellValueAsString(row, 10)
+		RekSingleSideBiaya = ExcelHelper.getCellValueAsString(row, 11)
+		break
+	}
 }
-else {
-	// Cari berdasarkan TC
-	String NoRek = ""
-	String IsPasang = ""
-	for (int i = 2; i <= sheetAct.getLastRowNum(); i++) {
-		Row row = sheetAct.getRow(i)
-		if (row != null && ExcelHelper.getCellValueAsString(row, 0) == NoTC && ExcelHelper.getCellValueAsString(row, 1) == Seq) {
-			NoRek 		= ExcelHelper.getCellValueAsString(row, 4)
-			IsPasang 	= ExcelHelper.getCellValueAsString(row, 5)
-			break
+println("RekSingleSidePokok: "+RekSingleSidePokok)
+println("RekSingleSideBiaya: "+RekSingleSideBiaya)
+
+String worstCollectibility = WebUI.getAttribute(findTestObject('Object Repository/Activity/ActivityBucketAdjusment_Object/input_WorstCollectibility'), 'value')
+println("WorstCollectibility value: " + worstCollectibility)
+String KodeStruk = WebUI.getAttribute(findTestObject('Object Repository/Activity/ActivityBucketAdjusment_Object/input_KodeStruk'), 'value')
+println("KodeStruk value: " + KodeStruk)
+
+if (ArrayWorstColForPokok.contains(worstCollectibility.substring(0, 2))) {
+	println("input NoRekSingleSide Pokok")
+	WebUI.setText(findTestObject('Object Repository/Activity/ActivityBucketAdjusment_Object/input_NorekSingleSide_pokok'), RekSingleSidePokok)
+}
+if (ArrayWorstColForBiaya.contains(worstCollectibility.substring(0, 2))) {
+	if (KodeStruk == '') {		
+		println("input NoRekSingleSide Biaya")
+		WebUI.setText(findTestObject('Object Repository/Activity/ActivityBucketAdjusment_Object/input_NorekSingleSide_biaya'), RekSingleSideBiaya)
+	}
+	else {
+		if (KodeStruk.substring(0,1) == '8') {	
+			println("input NoRekSingleSide Biaya")
+			WebUI.setText(findTestObject('Object Repository/Activity/ActivityBucketAdjusment_Object/input_NorekSingleSide_biaya'), RekSingleSideBiaya)
 		}
 	}
-	WebDriver driver = DriverFactory.getWebDriver()
-	WebUI.comment("TC: ${NoTC}")
-	
-	WebUI.setText(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/input_NomorRekening'), NoRek)
-	String valPasang = "Pasang"
-	if (IsPasang != "Pasang") {
-		valPasang = "Lepas"
-	}
-	WebUI.selectOptionByValue(findTestObject('Object Repository/Activity/ActivityPendingRek_Object/select_PasangOrLepas_PendingRek'), valPasang, true)
 }
-
-ActivityUtils.saveActivityAndCapture(NoTC, stepName, newDirectoryPath, numberCapture)
-

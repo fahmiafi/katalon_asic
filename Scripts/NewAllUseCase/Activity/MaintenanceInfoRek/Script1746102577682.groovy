@@ -40,7 +40,7 @@ String ExcelFilename = GlobalVariable.ExcelFilename
 String stepName = GlobalVariable.stepName
 
 WebUI.click(findTestObject('Object Repository/COP/TabCard/a_ Tab_Maintenance Rekening'))
-TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Pilih Use Case '+ UseCase, newDirectoryPath, true, false)
+TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 3, 'Pilih Use Case '+ UseCase, newDirectoryPath, true, false)
 WebUI.click(findTestObject('Object Repository/COP/CardActivity/div_Card Maintenance Informasi Rekening Pinjaman'))
 
 // Path ke file Excel

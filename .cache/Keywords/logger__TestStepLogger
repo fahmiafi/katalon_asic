@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "89D1CF6D9C53B96A3222D451990ACC1F",
+  "keywordFileContentHash": "4D795A1DEAA8B486E7833F036BC4AC9E",
   "keywordClasses": [
     {
       "name": "logger.TestStepLogger",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "AC1BA5A966B69B3717D4432918C173E0",
+  "keywordFileContentHash": "483329A964ECB4C46F8DD6F33B14315D",
   "keywordClasses": [
     {
       "name": "custom.ActivityUtils",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

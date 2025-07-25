@@ -119,4 +119,24 @@
       <initValue>''</initValue>
       <name>stepName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'127.0.0.1:7005'</initValue>
+      <name>sqlserverHost</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DBASIK_TEST'</initValue>
+      <name>sqlserverDBName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sa'</initValue>
+      <name>sqlserverUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'BNI46sql'</initValue>
+      <name>sqlserverPassword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

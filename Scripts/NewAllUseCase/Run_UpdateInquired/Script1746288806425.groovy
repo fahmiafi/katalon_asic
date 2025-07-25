@@ -33,6 +33,10 @@ import excel.ExcelHelper
 import approval.ApprovalHelper
 import logger.TestStepLogger
 import custom.Select2Handler
+import db.DBUtils
+
+// Koneksi ke database
+DBUtils.connectDB()
 
 String stepName = 'Maker'
 
@@ -68,6 +72,9 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 		String MakerPositionName = ExcelHelper.getCellValueAsString(row, 10)
 		String MakerRole = ExcelHelper.getCellValueAsString(row, 11)
 		
+		GlobalVariable.NoTC = NoTC
+		GlobalVariable.NoMemo = NoMemo
+		
 		// Search Approval
 		def result  = ApprovalHelper.getApprovalData(
 			sheetActivity,
@@ -85,6 +92,11 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 		
 		NextApproverName_1 = dataApproval[0][2]
 		println "NextApproverName_1 : ${NextApproverName_1}"
+		
+		// Update data Login
+		String updateQuery = "update USER_LOGIN set IsLogin = '1' where Username = '${dataApproval[0][0]}'"
+		println(updateQuery)
+		DBUtils.executeUpdate(updateQuery)
 		
 //		String newDirectoryPath = GlobalVariable.PathCapture+"\\"+NoTC+"\\"+stepName
 //		GlobalVariable.newDirectoryPath = newDirectoryPath
@@ -120,26 +132,50 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 		
 		// Update Inquired / Inquiry Incomplete
 		WebUI.scrollToElement(findTestObject('Object Repository/COP/DokUnderlying/label_Flag Batch'), 30)
-		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Proses Inquiry selesai', dirCapture, true, false)
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 1, 'Proses Inquiry selesai', dirCapture, true, false)
 		
 		WebDriver driver = DriverFactory.getWebDriver()
 		def activityTableRows = driver.findElements(By.cssSelector('#activityTable tbody tr'))
 		println("jumlah activity : "+activityTableRows.size())
 		
+		Boolean isExistBulkUpload = false
+		List<Integer> arraySeqAct = new ArrayList<>()
+		for (int j = 1; j <= sheetActivity.getLastRowNum(); j++) {
+			Row rowActivity = sheetActivity.getRow(j)
+			if (rowActivity != null && ExcelHelper.getCellValueAsString(rowActivity, 0) == NoTC) {
+				arraySeqAct.add(ExcelHelper.getCellValueAsString(rowActivity, 2))
+				if (ExcelHelper.getCellValueAsString(rowActivity, 6) == 'Y') {
+					isExistBulkUpload = true
+				}
+			}
+		}
 		
 		int NumberAct = 1;
+		int countActivity = activityTableRows.size()
+		if (isExistBulkUpload == false ) {
+			countActivity = arraySeqAct.size()
+		}
+		
 		int NumberActCapture = 1;
-		for (int j = 0; j < activityTableRows.size(); j++) {
+		for (int j = 0; j < countActivity; j++) {
+			GlobalVariable.Seq = NumberAct
+			if (isExistBulkUpload == false ) {
+				GlobalVariable.Seq = arraySeqAct[j]
+			}
 			dirCapture = stepName+"/Form Inquired Activity-"+NumberAct
 			
 			WebElement activityTableRow = activityTableRows.get(j)
 			String activityName = activityTableRow.findElements(By.tagName('td')).get(1).getText().trim()
 			println("update activity ke-"+j+" : "+activityName)
-			TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, NumberActCapture++, "View Use Case ${activityName}", dirCapture, true, false)
+			TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, NumberActCapture++, 2, "View Use Case ${activityName}", dirCapture, true, false)
 		
-			int updateCount = activityName.equalsIgnoreCase('Pemindahbukuan Dana') ? 2 : 1
-//			int updateCount = 1
-		
+//			int updateCount = activityName.equalsIgnoreCase('Pemindahbukuan Dana') ? 2 : 1
+			int updateCount = 1
+//			if(activityName.equalsIgnoreCase('Pemindahbukuan Dana') || activityName.equalsIgnoreCase('Bucket Adjustment')) {
+//			if(activityName.equalsIgnoreCase('Bucket Adjustment')) {
+//				updateCount = 2
+//			}
+//		
 			for (int k = 0; k < updateCount; k++) {
 				String Status = "Inquired"
 				if(updateCount == 2 && k == 0) {
@@ -147,27 +183,43 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 				}
 				println("update status : "+Status)
 				
-				TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, NumberActCapture++, 'Status '+Status, dirCapture, true, false)
+				TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, NumberActCapture++, 3, 'Status '+Status, dirCapture, true, false)
 				// Klik tombol Edit
 				WebElement editButton = activityTableRow.findElement(By.cssSelector("button[onclick^='viewDetailWithSetViewed']"))
 				WebUI.delay(1)
 				WebUI.executeJavaScript("arguments[0].click();", [editButton])
 		
+				if (activityName == 'Pemindahbukuan Dana') {
+					WebUI.callTestCase(findTestCase('Test Cases/NewAllUseCase/ActivityUpdate/PemindahbukuanDana'), [:])
+				}
+				
 				if (activityName == 'Asuransi') {
-					WebUI.selectOptionByLabel(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/select_Perusahaan Asuransi'), '01 : Asuransi Tripakarta', false)
+					WebUI.callTestCase(findTestCase('Test Cases/NewAllUseCase/ActivityUpdate/Asuransi'), [:])
+				}
+				
+				if (activityName == 'Bucket Adjustment') {
+					WebUI.callTestCase(findTestCase('Test Cases/NewAllUseCase/ActivityUpdate/BucketAdjusment'), [:])
 				}
 				
 				if (activityName != 'Penutupan Rek') {
 					// Tunggu form dan klik tombol Update
-					TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, NumberActCapture++, "Update Activity ${Status}", dirCapture, true, true)
+					TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, NumberActCapture++, 3, "Update Activity ${Status}", dirCapture, true, true)
 					WebUI.delay(2)
 					WebUI.waitForElementVisible(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_Update'),30)
-					TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, NumberActCapture++, "Submit Update ${Status}", dirCapture, true, false)
+					TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, NumberActCapture++, 3, "Submit Update ${Status}", dirCapture, true, false)
 					WebUI.scrollToElement(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_Update'), 30)
 
 					WebUI.click(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_Update'))
+					
+					if (activityName == 'Bucket Adjustment') {
+						TestObject AlertConfirm = findTestObject('Object Repository/ValidasiPK/AlertConfirm')
+						if (WebUI.verifyElementPresent(AlertConfirm, 5, FailureHandling.OPTIONAL)) {
+							WebUI.click(AlertConfirm)
+						}
+					}
+					
 					WebUI.waitForElementVisible(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_OK'), 30)
-					TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, NumberActCapture++, "Berhasil Update ${Status}", dirCapture, true, false)
+					TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, NumberActCapture++, 3, "Berhasil Update ${Status}", dirCapture, true, false)
 					WebUI.click(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_OK'))
 				}
 				else {
@@ -185,6 +237,7 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 				activityTableRows = driver.findElements(By.cssSelector('#activityTable tbody tr'))
 				activityTableRow = activityTableRows.get(j)
 			}
+			
 			NumberAct++
 			WebUI.delay(1)
 		}
@@ -213,17 +266,17 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 		
 		// comment
 		WebUI.setText(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/textarea__Comment'), 'submit ke approver 1')
-		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, "Pilih RM Pengelola, Next Approver, input comment, dan Submit Batch", dirCapture, true, false)
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 1, "Pilih RM Pengelola, Next Approver, input comment, dan Submit Batch", dirCapture, true, false)
 		WebUI.click(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_Submit_Batch'))
 		WebUI.waitForElementVisible(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_OK_sukses_submit'), 30)
-		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, "Sukses Submit Batch", dirCapture, true, false)
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 1, "Sukses Submit Batch", dirCapture, true, false)
 		WebUI.click(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_OK_sukses_submit'))
 		
 		// View After Submit to approval
 		WebUI.setText(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/input_filter_no_batch'), NoMemo)
 		WebUI.click(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/search_button'))
 		WebUI.waitForElementNotVisible(loadingPanel, 30)
-		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, "Status setelah submit batch Waiting for Approval", dirCapture, true, false)
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 1, "Status setelah submit batch Waiting for Approval", dirCapture, true, false)
 		
 		// Logout
 		WebUI.click(findTestObject('Object Repository/Login/i_User Logout'))
@@ -236,6 +289,7 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 }
 
 // Tutup
+DBUtils.closeConnection()
 workbook.close()
 file.close()
 WebUI.closeBrowser()

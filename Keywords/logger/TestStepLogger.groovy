@@ -34,7 +34,7 @@ class TestStepLogger {
 	/**
 	 * Tambahkan step dengan screenshot dan narasi berdasarkan user, mendukung capture full page
 	 */
-	static void addStepWithUserAndCapture(String noTC, String user, int NumberCapture, String naration, String saveDir, boolean doCapture, boolean fullPage) {
+	static void addStepWithUserAndCapture(String noTC, String user, int NumberCapture, int narationLevel, String naration, String saveDir, boolean doCapture, boolean fullPage) {
 		String logDirPath = GlobalVariable.PathCapture + "/" + noTC
 		String captureDirPath = GlobalVariable.PathCapture + "/" + noTC + "/" + saveDir
 		File logDir = new File(logDirPath)
@@ -51,7 +51,7 @@ class TestStepLogger {
 
 		def testCase = logData.find { it.NoTC == noTC }
 		if (!testCase) {
-			testCase = [NoTC: noTC, procedures: []]
+			testCase = [NoTC: noTC, procedures: [], outputs: []]
 			logData << testCase
 		}
 
@@ -80,6 +80,7 @@ class TestStepLogger {
 
 		procedure.steps << [
 			datetime : new Date().format("yyyy-MM-dd HH:mm:ss"),
+			narationLevel : narationLevel,
 			naration: naration,
 			images  : imageFiles
 		]
@@ -88,7 +89,58 @@ class TestStepLogger {
 		file.text = jsonOutput
 	}
 	
-	static void addStepWithUserAndWithOutCapture(String noTC, String user, String naration, String[] imageFiles) {
+	static void addOutputWithUserAndCapture(String noTC, String user, int NumberCapture, int narationLevel, String naration, String saveDir, boolean doCapture, boolean fullPage) {
+		String logDirPath = GlobalVariable.PathCapture + "/" + noTC
+		String captureDirPath = GlobalVariable.PathCapture + "/" + noTC + "/" + saveDir
+		File logDir = new File(logDirPath)
+		if (!logDir.exists()) {
+			logDir.mkdirs()
+		}
+		File file = new File(logDir, "log.json")
+		if (!file.exists()) {
+			file.text = '[]'
+		}
+
+		def parser = new JsonSlurper()
+		def logData = parser.parseText(file.text)
+
+		def testCase = logData.find { it.NoTC == noTC }
+		if (!testCase) {
+			testCase = [NoTC: noTC, procedures: [], outputs: []]
+			logData << testCase
+		}
+
+		def output = testCase.outputs
+
+		def safeNaration = naration.replaceAll(/[^a-zA-Z0-9 _-]/, '').replaceAll(/\s+/, '-')
+		File directory = new File(captureDirPath)
+		if (!directory.exists()) {
+			directory.mkdirs()
+		}
+
+		List<String> imageFiles = []
+		if (doCapture) {
+			if (fullPage) {
+				imageFiles = captureFullPageImagesForStep(noTC, saveDir, NumberCapture, safeNaration)
+			} else {
+				String filename = "${NumberCapture}. ${safeNaration}.png"
+				WebUI.takeScreenshot("${captureDirPath}/${filename}")
+				imageFiles << saveDir + "/" + filename
+			}
+		}
+
+		output << [
+			datetime : new Date().format("yyyy-MM-dd HH:mm:ss"),
+			narationLevel : narationLevel,
+			naration: naration,
+			images  : imageFiles
+		]
+
+		def jsonOutput = JsonOutput.prettyPrint(JsonOutput.toJson(logData))
+		file.text = jsonOutput
+	}
+
+	static void addStepWithUserAndWithOutCapture(String noTC, String user, int narationLevel, String naration, String[] imageFiles) {
 		String logDirPath = GlobalVariable.PathCapture + "/" + noTC
 		File logDir = new File(logDirPath)
 		if (!logDir.exists()) {
@@ -116,6 +168,7 @@ class TestStepLogger {
 
 		procedure.steps << [
 			datetime : new Date().format("yyyy-MM-dd HH:mm:ss"),
+			narationLevel : narationLevel,
 			naration: naration,
 			images  : imageFiles
 		]

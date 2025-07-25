@@ -95,7 +95,7 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 						WebUI.click(findTestObject('Object Repository/COP/Button Re-Execute'))
 						WebUI.click(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_OK_sukses_submit'))
 					}
-					else if (statusActivity == 'Inquiry Failed') {
+					else if (statusActivity == 'Inquiry Failed' || statusActivity == 'New') {
 //						WebUI.click(findTestObject('Object Repository/COP/button_inquiry'))
 						WebUI.click(findTestObject('Object Repository/COP/button_Inquiry All'))
 						WebUI.click(findTestObject('Object Repository/COP/button_OK_inquiry'))

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "3E832EF999A58043F09CD5C2F85DB2E0",
+  "keywordClasses": [
+    {
+      "name": "db.DBUtils",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

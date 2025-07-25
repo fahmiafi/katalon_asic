@@ -24,15 +24,12 @@ import logger.TestStepLogger
 
 public class ActivityUtils {
 	def static void saveActivityAndCapture(String NoTC, String stepName, String directoryPath, int numberCapture) {
-		//		CustomKeywords.captureFullPageInSections(directoryPath + '/', numberCapture++ + '. Input Form')
-		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Input Form', directoryPath, true, true)
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 3, 'Input Form', directoryPath, true, true)
 		WebUI.scrollToElement(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/button_Save'), 30)
-		//		WebUI.takeScreenshot(directoryPath + '/' + numberCapture++ + '. Simpan.png')
-		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Simpan', directoryPath, true, false)
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 3, 'Simpan', directoryPath, true, false)
 		WebUI.click(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/button_Save'))
 		WebUI.waitForElementVisible(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/button_Save OK'), 30)
-		//		WebUI.takeScreenshot(directoryPath + '/' + numberCapture++ + '. Berhasil disimpan.png')
-		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Berhasil disimpan', directoryPath, true, false)
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 3, 'Berhasil disimpan', directoryPath, true, false)
 		WebUI.click(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/button_Save OK'))
 	}
 }

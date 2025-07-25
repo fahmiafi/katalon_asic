@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Bucket Decrease</name>
+   <tag></tag>
+   <elementGuidId>1b18c53f-0fdb-4dd7-b00c-30457bba747c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='PerubahanKredit_BucketPinbuk']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#PerubahanKredit_BucketPinbuk</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>4c32dc30-31b4-442e-8e55-a91d05f4744b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control col-md-11</value>
+      <webElementGuid>3a2c96f0-623f-4306-b2e5-6fe52b0a9487</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>930ab4ac-4a19-468a-8063-63fbe5c385d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val-required</name>
+      <type>Main</type>
+      <value>The BucketPinbuk field is required.</value>
+      <webElementGuid>6c49eaa9-7c5d-4cdf-a675-9284cf638c9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>PerubahanKredit_BucketPinbuk</value>
+      <webElementGuid>7cd70497-960f-41a2-b555-91154ab2ebb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>PerubahanKredit.BucketPinbuk</value>
+      <webElementGuid>a798b52b-b518-4afb-bffa-b43b1da25af7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>singleSideChanged()</value>
+      <webElementGuid>f41aa856-2264-4b35-af7a-5ae6815b6078</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>-
+Bucket Decrease Teoritis
+</value>
+      <webElementGuid>be22f22f-c99d-44b7-8f78-5736742280ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;PerubahanKredit_BucketPinbuk&quot;)</value>
+      <webElementGuid>b839ea0a-782c-4694-ba8f-ad6b031f9cbf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='PerubahanKredit_BucketPinbuk']</value>
+      <webElementGuid>8546c400-7cd0-437f-85f7-beac37207320</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='custom-tabs-one-home']/div[5]/div[2]/div[17]/select</value>
+      <webElementGuid>b934a52e-4f47-449a-8502-70a35fc11e6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tunggakan Denda'])[1]/following::select[1]</value>
+      <webElementGuid>43e17a74-4c06-4a20-9173-e3d000e0e00a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tunggakan Biaya'])[1]/following::select[1]</value>
+      <webElementGuid>7918466d-2a21-4de8-a6e5-1092898be76b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RTGS'])[1]/preceding::select[1]</value>
+      <webElementGuid>31cc92d0-357d-45eb-ba81-24bb33729ef0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kliring'])[1]/preceding::select[1]</value>
+      <webElementGuid>0e0346cc-4a57-4f41-9827-a7def106dd0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>1bcbb4b5-61b9-4961-871e-dfe26cce9dc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'PerubahanKredit_BucketPinbuk' and @name = 'PerubahanKredit.BucketPinbuk' and (text() = '-
+Bucket Decrease Teoritis
+' or . = '-
+Bucket Decrease Teoritis
+')]</value>
+      <webElementGuid>0165429e-46cf-4668-89d6-1271fb968eb6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

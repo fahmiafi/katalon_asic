@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_NorekSingleSide</name>
+   <name>input_WorstCollectibility</name>
    <tag></tag>
-   <elementGuidId>6cd90114-75fe-4913-86ba-26ab88bc03f9</elementGuidId>
+   <elementGuidId>6b9a87c4-7a43-4260-8ae8-ac46f839b433</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='NorekSingleSide']</value>
+         <key>CSS</key>
+         <value>#WorstCollectibility</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#NorekSingleSide</value>
+         <key>XPATH</key>
+         <value>//input[@id='WorstCollectibility']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0b4a532b-7e36-4def-a82e-e31899b79fd3</webElementGuid>
+      <webElementGuid>86a30362-487b-463c-be83-63c701593de0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>1e50b75a-9c2b-4503-b467-9c831bc65eea</webElementGuid>
+      <webElementGuid>ba8a5969-8492-4e48-9b33-5a9ac6911987</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,31 +38,39 @@
       <name>data-val</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>acee4b56-ce92-4632-9c6c-8721fbe15d42</webElementGuid>
+      <webElementGuid>0b2e2344-cb19-49a4-bd52-012d3525a2a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-val-required</name>
       <type>Main</type>
-      <value>The NorekSingleSide field is required.</value>
-      <webElementGuid>8a49e106-f17c-4379-8e90-1eb56f115e4b</webElementGuid>
+      <value>The WorstCollectibility field is required.</value>
+      <webElementGuid>e8686780-a085-4d7c-8acf-8e43725fc730</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>NorekSingleSide</value>
-      <webElementGuid>2ae86913-3cc0-4f23-b459-aabfdefcbe11</webElementGuid>
+      <value>WorstCollectibility</value>
+      <webElementGuid>63b82540-1fa5-47fd-b5c9-0880cc13c713</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>NorekSingleSide</value>
-      <webElementGuid>6b05980b-184c-4674-81b4-5d53fbf5d489</webElementGuid>
+      <value>WorstCollectibility</value>
+      <webElementGuid>a2bbf003-0546-43bb-8616-293e21e711f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>readonly</name>
+      <type>Main</type>
+      <value>readonly</value>
+      <webElementGuid>d4acb83d-cc4a-4a02-aba3-595f633ffabd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +78,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>7fad1561-d8bf-4127-a0c4-c98e92b8cbb9</webElementGuid>
+      <webElementGuid>ec95cb09-4674-4fb1-93d3-059d7ce1e198</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>01:PASS</value>
+      <webElementGuid>941412a1-5405-449b-a18e-c9f2829a4f7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,46 +94,46 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>99f9e578-ca0d-42dc-8c5b-583de2ac04c6</webElementGuid>
+      <webElementGuid>4ed8df93-e44b-481a-bba4-c8475e0e92a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;NorekSingleSide&quot;)</value>
-      <webElementGuid>072413c8-1ec3-414f-bf72-c778f3174a2c</webElementGuid>
+      <value>id(&quot;WorstCollectibility&quot;)</value>
+      <webElementGuid>15c24d4c-b987-474f-9f97-bb9c601c07e3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='NorekSingleSide']</value>
-      <webElementGuid>05f1cad8-1198-4657-89e4-c5df6951bef4</webElementGuid>
+      <value>//input[@id='WorstCollectibility']</value>
+      <webElementGuid>40e5d8e5-6c53-478e-b8af-24fc07b6d206</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='AddEditFormBucket']/table/tbody/tr[10]/td[2]/input</value>
-      <webElementGuid>2c447132-1d44-4704-a5c8-b424b435b5e6</webElementGuid>
+      <value>//form[@id='AddEditFormBucket']/table/tbody/tr[7]/td[2]/input</value>
+      <webElementGuid>cc6e63cf-bb42-4f2f-af19-45aa5c648aad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[10]/td[2]/input</value>
-      <webElementGuid>cbb30d5e-548a-4a97-983b-de20c5cbb1bd</webElementGuid>
+      <value>//tr[7]/td[2]/input</value>
+      <webElementGuid>525661f2-3f28-435f-8128-41c5dc89493f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'NorekSingleSide' and @name = 'NorekSingleSide' and @type = 'text']</value>
-      <webElementGuid>f862d36a-59f2-40e5-9639-ac5089ff8f0b</webElementGuid>
+      <value>//input[@id = 'WorstCollectibility' and @name = 'WorstCollectibility' and @type = 'text']</value>
+      <webElementGuid>bd603fd7-3aa3-411e-bb23-8c122f95aca8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

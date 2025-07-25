@@ -38,45 +38,27 @@ Integer numberCapture = 1
 String BulkUpload = GlobalVariable.BulkUpload
 String ExcelFilename = GlobalVariable.ExcelFilename
 String stepName = GlobalVariable.stepName
-
-WebUI.click(findTestObject('Object Repository/COP/TabCard/a_Tab_PenutupanPendingRestrukturisasi'))
-TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 3, 'Pilih Use Case '+ UseCase, newDirectoryPath, true, false)
-WebUI.click(findTestObject('Object Repository/COP/CardActivity/div_Card Pending Rekening'))
-
 // Path ke file Excel
 String excelFilePath = RunConfiguration.getProjectDir() + GlobalVariable.PathDataExcel
 FileInputStream file = new FileInputStream(excelFilePath)
 Workbook workbook = new XSSFWorkbook(file)
-Sheet sheetAct = workbook.getSheet("Act Pending Rekening")
+Sheet sheetAct = workbook.getSheet("Act Asuransi")
 
-if (BulkUpload == 'Y') {
-	// Input Excel
-	WebUI.click(findTestObject('Object Repository/COP/input_Excel'))
-	TestObject uploadExel = findTestObject('Object Repository/COP/label_Upload Excel Activity')
-	WebUI.uploadFile(uploadExel, ExcelFilename)
-}
-else {
-	// Cari berdasarkan TC
-	String NoRek = ""
-	String IsPasang = ""
-	for (int i = 2; i <= sheetAct.getLastRowNum(); i++) {
-		Row row = sheetAct.getRow(i)
-		if (row != null && ExcelHelper.getCellValueAsString(row, 0) == NoTC && ExcelHelper.getCellValueAsString(row, 1) == Seq) {
-			NoRek 		= ExcelHelper.getCellValueAsString(row, 4)
-			IsPasang 	= ExcelHelper.getCellValueAsString(row, 5)
-			break
-		}
+println("Seq: "+Seq)
+// Cari berdasarkan TC
+String isBucket = ""
+for (int i = 2; i <= sheetAct.getLastRowNum(); i++) {
+	Row row = sheetAct.getRow(i)
+	if (row != null && ExcelHelper.getCellValueAsString(row, 0) == NoTC && ExcelHelper.getCellValueAsString(row, 1) == Seq) {
+//	if (row != null && ExcelHelper.getCellValueAsString(row, 0) == NoTC) {
+		isBucket = ExcelHelper.getCellValueAsString(row, 17)
+		break
 	}
-	WebDriver driver = DriverFactory.getWebDriver()
-	WebUI.comment("TC: ${NoTC}")
-	
-	WebUI.setText(findTestObject('Object Repository/Activity/ActivityBlokirRek_Object/input_NomorRekening'), NoRek)
-	String valPasang = "Pasang"
-	if (IsPasang != "Pasang") {
-		valPasang = "Lepas"
-	}
-	WebUI.selectOptionByValue(findTestObject('Object Repository/Activity/ActivityPendingRek_Object/select_PasangOrLepas_PendingRek'), valPasang, true)
 }
+println("isBucket: "+isBucket)
 
-ActivityUtils.saveActivityAndCapture(NoTC, stepName, newDirectoryPath, numberCapture)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/select_Perusahaan Asuransi'), '01 : Asuransi Tripakarta', false)
 
+if (isBucket == 'Y') {
+	WebUI.check(findTestObject('Object Repository/Activity/ActivityAsuransi_Object/Check_Bucket Biaya Increase'))
+}

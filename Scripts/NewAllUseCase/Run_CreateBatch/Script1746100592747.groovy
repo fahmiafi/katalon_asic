@@ -74,14 +74,14 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 		// Login
 		WebUI.setText(findTestObject('Object Repository/Login/inputtxtUsername'), MakerNpp)
 		WebUI.setText(findTestObject('Object Repository/Login/inputtxtPassword'), MakerPassword)
-		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Login sebagai maker', dirCapture, true, false)
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 1, 'Login sebagai maker', dirCapture, true, false)
 		WebUI.click(findTestObject('Object Repository/Login/button_Sign In'))
 		
 		WebUI.waitForElementVisible(findTestObject('Object Repository/COP/a_Admin Kredit'), 30)
 		
 		// Create Batch
 		WebUI.click(findTestObject('Object Repository/COP/a_Admin Kredit'))
-		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture, 'Akses menu Admin Kredit >> Monitoring Batch Progress & Failed', dirCapture, false, false)
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 1, 'Akses menu Admin Kredit >> Monitoring Batch Progress & Failed', dirCapture, false, false)
 		WebUI.click(findTestObject('Object Repository/COP/a_Monitoring Batch Progress  Failed'))
 		// Buat TestObject dinamis untuk elemen loading
 		TestObject loadingPanel = new TestObject().tap {
@@ -95,7 +95,7 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 		// Tunggu maksimal 30 detik hingga loading tidak terlihat
 		WebUI.waitForElementNotVisible(loadingPanel, 30)
 		WebUI.waitForElementVisible(findTestObject('Object Repository/COP/a_Create New Batch'), 30)
-		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Create New Batch', dirCapture, true, false)
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 1, 'Create New Batch', dirCapture, true, false)
 		WebUI.click(findTestObject('Object Repository/COP/a_Create New Batch'))
 		
 		String NamaDebitur = NoTC+' '+ SkenarioBatch
@@ -113,14 +113,14 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 		TestObject uploadField = findTestObject('Object Repository/COP/DokUnderlying/input_Dokumen Underlying_telexfile')
 		String filePath = 'D:\\BNI\\RPA\\.TESTING.pdf'
 		WebUI.uploadFile(uploadField, filePath)
-		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Input No. Memo, Nama Debitur dan Upload Dokumen Underlying', dirCapture, true, false)
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 1, 'Input No. Memo, Nama Debitur dan Upload Dokumen Underlying', dirCapture, true, false)
 		WebUI.click(findTestObject('Object Repository/COP/DokUnderlying/button_Upload'))
 //		WebUI.delay(7)
 		WebUI.waitForElementVisible(findTestObject('Object Repository/COP/DokUnderlying/td_No_Memo_Underlying'), 30)
 		
 		// Add Activity
 		WebUI.scrollToElement(findTestObject('Object Repository/COP/DokUnderlying/label_Flag Batch'), 30)
-		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Add Activity', dirCapture, true, false)
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 1, 'Add Activity', dirCapture, true, false)
 		WebUI.click(findTestObject('Object Repository/COP/button_Add Activity'))
 		int NumberAct = 1;
 		for (int j = 1; j <= sheetActivity.getLastRowNum(); j++) {
@@ -150,7 +150,7 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 				GlobalVariable.newDirectoryPath = dirCapture
 				
 				// Panggil test case Use Case
-				TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture, 'Use Case '+UseCase, dirCapture, false, false)
+				TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 2, 'Use Case '+UseCase, dirCapture, false, false)
 				if (UseCase == "Pemindahbukuan") {
 					WebUI.callTestCase(findTestCase('Test Cases/NewAllUseCase/Activity/PemindahbukuanDana'), [:])
 				} else if (UseCase == "Pembukaan Rek") {
@@ -184,14 +184,14 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 		WebUI.scrollToElement(findTestObject('Object Repository/COP/DokUnderlying/label_Flag Batch'), 30)
 		// inquiry
 		WebUI.waitForElementVisible(findTestObject('Object Repository/COP/button_inquiry'), 30)
-		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Activity berhasil ditambahkan, status New', dirCapture, true, false)
-		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Inquiry pada table List Aktivitas kolom Action atau Inquiry All', dirCapture, true, false)
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 1, 'Activity berhasil ditambahkan, status New', dirCapture, true, false)
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 1, 'Inquiry pada table List Aktivitas kolom Action atau Inquiry All', dirCapture, true, false)
 		WebUI.click(findTestObject('Object Repository/COP/button_Inquiry All'))
 		WebUI.waitForElementVisible(findTestObject('Object Repository/COP/button_OK_inquiry'), 30)
-		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Inquiry berhasil', dirCapture, true, false)
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 1, 'Inquiry berhasil', dirCapture, true, false)
 		WebUI.click(findTestObject('Object Repository/COP/button_OK_inquiry'))
 		WebUI.delay(1)
-		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Status Inquiring', dirCapture, true, false)
+		TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 1, 'Status Inquiring', dirCapture, true, false)
 		
 		// Logout
 		WebUI.click(findTestObject('Object Repository/Login/i_User Logout'))

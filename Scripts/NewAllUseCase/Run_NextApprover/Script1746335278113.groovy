@@ -36,6 +36,10 @@ import excel.ExcelHelper
 import approval.ApprovalHelper
 import logger.TestStepLogger
 import custom.Select2Handler
+import db.DBUtils
+
+// Koneksi ke database
+DBUtils.connectDB()
 
 String stepName = "Approval"
 
@@ -112,24 +116,26 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 		
 		println (">>>>>>>>>"+NoTC+' '+ SkenarioBatch +"<<<<<<<<<<")
 		
-		// Tampilkan konfirmasi pop-up
-		int alertUpdateDB = JOptionPane.showConfirmDialog(null,
-			"Silakan update data di database terlebih dahulu.\nKlik 'Yes' jika sudah selesai.",
-			"Konfirmasi",
-			JOptionPane.YES_NO_OPTION)
-		
-		if (alertUpdateDB != JOptionPane.YES_OPTION) {
-			KeywordUtil.logInfo("Eksekusi dibatalkan oleh user.")
-			assert false // Menghentikan eksekusi jika user menekan 'No'
-		}
-		
-		KeywordUtil.logInfo("Melanjutkan eksekusi setelah konfirmasi...")
+//		// Tampilkan konfirmasi pop-up
+//		int alertUpdateDB = JOptionPane.showConfirmDialog(null,
+//			"Silakan update data di database terlebih dahulu.\nKlik 'Yes' jika sudah selesai.",
+//			"Konfirmasi",
+//			JOptionPane.YES_NO_OPTION)
+//		
+//		if (alertUpdateDB != JOptionPane.YES_OPTION) {
+//			KeywordUtil.logInfo("Eksekusi dibatalkan oleh user.")
+//			assert false // Menghentikan eksekusi jika user menekan 'No'
+//		}
+//		
+//		KeywordUtil.logInfo("Melanjutkan eksekusi setelah konfirmasi...")
 		
 		Integer ApproverCount = 1
 		String textLog = "PASS"
+		String UserApprover = ""
 //		LogHelper.writeLog(testCaseName, NoTC+" "+Segmen+" "+SkenarioBatch, "START")
 		for (int j = 0; j < nppAndNamaApproval.length; j++) {
 			dirCapture = stepName+"-"+ApproverCount
+			UserApprover = stepName+"-"+ApproverCount
 			numberCapture = 1
 			
 			String nppApproval = nppAndNamaApproval[j][0]
@@ -147,19 +153,25 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 				}
 			}
 			
+			if (NextApprover != "") {
+				String updateQuery = "update USER_LOGIN set IsLogin = '1' where Username = '${nppAndNamaApproval[IndexNextApproval][0]}'"
+				println(updateQuery)
+				DBUtils.executeUpdate(updateQuery)
+			}
+			
 			String CommentApprove = 'oke setuju'
 			Boolean RejectBatch = false
 			
 			// Login Approval
 			WebUI.setText(findTestObject('Object Repository/Login/inputtxtUsername'), nppApproval)
 			WebUI.setText(findTestObject('Object Repository/Login/inputtxtPassword'), PasswordApproval)
-			TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Login sebagai Approval', dirCapture, true, false)
+			TestStepLogger.addStepWithUserAndCapture(NoTC, UserApprover, numberCapture++, 1, 'Login sebagai Approval', dirCapture, true, false)
 			WebUI.click(findTestObject('Object Repository/Login/button_Sign In'))
 			
 			WebUI.waitForElementVisible(findTestObject('Object Repository/COP/a_Admin Kredit'), 30)
 			
 			// Search Batch
-			TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture, 'Akses menu Admin Kredit >> Approval COP', dirCapture, false, false)
+			TestStepLogger.addStepWithUserAndCapture(NoTC, UserApprover, numberCapture++, 1, 'Akses menu Admin Kredit >> Approval COP', dirCapture, false, false)
 			WebUI.click(findTestObject('Object Repository/COP/a_Admin Kredit'))
 			WebUI.waitForElementVisible(findTestObject('Object Repository/COP/Approval_Object/a_Approval Cop'), 30)
 			WebUI.click(findTestObject('Object Repository/COP/Approval_Object/a_Approval Cop'))
@@ -179,7 +191,7 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 					((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", cell)
 					cell.click()
 					WebUI.delay(1)
-					TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Klik action pada data yang telah di submit oleh user Maker', dirCapture, true, false)
+					TestStepLogger.addStepWithUserAndCapture(NoTC, UserApprover, numberCapture++, 1, 'Klik action pada data yang telah di submit oleh user Maker', dirCapture, true, false)
 					break
 				}
 			}
@@ -196,9 +208,9 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 			
 			// Halaman Batch Approval
 			WebUI.delay(1)
-			TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Data batch yang akan di approve', dirCapture, true, false)
+			TestStepLogger.addStepWithUserAndCapture(NoTC, UserApprover, numberCapture++, 1, 'Data batch yang akan di approve', dirCapture, true, false)
 			WebUI.scrollToElement(findTestObject('Object Repository/COP/Approval_Object/label_Flag Batch'), 30)
-			TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Klik View pada activity', dirCapture, true, false)
+//			TestStepLogger.addStepWithUserAndCapture(NoTC, UserApprover, numberCapture++, 1, 'Klik View pada activity', dirCapture, true, false)
 			
 			// Ambil semua tombol View di dalam tabel
 			List<WebElement> viewButtons = WebUiCommonHelper.findWebElements(
@@ -210,8 +222,11 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 			
 			println "Jumlah View buttons: ${viewButtons.size()}"
 			
+			def activityTableRows = driver.findElements(By.cssSelector('#activityTable tbody tr'))
+			println("jumlah activity : "+activityTableRows.size())
+			
 			int NumberAct = 1;
-			for (int a = 0; a < viewButtons.size(); a++) {
+			for (int a = 0; a < activityTableRows.size(); a++) {
 				numberCaptureAct = 1
 				dirCapture = stepName+"-"+ApproverCount+"/Form Approve Activity-"+NumberAct
 				// Ambil ulang semua tombol View karena DOM berubah setelah navigasi
@@ -221,12 +236,17 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 					},
 					10
 				)
+				
+				WebElement activityTableRow = activityTableRows.get(a)
+				String activityName = activityTableRow.findElements(By.tagName('td')).get(1).getText().trim()
+				println("update activity ke-"+a+" : "+activityName)
+				TestStepLogger.addStepWithUserAndCapture(NoTC, UserApprover, numberCapture++, 2, 'View pada activity ke-'+NumberAct+' '+activityName, dirCapture, true, false)
 			
 				// Klik tombol View ke-i
 				WebUI.executeJavaScript("arguments[0].click();", Arrays.asList(viewButtons[a]))
 				WebUI.waitForPageLoad(10)
 				WebUI.delay(1) // opsional: beri waktu agar halaman benar-benar siap
-				TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCaptureAct++, 'Approve pada Form Activity pada halaman approval', dirCapture, true, true)
+				TestStepLogger.addStepWithUserAndCapture(NoTC, UserApprover, numberCaptureAct++, 3, 'Approve pada Form Activity pada halaman approval', dirCapture, true, true)
 			
 				List<String> dropdownIds = [
 					"Action",
@@ -271,19 +291,19 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 				
 				// Confirm Activity
 				WebUI.scrollToElement(findTestObject('Object Repository/COP/Approval_Object/button_Approval_Confirm'), 30)
-				TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Confirm Activity', dirCapture, true, false)
+				TestStepLogger.addStepWithUserAndCapture(NoTC, UserApprover, numberCapture++, 3, 'Confirm Activity', dirCapture, true, false)
 				WebUI.click(findTestObject('Object Repository/COP/Approval_Object/button_Approval_Confirm'))
 				WebUI.waitForElementVisible(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_OK_sukses_submit'), 30)
-				TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Confirm berhasil', dirCapture, true, false)
+				TestStepLogger.addStepWithUserAndCapture(NoTC, UserApprover, numberCapture++, 3, 'Confirm berhasil', dirCapture, true, false)
 				WebUI.click(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_OK_sukses_submit'))
 			
 				WebUI.delay(2)
 				WebUI.scrollToElement(findTestObject('Object Repository/COP/Approval_Object/label_Flag Batch'), 30)
 				NumberAct++
 			}
-			dirCaptue = stepName+"-"+ApproverCount
+			dirCapture = stepName+"-"+ApproverCount
 			
-			TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Status activity Check atau Approved', dirCapture, true, false)
+			TestStepLogger.addStepWithUserAndCapture(NoTC, UserApprover, numberCapture++, 1, 'Status activity Check atau Approved', dirCapture, true, false)
 			
 			// Submit to Next Approver
 			JavascriptExecutor jsExecutor = (JavascriptExecutor) driver
@@ -302,7 +322,7 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 						println("Elemen ada dan terlihat.")
 						WebUI.click(findTestObject('Object Repository/COP/Approval_Object/span_Approval_list_option'))
 						WebUI.delay(1)
-						Select2Handler.handleSelect2DropdownWithScreenshot(NoTC, stepName, numberCapture++, dirCapture, NextApprover)
+						Select2Handler.handleSelect2DropdownWithScreenshot(NoTC, UserApprover, numberCapture++, dirCapture, NextApprover)
 					}
 				} else {
 					println("Elemen ApprovalList tidak ditemukan, Batch di Reject")
@@ -315,7 +335,7 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 				NextApprover = ''
 				textLog = "ERROR Approval ke-"+ApproverCount+" tidak ada"
 				
-				TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'ERROR '+ NoTC +' List Approval tidak ada'+ApproverCount, dirCapture, true, false)
+				TestStepLogger.addStepWithUserAndCapture(NoTC, UserApprover, numberCapture++, 1, 'ERROR '+ NoTC +' List Approval tidak ada'+ApproverCount, dirCapture, true, false)
 				
 			}
 			else {
@@ -328,12 +348,12 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 				
 				WebUI.scrollToElement(findTestObject('Object Repository/COP/Approval_Object/button_Submit_Batch_Approval'), 30)
 				WebUI.setText(findTestObject('Object Repository/COP/Approval_Object/textarea_Approval_Comment'), CommentApprove)
-				TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Pilih Next Approver selanjutnya, input Comment dan Submit Batch', dirCapture, true, false)
+				TestStepLogger.addStepWithUserAndCapture(NoTC, UserApprover, numberCapture++, 1, 'Pilih Next Approver selanjutnya, input Comment dan Submit Batch', dirCapture, true, false)
 				
 				// Submit Batch
 				WebUI.click(findTestObject('Object Repository/COP/Approval_Object/button_Submit_Batch_Approval'))
 				WebUI.waitForElementVisible(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_OK_sukses_submit'), 30)
-				TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Submit Batch berhasil', dirCapture, true, false)
+				TestStepLogger.addStepWithUserAndCapture(NoTC, UserApprover, numberCapture++, 1, 'Submit Batch berhasil', dirCapture, true, false)
 				WebUI.click(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_OK_sukses_submit'))
 				
 			}
@@ -362,15 +382,15 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 				// Klik tombol View jika ditemukan
 				WebUI.delay(3)
 				WebUI.waitForElementVisible(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_View'), 30)
-				TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Status Batch pada Maker Approved', dirCapture, true, false)
+				TestStepLogger.addStepWithUserAndCapture(NoTC, UserApprover, numberCapture++, 1, 'Status Batch pada Maker Approved', dirCapture, true, false)
 				WebUI.click(findTestObject('Object Repository/COP/UpdateAfterInquiry_Object/button_View'))
 				
-				TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Status Activity pada Maker Approved', dirCapture, true, true)
+				TestStepLogger.addStepWithUserAndCapture(NoTC, UserApprover, numberCapture++, 1, 'Status Activity pada Maker Approved', dirCapture, true, true)
 				WebUI.click(findTestObject('Object Repository/COP/div_Approval History'))
 				WebUI.delay(2)
 				WebUI.scrollToElement(findTestObject('Object Repository/COP/div_Approval History'), 30)
 				WebUI.delay(1)
-				TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Approval History', dirCapture, true, false)
+				TestStepLogger.addStepWithUserAndCapture(NoTC, UserApprover, numberCapture++, 1, 'Approval History', dirCapture, true, false)
 				WebUI.delay(2)
 				// Logout
 				WebUI.click(findTestObject('Object Repository/Login/i_User Logout'))
@@ -385,6 +405,7 @@ for (int i = 1; i <= sheetBatch.getLastRowNum(); i++) {
 }
 
 // Tutup
+DBUtils.closeConnection()
 workbook.close()
 file.close()
 WebUI.closeBrowser()

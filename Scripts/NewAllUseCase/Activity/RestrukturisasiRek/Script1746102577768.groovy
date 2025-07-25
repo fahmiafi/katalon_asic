@@ -66,7 +66,7 @@ List<String> MetodeRestrukList = [
 ]
 
 WebUI.click(findTestObject('Object Repository/COP/TabCard/a_Tab_PenutupanPendingRestrukturisasi'))
-TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 'Pilih Use Case '+ UseCase, newDirectoryPath, true, false)
+TestStepLogger.addStepWithUserAndCapture(NoTC, stepName, numberCapture++, 3, 'Pilih Use Case '+ UseCase, newDirectoryPath, true, false)
 WebUI.click(findTestObject('Object Repository/COP/CardActivity/div_Card RestrukturisasiRek'))
 
 if (BulkUpload == 'Y') {

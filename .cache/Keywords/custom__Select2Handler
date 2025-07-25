@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "E4CB9865BF6AE3FC2630BE8373CB045D",
+  "keywordFileContentHash": "BBFD459DF8CD28CBF5E684335EEACAFF",
   "keywordClasses": [
     {
       "name": "custom.Select2Handler",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

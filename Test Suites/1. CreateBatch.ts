@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TestLoginSuites</name>
+   <name>1. CreateBatch</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,5 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>59821003-1df8-47bf-b3b7-ab3cf5a55bcb</testSuiteGuid>
+   <testSuiteGuid>91533512-dfa5-4915-bea2-dbce2f63bb93</testSuiteGuid>
+   <testCaseLink>
+      <guid>2b6ab27f-9eb5-423c-81fc-d05bda76c91f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NewAllUseCase/Run_CreateBatch</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

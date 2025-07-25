@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Bucket Increase</name>
+   <tag></tag>
+   <elementGuidId>b92257b6-9d02-4aae-a5d0-21102b99e896</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='PerubahanDebit_BucketPinbuk']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#PerubahanDebit_BucketPinbuk</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>8e2a79c0-38d4-46b6-8c85-ccd57cb50fc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control col-md-11</value>
+      <webElementGuid>0c5fd877-f9f9-49de-af2f-fc2a77cba468</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>40d62bf1-b46c-4c4e-b331-d344483c5f51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val-required</name>
+      <type>Main</type>
+      <value>The BucketPinbuk field is required.</value>
+      <webElementGuid>390cede3-beb6-49e6-92ff-06163f8c2870</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>PerubahanDebit_BucketPinbuk</value>
+      <webElementGuid>12e3662c-fc2c-4d8d-a818-358c232e1be5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>PerubahanDebit.BucketPinbuk</value>
+      <webElementGuid>86219aec-0c7d-4067-9b75-9d867bafceb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>singleSideChanged()</value>
+      <webElementGuid>c10d5aec-0b7a-4037-a2a1-eac3f110608f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>-
+Bucket Increase Teoritis
+</value>
+      <webElementGuid>3408a122-e6e0-4892-83ff-3d950f1ab391</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;PerubahanDebit_BucketPinbuk&quot;)</value>
+      <webElementGuid>467e162a-1d63-45aa-90d0-f18c064d9869</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='PerubahanDebit_BucketPinbuk']</value>
+      <webElementGuid>102de166-0f80-4e2f-a2d2-5c1472bded57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='custom-tabs-one-home']/div[5]/div/div[18]/select</value>
+      <webElementGuid>74cf4f54-0271-4acd-a3b9-cc11fc14aa70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tunggakan Denda'])[1]/following::select[1]</value>
+      <webElementGuid>05970974-0321-42a8-877c-381f02dc0467</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tunggakan Biaya'])[1]/following::select[1]</value>
+      <webElementGuid>2517e77c-6451-40ea-8e8d-75e880e433e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penerima (Kredit)'])[1]/preceding::select[1]</value>
+      <webElementGuid>0858d79a-bc14-448a-9b20-8089ef889cd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No. Rekening'])[4]/preceding::select[1]</value>
+      <webElementGuid>a3a80e01-3299-4675-9fe1-bde0e8411428</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>9adce0c5-76c6-4886-b20d-57e0eb8323df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'PerubahanDebit_BucketPinbuk' and @name = 'PerubahanDebit.BucketPinbuk' and (text() = '-
+Bucket Increase Teoritis
+' or . = '-
+Bucket Increase Teoritis
+')]</value>
+      <webElementGuid>efbf114a-51d2-4e5a-a220-3699b3a51254</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
